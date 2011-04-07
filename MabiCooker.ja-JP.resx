@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bDetailView.Text" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="tpRank.Text" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="cbRankSelector.Items" xml:space="preserve">
+    <value>Practice (混合)</value>
+  </data>
+  <data name="cbRankSelector.Items1" xml:space="preserve">
+    <value>Rank F (燃)</value>
+  </data>
+  <data name="cbRankSelector.Items2" xml:space="preserve">
+    <value>Rank E (サムギ)</value>
+  </data>
+  <data name="cbRankSelector.Items3" xml:space="preserve">
+    <value>Rank D (生地)</value>
+  </data>
+  <data name="cbRankSelector.Items4" xml:space="preserve">
+    <value>Rank C (沸騰)</value>
+  </data>
+  <data name="cbRankSelector.Items5" xml:space="preserve">
+    <value>Rank B (面)</value>
+  </data>
+  <data name="cbRankSelector.Items6" xml:space="preserve">
+    <value>Rank A (揚げ物)</value>
+  </data>
+  <data name="cbRankSelector.Items7" xml:space="preserve">
+    <value>Rank 9 (炒め物)</value>
+  </data>
+  <data name="cbRankSelector.Items8" xml:space="preserve">
+    <value>Rank 8 (パスタ)</value>
+  </data>
+  <data name="cbRankSelector.Items9" xml:space="preserve">
+    <value>Rank 7 (ジャム)</value>
+  </data>
+  <data name="cbRankSelector.Items10" xml:space="preserve">
+    <value>Rank 6 (パイ)</value>
+  </data>
+  <data name="tpSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lPrevSearch_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 92</value>
+  </data>
+  <data name="lPrevSearch_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 24</value>
+  </data>
+  <data name="lPrevSearch_1.Text" xml:space="preserve">
+    <value>検索用語を
+入力してください</value>
+  </data>
+  <data name="lPrevSearch_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 122</value>
+  </data>
+  <data name="lPrevSearch_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 48</value>
+  </data>
+  <data name="lPrevSearch_2.Text" xml:space="preserve">
+    <value>料理の名前や
+材料を入力して、
+エンターキーを
+押してください</value>
+  </data>
+  <data name="rbForEffect.Text" xml:space="preserve">
+    <value>効果</value>
+  </data>
+  <data name="rbForStuff.Text" xml:space="preserve">
+    <value>材料</value>
+  </data>
+  <data name="rbForName.Text" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="tpFav.Text" xml:space="preserve">
+    <value>Favorite</value>
+  </data>
+  <data name="lNoneFav_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 85</value>
+  </data>
+  <data name="lNoneFav_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 12</value>
+  </data>
+  <data name="lNoneFav_1.Text" xml:space="preserve">
+    <value>ブックマークがありません</value>
+  </data>
+  <data name="lNoneFav_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 105</value>
+  </data>
+  <data name="lNoneFav_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 36</value>
+  </data>
+  <data name="lNoneFav_2.Text" xml:space="preserve">
+    <value>[続きを読む]で、
+追加可能です。
+★をクリックしてください。</value>
+  </data>
+  <data name="bPrintRatio.Text" xml:space="preserve">
+    <value>比率</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAAAGACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAA
+        AAAAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgA
+        YIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAaKAAaLAAaLAAaLAAaLAAaLAAaLAA
+        aLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAA
+        aLAAaLAAaLAAaLAAaKAAaMBYsOhYsOhYsOhIsOhIsOhIsOhIsOhIsOiAmKiAmKiAmKiAmKiAmKiAmKiA
+        mKiAmKiImLCImLCImLCImLBwuOhwuOhwuOhwuOhwuOg4sOg4sOg4sOg4sOhIoOAAaMAAaMCI0PiI0PiI
+        0PiY0PiY0PiY0PiY0PiY0PjA4PjA4PjA4PjA4PjA4PjA4PjA4PjA4PjI6PjI6PjI6PjI6PhwuOhwuOhw
+        uOhwuOhwuOiw0PCw0PCw0PCw0PCQ2PgAaMAAaMCI0PhYsOhYsOhIsOhIsOhIsOgAiNAAiNAACAgACAgA
+        CAgACAgAABAAABAAABAAABAAABgAABgAABgAABgAAAgAAAhIeKBIeKBwuOg4sOg4sOg4sOgAmOiQ2PgA
+        aMAAaMCI0PgwiNBYsOhIsOhIsOhIsOgAiNAAiNAACAiAmKiAmKiAmKiAmKjA4PjA4PjA4PjI6PjI6PjI
+        6PjI6PhwuOgAAAhIeKBIeKBwuOg4sOg4sOg4sOgAmOiQ2PgAaMAAaMAAsPgAkOAAsPgAsPgAsPgAsPgQ
+        gLAQgLAAAACQmKCQmKCQmKCwsLDY2NjY2Njo6Oj4+Pj4+Pjo6Ojo6Og4uOgYCAAweJgweJg4uOgAsPgA
+        sPgAsPgAkOAAsPgAaMAAaMAAsPgAkOAAsPgAsPgAsPgAsPgQgLAQgLAAAACQmKCQmKCQmKCwsLDY2NjY
+        2Njo6Oj4+Pj4+Pjo6Ojo6Og4uOgYCAAweJgweJg4uOgAsPgAsPgAsPgAkOAAsPgAaMAAaMAAsPgAkOAA
+        sPgAsPgAsPgAsPgQgLAQgLAAAACQmKCQmKCQmKCwsLDY2NjY2Njo6Oj4+Pj4+Pjo6Ojo6Og4uOgYCAAw
+        eJgweJg4uOgAsPgAsPgAsPgAkOAAsPgAaMAAaMAAsPgAkOAAsPgAsPgAsPgAsPgAsPgAsPiQmKBIUFCQ
+        mKCQmKCwsLDY2NjY2Njo6Oj4+Pj4+Pjo6Ojo6OggQFAweJg4uOg4uOg4uOgAsPgAsPgAsPgAkOAAsPgA
+        aMAAaMAAsPgAkOAAsPgAsPgAsPgAsPgAsPgAsPiQmKBIUFCQmKCQmKCwsLDY2NjY2Njo6Oj4+Pj4+Pjo
+        6OjY2NggQFAweJg4uOg4uOg4uOgAsPgAsPgAsPgAkOAAsPgAaMAAaLgAsPgAmOAAsPgwwPgwwPgwwPgo
+        gKgogKiQmKAAAACQmKCQmKCoqKioqKjY2NjY2Njo8Ojo8Ojo8OigoKAQAABgkKBgkKBgkKCI0PAAsPgA
+        sPgAsPgYkMAAsPgAaMAAaLgAsPgAmOAAsPgwwPgogKgogKgYCAAYCAAAAAAAAACQmKCQmKCoqKioqKio
+        qKioqKigoKCgoKCgoKCgoKAQAAAQAAA4SFA4SFBgkKAAsPgAsPgAsPgYkMAAsPgAaMAAaLgAsPgAmOAA
+        sPgogKgYCAAYCAAogKgogKiQmKCQmKAAAAAAAABQUFBQUFCAgIBQUFBYUFhYUFgQCBAQCBBgkKBgkKBg
+        kKBgkKAQAABISFAYkMAAsPgYkMAAsPgAaMAAaLgAsPgAmOAAgNAYCAAogKgogKgogKgogKiQmKCQmKCQ
+        mKCQmKBQUFCoqKiAgIBQUFCgoKBYUFigoKCgoKBgkKBgkKBgkKBgkKBgkKAYkMBISFAYkMAYkMAAsPgA
+        aMAgaJgAsPgQkMgwSGigoKCgoKCgoKC4uLi4uLjAwMDAwMCIiIhYWFjw8PCYmJiYmJiYmJiIiIjw+PBY
+        WFjAwMC4uLi4uLi4uLi4uLi4uLhwkKhwkKg4SFhwkKgAsPgAaMAgaJgAsPgQkMgwSGigoKCgoKC4uLjY
+        0NjY0Njw+PDAwMCIiIjw+PC4sLi4sLi4sLiYmJjAwMDAwMDw+PCIiIjg4ODg4ODg4ODg4OC4uLiIuNBw
+        kKg4SFhwkKgAsPgAaMAgaJgAsPgQkMgwSGigoKC4uLjY0Njw8PDw8PDw+PDAwMDw+PDw+PDw8PDw8PDw
+        8PC4sLjw+PDw+PDw+PDw+PC4uLj4+Pj4+Pj4+Pjg4OCIuNBwkKg4SFhwkKgAsPgAaMAgaJgAsPgQkMgw
+        SGigoKC4uLjY0Njw8PDw8PDw+PDw+PDw+PDw+PDw8PDw8PDw8PDw8PDw+PDw+PDw+PDw+PD4+Pjg4OD4
+        +Pj4+Pjg4OCIuNCIuNA4SFhwkKgAsPgAaMAQcLAAsPgIkNAYSIigyNigyNigyNigyNigyNjw8PDw8PDw
+        8PDw8PD4+Pj4+Pj4+Pjo6Oj4+Pj4+Pj4+Pj4+Pjo8PDo8PDo8PDo8PDo8PA4sOg4sOggQFgwkLgAsPgA
+        aMAQcLAAsPgIkNAQcLA4QFCgyNigyNigyNigyNjw8PDw8PDw8PDw8PD4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4
+        +Pj4+Pjo8PDo8PDo8PDo8PCYoKA4sOggQFgwkLgwkLgAsPgAaMAQcLAAsPgIkNAAsPhogJA4QFAAAAig
+        yNigyNjw8PCgoKDw8PDw8PDo6Ojw8PD4+Pj4+Pjw8PDo6Ojw8PDo6OiYoKDo8PCYoKCYoKBQUFAgQFgw
+        kLg4sOgwkLgAsPgAaMAQcLAAsPgIkNAAsPigyNhogJBogJAAAAgAAAgAAACgoKDw8PDw8PD4+Pj4+Pj4
+        +Pj4+Pj4+Pj4+Pj4+Pjo6OiYoKAAAAAAAAAAAACYoKAwkLg4sOg4sOgwkLgAsPgAaMAAaMAAsPgAkOAA
+        sPgAsPgAsPgAsPgQgLAQgLAoeKAAAAA4uPA4uPDo+Pjo+Pjo+Pjo+PjI+PjI+PjI+PiIqKgAAAAAeKgA
+        eKgAeKgAsPgAsPgAsPgAsPgAkOAAsPgAaMAAaMAAsPgAkOAAsPgAsPgAsPgAsPgQgLAQgLAoeKAAAAA4
+        uPA4uPDo+Pjo+Pjo+Pjo+PjI+PjI+PjI+PiIqKgAAAAAeKgAeKgAeKgAsPgAsPgAsPgAsPgAkOAAsPgA
+        aMAAaMAAsPgAkOAAsPgAsPgAsPgAsPgAsPgAsPg4uPAoeKAAAAA4uPDo+Pjo+Pjo+Pjo+PjI+PjI+PiI
+        qKgAABAAeKgAsPgAsPgAsPgAsPgAsPgAsPgAsPgAkOAAsPgAaMAAaMAAsPgAkOAAsPgAsPgAsPgAsPgA
+        sPgAsPg4uPA4uPAoeKAAAAAAAACYoKjo+Pjo+PiIqKgAABAAABCIqKgAsPgAsPgAsPgAsPgAsPgAsPgA
+        sPgAsPgAkOAAsPgAaMAAaMAAsPgAkOAAsPgAsPgAsPgAsPgAsPgAsPg4uPA4uPA4uPA4uPCYoKgAAAAA
+        AAAAAAAAABCIqKiIqKiIqKgAsPgAsPgAsPgAsPgAsPgAsPgAsPgAsPgAkOAAsPgAaMAAaMA4sOggkNAg
+        kNAgkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNgg
+        kNggkNggkNggkNggkNggkNggkNgwqOAAaMAAaMA4sOg4sOg4sOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhA
+        sOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOgwqOAA
+        aMAAaMBY2PhY2PhY2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg
+        2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg4PgAaMAAaMAAaMAAaMAAaMAAaMgAaMgAaMgA
+        aMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgA
+        aMgAaMgAaMgAaMAAaMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+</root>
