@@ -22,16 +22,5 @@ namespace MabiCooker2.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=localhost\\SQLEXPRESS;Initial Catalog=MabiCooker;Integrated Security=T" +
-            "rue")]
-        public string MabiCookerConnectionString {
-            get {
-                return ((string)(this["MabiCookerConnectionString"]));
-            }
-        }
     }
 }

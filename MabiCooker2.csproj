@@ -86,11 +86,6 @@
     <Compile Include="MabiCooker.Designer.cs">
       <DependentUpon>MabiCooker.cs</DependentUpon>
     </Compile>
-    <Compile Include="MabiCookerDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MabiCookerDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CookDetailView.resx">
@@ -119,18 +114,6 @@
     <None Include="app.config" />
     <None Include="datas\cook.dat" />
     <None Include="datas\favcook.dat" />
-    <None Include="MabiCooker2_TemporaryKey.pfx" />
-    <None Include="MabiCookerDataSet.xsc">
-      <DependentUpon>MabiCookerDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="MabiCookerDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>MabiCookerDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="MabiCookerDataSet.xss">
-      <DependentUpon>MabiCookerDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -192,9 +175,6 @@
   <ItemGroup>
     <Folder Include="bin\Debug\" />
     <Folder Include="Properties\DataSources\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
