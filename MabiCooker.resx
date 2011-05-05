@@ -150,11 +150,122 @@
   <data name="&gt;&gt;bDetailView.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <metadata name="tpFav.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="tcMainCtrl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="tcMainCtrl.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
     <value>Buttons</value>
+  </data>
+  <data name="&gt;&gt;tpRank.Name" xml:space="preserve">
+    <value>tpRank</value>
+  </data>
+  <data name="&gt;&gt;tpRank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpRank.Parent" xml:space="preserve">
+    <value>tcMainCtrl</value>
+  </data>
+  <data name="&gt;&gt;tpRank.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tpSearch.Name" xml:space="preserve">
+    <value>tpSearch</value>
+  </data>
+  <data name="&gt;&gt;tpSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpSearch.Parent" xml:space="preserve">
+    <value>tcMainCtrl</value>
+  </data>
+  <data name="&gt;&gt;tpSearch.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tpFav.Name" xml:space="preserve">
+    <value>tpFav</value>
+  </data>
+  <data name="&gt;&gt;tpFav.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpFav.Parent" xml:space="preserve">
+    <value>tcMainCtrl</value>
+  </data>
+  <data name="&gt;&gt;tpFav.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tcMainCtrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="tcMainCtrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 246</value>
+  </data>
+  <data name="tcMainCtrl.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tcMainCtrl.Name" xml:space="preserve">
+    <value>tcMainCtrl</value>
+  </data>
+  <data name="&gt;&gt;tcMainCtrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcMainCtrl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tcMainCtrl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbRankResult.Name" xml:space="preserve">
+    <value>lbRankResult</value>
+  </data>
+  <data name="&gt;&gt;lbRankResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbRankResult.Parent" xml:space="preserve">
+    <value>tpRank</value>
+  </data>
+  <data name="&gt;&gt;lbRankResult.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cbRankSelector.Name" xml:space="preserve">
+    <value>cbRankSelector</value>
+  </data>
+  <data name="&gt;&gt;cbRankSelector.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbRankSelector.Parent" xml:space="preserve">
+    <value>tpRank</value>
+  </data>
+  <data name="&gt;&gt;cbRankSelector.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tpRank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tpRank.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpRank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 217</value>
+  </data>
+  <data name="tpRank.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tpRank.Text" xml:space="preserve">
+    <value>랭크별</value>
+  </data>
+  <data name="&gt;&gt;tpRank.Name" xml:space="preserve">
+    <value>tpRank</value>
+  </data>
+  <data name="&gt;&gt;tpRank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpRank.Parent" xml:space="preserve">
+    <value>tcMainCtrl</value>
+  </data>
+  <data name="&gt;&gt;tpRank.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="lbRankResult.ItemHeight" type="System.Int32, mscorlib">
     <value>12</value>
@@ -237,32 +348,128 @@
   <data name="&gt;&gt;cbRankSelector.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="tpRank.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="&gt;&gt;lPrevSearch_1.Name" xml:space="preserve">
+    <value>lPrevSearch_1</value>
+  </data>
+  <data name="&gt;&gt;lPrevSearch_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lPrevSearch_1.Parent" xml:space="preserve">
+    <value>tpSearch</value>
+  </data>
+  <data name="&gt;&gt;lPrevSearch_1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lPrevSearch_2.Name" xml:space="preserve">
+    <value>lPrevSearch_2</value>
+  </data>
+  <data name="&gt;&gt;lPrevSearch_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lPrevSearch_2.Parent" xml:space="preserve">
+    <value>tpSearch</value>
+  </data>
+  <data name="&gt;&gt;lPrevSearch_2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbForEffect.Name" xml:space="preserve">
+    <value>rbForEffect</value>
+  </data>
+  <data name="&gt;&gt;rbForEffect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbForEffect.Parent" xml:space="preserve">
+    <value>tpSearch</value>
+  </data>
+  <data name="&gt;&gt;rbForEffect.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbForStuff.Name" xml:space="preserve">
+    <value>rbForStuff</value>
+  </data>
+  <data name="&gt;&gt;rbForStuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbForStuff.Parent" xml:space="preserve">
+    <value>tpSearch</value>
+  </data>
+  <data name="&gt;&gt;rbForStuff.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rbForName.Name" xml:space="preserve">
+    <value>rbForName</value>
+  </data>
+  <data name="&gt;&gt;rbForName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbForName.Parent" xml:space="preserve">
+    <value>tpSearch</value>
+  </data>
+  <data name="&gt;&gt;rbForName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lbSearchResult.Name" xml:space="preserve">
+    <value>lbSearchResult</value>
+  </data>
+  <data name="&gt;&gt;lbSearchResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbSearchResult.Parent" xml:space="preserve">
+    <value>tpSearch</value>
+  </data>
+  <data name="&gt;&gt;lbSearchResult.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;bSearchStart.Name" xml:space="preserve">
+    <value>bSearchStart</value>
+  </data>
+  <data name="&gt;&gt;bSearchStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bSearchStart.Parent" xml:space="preserve">
+    <value>tpSearch</value>
+  </data>
+  <data name="&gt;&gt;bSearchStart.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tbSearchTerm.Name" xml:space="preserve">
+    <value>tbSearchTerm</value>
+  </data>
+  <data name="&gt;&gt;tbSearchTerm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSearchTerm.Parent" xml:space="preserve">
+    <value>tpSearch</value>
+  </data>
+  <data name="&gt;&gt;tbSearchTerm.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tpSearch.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 25</value>
   </data>
-  <data name="tpRank.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="tpSearch.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="tpRank.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="tpSearch.Size" type="System.Drawing.Size, System.Drawing">
     <value>162, 217</value>
   </data>
-  <data name="tpRank.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="tpSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="tpRank.Text" xml:space="preserve">
-    <value>랭크별</value>
+  <data name="tpSearch.Text" xml:space="preserve">
+    <value>검색</value>
   </data>
-  <data name="&gt;&gt;tpRank.Name" xml:space="preserve">
-    <value>tpRank</value>
+  <data name="&gt;&gt;tpSearch.Name" xml:space="preserve">
+    <value>tpSearch</value>
   </data>
-  <data name="&gt;&gt;tpRank.Type" xml:space="preserve">
+  <data name="&gt;&gt;tpSearch.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tpRank.Parent" xml:space="preserve">
+  <data name="&gt;&gt;tpSearch.Parent" xml:space="preserve">
     <value>tcMainCtrl</value>
   </data>
-  <data name="&gt;&gt;tpRank.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;tpSearch.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="lPrevSearch_1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -494,36 +701,69 @@
   <data name="&gt;&gt;tbSearchTerm.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="tpSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="tpSearch.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tpSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 217</value>
-  </data>
-  <data name="tpSearch.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tpSearch.Text" xml:space="preserve">
-    <value>검색</value>
-  </data>
-  <data name="&gt;&gt;tpSearch.Name" xml:space="preserve">
-    <value>tpSearch</value>
-  </data>
-  <data name="&gt;&gt;tpSearch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tpSearch.Parent" xml:space="preserve">
-    <value>tcMainCtrl</value>
-  </data>
-  <data name="&gt;&gt;tpSearch.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <metadata name="tpFav.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="&gt;&gt;lNoneFav_1.Name" xml:space="preserve">
+    <value>lNoneFav_1</value>
+  </data>
+  <data name="&gt;&gt;lNoneFav_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lNoneFav_1.Parent" xml:space="preserve">
+    <value>tpFav</value>
+  </data>
+  <data name="&gt;&gt;lNoneFav_1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lNoneFav_2.Name" xml:space="preserve">
+    <value>lNoneFav_2</value>
+  </data>
+  <data name="&gt;&gt;lNoneFav_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lNoneFav_2.Parent" xml:space="preserve">
+    <value>tpFav</value>
+  </data>
+  <data name="&gt;&gt;lNoneFav_2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbFavResult.Name" xml:space="preserve">
+    <value>lbFavResult</value>
+  </data>
+  <data name="&gt;&gt;lbFavResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbFavResult.Parent" xml:space="preserve">
+    <value>tpFav</value>
+  </data>
+  <data name="&gt;&gt;lbFavResult.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tpFav.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tpFav.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 217</value>
+  </data>
+  <data name="tpFav.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tpFav.Text" xml:space="preserve">
+    <value>즐겨찾기</value>
+  </data>
+  <data name="&gt;&gt;tpFav.Name" xml:space="preserve">
+    <value>tpFav</value>
+  </data>
+  <data name="&gt;&gt;tpFav.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpFav.Parent" xml:space="preserve">
+    <value>tcMainCtrl</value>
+  </data>
+  <data name="&gt;&gt;tpFav.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="lNoneFav_1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -613,51 +853,6 @@
   <data name="&gt;&gt;lbFavResult.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="tpFav.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="tpFav.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 217</value>
-  </data>
-  <data name="tpFav.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tpFav.Text" xml:space="preserve">
-    <value>즐겨찾기</value>
-  </data>
-  <data name="&gt;&gt;tpFav.Name" xml:space="preserve">
-    <value>tpFav</value>
-  </data>
-  <data name="&gt;&gt;tpFav.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tpFav.Parent" xml:space="preserve">
-    <value>tcMainCtrl</value>
-  </data>
-  <data name="&gt;&gt;tpFav.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tcMainCtrl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="tcMainCtrl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 246</value>
-  </data>
-  <data name="tcMainCtrl.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;tcMainCtrl.Name" xml:space="preserve">
-    <value>tcMainCtrl</value>
-  </data>
-  <data name="&gt;&gt;tcMainCtrl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tcMainCtrl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tcMainCtrl.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="bPrintRatio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
@@ -698,16 +893,16 @@
     <value>Gulim, 8pt</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>151, 302</value>
+    <value>146, 302</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>27, 11</value>
+    <value>36, 11</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>v2.3</value>
+    <value>v2.3.1</value>
   </data>
   <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>

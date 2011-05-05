@@ -43,15 +43,22 @@ namespace MabiCooker2
         private List<int> SelectedRank = new List<int>();
         private List<int> SearchResult = new List<int>();
         public List<int> FavList = new List<int>();
-        public static CookDetailView DetailView;
         public static bool isLoaded = false;
+        public static int FavListLength;        
+        public static CookDetailView DetailView;
         public static CookRatioView RatioView;
-        
-        public static int FavListLength;
+
         
         public MabiCooker()
         {
             InitializeComponent();
+
+            if (Properties.Settings.Default.LastSelectPoint.X != 0 && Properties.Settings.Default.LastSelectPoint.Y != 0)
+            {
+                this.StartPosition = FormStartPosition.Manual;
+                this.Location = new System.Drawing.Point(Properties.Settings.Default.LastSelectPoint.X, Properties.Settings.Default.LastSelectPoint.Y);
+            }
+
             isLoaded = InitBase();
             cbRankSelector.SelectedIndex = 0;
         }
@@ -598,9 +605,11 @@ namespace MabiCooker2
 
         private void MabiCooker_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Properties.Settings.Default.LastRatioPoint = new System.Drawing.Point(RatioView.Location.X, RatioView.Location.Y);
             Properties.Settings.Default.LastSelectPoint = new System.Drawing.Point(this.Location.X, this.Location.Y);
-            Properties.Settings.Default.LastInfoPoint = new System.Drawing.Point(DetailView.Location.X, DetailView.Location.Y);
+            if(RatioView != null) Properties.Settings.Default.LastRatioPoint = new System.Drawing.Point(RatioView.Location.X, RatioView.Location.Y);
+            if(DetailView != null) Properties.Settings.Default.LastInfoPoint = new System.Drawing.Point(DetailView.Location.X, DetailView.Location.Y);
+
+            Properties.Settings.Default.Save();
         }
     }
 }
