@@ -25,6 +25,13 @@ namespace MabiCooker2
         public CookRatioView(MabiCooker Main, ListBox FavView)
         {
             InitializeComponent();
+
+            if (Properties.Settings.Default.LastRatioPoint.X != 0 && Properties.Settings.Default.LastRatioPoint.Y != 0)
+            {
+                this.StartPosition = FormStartPosition.Manual;
+                this.Location = new Point(Properties.Settings.Default.LastRatioPoint.X, Properties.Settings.Default.LastRatioPoint.Y);
+            }
+
             this.FavListView = FavView;
             this.MainWindow = Main;
         }
@@ -85,6 +92,7 @@ namespace MabiCooker2
         }
         private void CookRatioView_FormClosed(object sender, FormClosedEventArgs e)
         {
+            Properties.Settings.Default.LastRatioPoint = new Point(this.Location.X, this.Location.Y);
             MabiCooker.RatioView = new CookRatioView(MainWindow, FavListView);
         }
         private void CookRatioView_KeyDown(object sender, KeyEventArgs e)
