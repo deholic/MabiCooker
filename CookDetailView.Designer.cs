@@ -28,7 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.pDisplayInfo = new System.Windows.Forms.Panel();
+            this.lStuffThreePrice = new System.Windows.Forms.Label();
+            this.lStuffTwoPrice = new System.Windows.Forms.Label();
+            this.lStuffOnePrice = new System.Windows.Forms.Label();
             this.lStuffThree = new System.Windows.Forms.LinkLabel();
             this.lStuffTwo = new System.Windows.Forms.LinkLabel();
             this.lStuffOne = new System.Windows.Forms.LinkLabel();
@@ -42,13 +46,10 @@
             this.bDisplayRatio = new System.Windows.Forms.Button();
             this.bClose = new System.Windows.Forms.Button();
             this.bModFav = new System.Windows.Forms.Button();
-            this.tiCheckAlert = new System.Windows.Forms.Timer();
-            this.toolTip1 = new System.Windows.Forms.ToolTip();
+            this.tiCheckAlert = new System.Windows.Forms.Timer(this.components);
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.bNext = new System.Windows.Forms.Button();
-            this.toolTip2 = new System.Windows.Forms.ToolTip();
-            this.lStuffOnePrice = new System.Windows.Forms.Label();
-            this.lStuffTwoPrice = new System.Windows.Forms.Label();
-            this.lStuffThreePrice = new System.Windows.Forms.Label();
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
             this.pDisplayInfo.SuspendLayout();
             this.pAlertShowing.SuspendLayout();
             this.pDisplayCookName.SuspendLayout();
@@ -73,6 +74,36 @@
             this.pDisplayInfo.Name = "pDisplayInfo";
             this.pDisplayInfo.Size = new System.Drawing.Size(260, 120);
             this.pDisplayInfo.TabIndex = 0;
+            // 
+            // lStuffThreePrice
+            // 
+            this.lStuffThreePrice.AutoSize = true;
+            this.lStuffThreePrice.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.lStuffThreePrice.Location = new System.Drawing.Point(73, 76);
+            this.lStuffThreePrice.Name = "lStuffThreePrice";
+            this.lStuffThreePrice.Size = new System.Drawing.Size(38, 12);
+            this.lStuffThreePrice.TabIndex = 6;
+            this.lStuffThreePrice.Text = "label1";
+            // 
+            // lStuffTwoPrice
+            // 
+            this.lStuffTwoPrice.AutoSize = true;
+            this.lStuffTwoPrice.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.lStuffTwoPrice.Location = new System.Drawing.Point(73, 54);
+            this.lStuffTwoPrice.Name = "lStuffTwoPrice";
+            this.lStuffTwoPrice.Size = new System.Drawing.Size(38, 12);
+            this.lStuffTwoPrice.TabIndex = 6;
+            this.lStuffTwoPrice.Text = "label1";
+            // 
+            // lStuffOnePrice
+            // 
+            this.lStuffOnePrice.AutoSize = true;
+            this.lStuffOnePrice.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.lStuffOnePrice.Location = new System.Drawing.Point(73, 32);
+            this.lStuffOnePrice.Name = "lStuffOnePrice";
+            this.lStuffOnePrice.Size = new System.Drawing.Size(38, 12);
+            this.lStuffOnePrice.TabIndex = 6;
+            this.lStuffOnePrice.Text = "label1";
             // 
             // lStuffThree
             // 
@@ -250,36 +281,6 @@
             this.bNext.UseVisualStyleBackColor = true;
             this.bNext.Click += new System.EventHandler(this.bNext_Click);
             this.bNext.MouseHover += new System.EventHandler(this.bNext_MouseHover);
-            // 
-            // lStuffOnePrice
-            // 
-            this.lStuffOnePrice.AutoSize = true;
-            this.lStuffOnePrice.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.lStuffOnePrice.Location = new System.Drawing.Point(73, 32);
-            this.lStuffOnePrice.Name = "lStuffOnePrice";
-            this.lStuffOnePrice.Size = new System.Drawing.Size(38, 12);
-            this.lStuffOnePrice.TabIndex = 6;
-            this.lStuffOnePrice.Text = "label1";
-            // 
-            // lStuffTwoPrice
-            // 
-            this.lStuffTwoPrice.AutoSize = true;
-            this.lStuffTwoPrice.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.lStuffTwoPrice.Location = new System.Drawing.Point(73, 54);
-            this.lStuffTwoPrice.Name = "lStuffTwoPrice";
-            this.lStuffTwoPrice.Size = new System.Drawing.Size(38, 12);
-            this.lStuffTwoPrice.TabIndex = 6;
-            this.lStuffTwoPrice.Text = "label1";
-            // 
-            // lStuffThreePrice
-            // 
-            this.lStuffThreePrice.AutoSize = true;
-            this.lStuffThreePrice.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.lStuffThreePrice.Location = new System.Drawing.Point(73, 76);
-            this.lStuffThreePrice.Name = "lStuffThreePrice";
-            this.lStuffThreePrice.Size = new System.Drawing.Size(38, 12);
-            this.lStuffThreePrice.TabIndex = 6;
-            this.lStuffThreePrice.Text = "label1";
             // 
             // CookDetailView
             // 

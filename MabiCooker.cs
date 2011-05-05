@@ -595,5 +595,12 @@ namespace MabiCooker2
                 }
             }
         }
+
+        private void MabiCooker_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Properties.Settings.Default.LastRatioPoint = new System.Drawing.Point(RatioView.Location.X, RatioView.Location.Y);
+            Properties.Settings.Default.LastSelectPoint = new System.Drawing.Point(this.Location.X, this.Location.Y);
+            Properties.Settings.Default.LastInfoPoint = new System.Drawing.Point(DetailView.Location.X, DetailView.Location.Y);
+        }
     }
 }

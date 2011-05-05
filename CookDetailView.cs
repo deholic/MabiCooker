@@ -26,7 +26,14 @@ namespace MabiCooker2
 
         public CookDetailView(MabiCooker Main, int DataIndex, Cook Data, ListBox FavView, List<Stuff> StuffData)
         {
-            InitializeComponent();
+            InitializeComponent(); 
+            
+            if (Properties.Settings.Default.LastInfoPoint.X != 0 && Properties.Settings.Default.LastInfoPoint.Y != 0)
+            {
+                this.StartPosition = FormStartPosition.Manual;
+                this.Location = new Point(Properties.Settings.Default.LastInfoPoint.X, Properties.Settings.Default.LastInfoPoint.Y);
+            }
+
             this.Selected = Data;
             this.FavListView = FavView;
             this.MainWindow = Main;

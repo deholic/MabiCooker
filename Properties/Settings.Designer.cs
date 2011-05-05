@@ -34,5 +34,29 @@ namespace MabiCooker2.Properties {
                 this["LastRatioPoint"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0, 0")]
+        public global::System.Drawing.Point LastSelectPoint {
+            get {
+                return ((global::System.Drawing.Point)(this["LastSelectPoint"]));
+            }
+            set {
+                this["LastSelectPoint"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0, 0")]
+        public global::System.Drawing.Point LastInfoPoint {
+            get {
+                return ((global::System.Drawing.Point)(this["LastInfoPoint"]));
+            }
+            set {
+                this["LastInfoPoint"] = value;
+            }
+        }
     }
 }
