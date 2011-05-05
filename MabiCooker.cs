@@ -465,6 +465,7 @@ namespace MabiCooker2
         }
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            /*
 			if (File.Exists("supervisor.tag"))
 			{
                 for (int i = 0; i < CookData.Count; i++)
@@ -485,7 +486,7 @@ namespace MabiCooker2
                         cSEffectbool, buffer.cook.SEffect, buffer.stuffs[0]);
                 }
 			}
-			/*
+			
             if (File.Exists("supervisor.tag"))
             {
                 // File.Copy("cook.dat", "cook_prev_ver.dat");
@@ -530,12 +531,12 @@ namespace MabiCooker2
                 col = new DataColumn("No", typeof(int));
                 col.Unique = true; col.AutoIncrement = true; tblStuff.Columns.Add(col);
             }
-			 * */
+			
             else
-            {
+            {*/
                 System.Diagnostics.Process.Start("http://dehol.kr");
                 return;
-            }
+            //}
         }
         private void MabiCooker_FormClosed(object sender, FormClosedEventArgs e)
         {
