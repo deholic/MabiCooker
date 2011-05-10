@@ -48,7 +48,7 @@
             this.lNoneFav_2 = new System.Windows.Forms.Label();
             this.lbFavResult = new System.Windows.Forms.ListBox();
             this.bPrintRatio = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lVersion = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.tcMainCtrl.SuspendLayout();
             this.tpRank.SuspendLayout();
@@ -232,11 +232,11 @@
             this.bPrintRatio.UseVisualStyleBackColor = true;
             this.bPrintRatio.Click += new System.EventHandler(this.bPrintRatio_Click);
             // 
-            // label2
+            // lVersion
             // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Name = "label2";
+            resources.ApplyResources(this.lVersion, "lVersion");
+            this.lVersion.ForeColor = System.Drawing.Color.Gray;
+            this.lVersion.Name = "lVersion";
             // 
             // linkLabel1
             // 
@@ -251,7 +251,7 @@
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lVersion);
             this.Controls.Add(this.tcMainCtrl);
             this.Controls.Add(this.bDetailView);
             this.Controls.Add(this.bPrintRatio);
@@ -286,7 +286,7 @@
         private System.Windows.Forms.RadioButton rbForStuff;
         private System.Windows.Forms.RadioButton rbForName;
         private System.Windows.Forms.Button bPrintRatio;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lVersion;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label lNoneFav_1;
         private System.Windows.Forms.Label lNoneFav_2;

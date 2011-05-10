@@ -61,6 +61,7 @@ namespace MabiCooker2
 
             isLoaded = InitBase();
             cbRankSelector.SelectedIndex = 0;
+            this.lVersion.Text = "v" + this.ProductVersion;
         }
         public void UpdateData(List<int> Data, ListBox Target)
         {
@@ -602,7 +603,6 @@ namespace MabiCooker2
                 }
             }
         }
-
         private void MabiCooker_FormClosing(object sender, FormClosingEventArgs e)
         {
             Properties.Settings.Default.LastSelectPoint = new System.Drawing.Point(this.Location.X, this.Location.Y);
