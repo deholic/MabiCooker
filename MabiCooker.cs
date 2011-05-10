@@ -284,7 +284,7 @@ namespace MabiCooker2
         }
         private bool CheckCookStuff(Cook c)
         {
-            foreach(string stuffs in c.Stuff) if (stuffs == tbSearchTerm.Text) return true;
+            foreach(string stuffs in c.Stuff) if (stuffs.Contains(tbSearchTerm.Text)) return true;
             return false;
         }
         private bool CheckCookEffect(Cook c)
