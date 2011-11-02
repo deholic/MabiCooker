@@ -121,31 +121,31 @@
     <value>詳細</value>
   </data>
   <data name="tpRank.Text" xml:space="preserve">
-    <value>Rank</value>
+    <value>ランク</value>
   </data>
   <data name="cbRankSelector.Items" xml:space="preserve">
-    <value>Practice (混合)</value>
+    <value>練習 (混ぜる)</value>
   </data>
   <data name="cbRankSelector.Items1" xml:space="preserve">
-    <value>Rank F (燃)</value>
+    <value>Rank F (燃く)</value>
   </data>
   <data name="cbRankSelector.Items2" xml:space="preserve">
-    <value>Rank E (サムギ)</value>
+    <value>Rank E (茹でる・煮る)</value>
   </data>
   <data name="cbRankSelector.Items3" xml:space="preserve">
     <value>Rank D (生地)</value>
   </data>
   <data name="cbRankSelector.Items4" xml:space="preserve">
-    <value>Rank C (沸騰)</value>
+    <value>Rank C (煮込む)</value>
   </data>
   <data name="cbRankSelector.Items5" xml:space="preserve">
-    <value>Rank B (面)</value>
+    <value>Rank B (麺)</value>
   </data>
   <data name="cbRankSelector.Items6" xml:space="preserve">
-    <value>Rank A (揚げ物)</value>
+    <value>Rank A (揚げる)</value>
   </data>
   <data name="cbRankSelector.Items7" xml:space="preserve">
-    <value>Rank 9 (炒め物)</value>
+    <value>Rank 9 (炒める)</value>
   </data>
   <data name="cbRankSelector.Items8" xml:space="preserve">
     <value>Rank 8 (パスタ)</value>
@@ -157,7 +157,7 @@
     <value>Rank 6 (パイ)</value>
   </data>
   <data name="tpSearch.Text" xml:space="preserve">
-    <value>Search</value>
+    <value>検索</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lPrevSearch_1.Location" type="System.Drawing.Point, System.Drawing">
@@ -167,7 +167,7 @@
     <value>109, 24</value>
   </data>
   <data name="lPrevSearch_1.Text" xml:space="preserve">
-    <value>検索用語を
+    <value>検索語句を
 入力してください</value>
   </data>
   <data name="lPrevSearch_2.Location" type="System.Drawing.Point, System.Drawing">
@@ -178,8 +178,8 @@
   </data>
   <data name="lPrevSearch_2.Text" xml:space="preserve">
     <value>料理の名前や
-材料を入力して、
-エンターキーを
+材料名を入力して、
+Enterキーを
 押してください</value>
   </data>
   <data name="rbForEffect.Text" xml:space="preserve">
@@ -192,7 +192,7 @@
     <value>名前</value>
   </data>
   <data name="tpFav.Text" xml:space="preserve">
-    <value>Favorite</value>
+    <value>お気に入り</value>
   </data>
   <data name="lNoneFav_1.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 85</value>
@@ -201,7 +201,7 @@
     <value>159, 12</value>
   </data>
   <data name="lNoneFav_1.Text" xml:space="preserve">
-    <value>ブックマークがありません</value>
+    <value>お気に入りがありません。</value>
   </data>
   <data name="lNoneFav_2.Location" type="System.Drawing.Point, System.Drawing">
     <value>2, 105</value>
@@ -215,7 +215,7 @@
 ★をクリックしてください。</value>
   </data>
   <data name="bPrintRatio.Text" xml:space="preserve">
-    <value>比率</value>
+    <value>比率画面</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
