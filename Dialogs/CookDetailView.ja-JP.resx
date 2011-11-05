@@ -117,8 +117,129 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lStuffThreePrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
+  </data>
+  <data name="lStuffThreePrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 95</value>
+  </data>
+  <data name="lStuffThreePrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 15</value>
+  </data>
+  <data name="lStuffTwoPrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
+  </data>
+  <data name="lStuffTwoPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 67</value>
+  </data>
+  <data name="lStuffTwoPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 15</value>
+  </data>
+  <data name="lStuffOnePrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
+  </data>
+  <data name="lStuffOnePrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 39</value>
+  </data>
+  <data name="lStuffOnePrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 15</value>
+  </data>
+  <data name="lStuffThree.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
+  </data>
+  <data name="lStuffThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 15</value>
+  </data>
+  <data name="lStuffTwo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
+  </data>
+  <data name="lStuffTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 67</value>
+  </data>
+  <data name="lStuffTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 15</value>
+  </data>
+  <data name="lStuffOne.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
+  </data>
+  <data name="lStuffOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="lStuffOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 15</value>
+  </data>
+  <data name="pDisplayCookName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 30</value>
+  </data>
+  <data name="pDisplayEffects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 104</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Icon11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon11.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pDisplayInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lCookName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 11pt, style=Bold</value>
+  </data>
+  <data name="lCookName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="lCookName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 23</value>
+  </data>
+  <data name="lAlert.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt, style=Bold</value>
+  </data>
+  <data name="lAlert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
+  </data>
+  <data name="lEffects.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
+  </data>
+  <data name="lEffects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
+  </data>
+  <data name="bDisplayRatio.AccessibleName" xml:space="preserve">
+    <value>材料比率</value>
+  </data>
+  <data name="bDisplayRatio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="bDisplayRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 160</value>
+  </data>
+  <data name="bClose.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
+  </data>
+  <data name="bClose.Text" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="bModFav.AccessibleName" xml:space="preserve">
+    <value>お気に入り</value>
+  </data>
+  <data name="bModFav.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="bModFav.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 160</value>
+  </data>
+  <data name="bNext.AccessibleName" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="bNext.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="bNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 160</value>
+  </data>
+  <data name="bNext.Text" xml:space="preserve">
+    <value>↩</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>詳細</value>
   </data>
 </root>

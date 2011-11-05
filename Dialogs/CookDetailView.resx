@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lStuffThreePrice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lStuffThreePrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 95</value>
+  </data>
+  <data name="lStuffThreePrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 15</value>
+  </data>
+  <data name="lStuffThreePrice.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lStuffThreePrice.Text" xml:space="preserve">
+    <value>Detail3</value>
+  </data>
+  <data name="&gt;&gt;lStuffThreePrice.Name" xml:space="preserve">
+    <value>lStuffThreePrice</value>
+  </data>
+  <data name="&gt;&gt;lStuffThreePrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lStuffThreePrice.Parent" xml:space="preserve">
+    <value>pDisplayInfo</value>
+  </data>
+  <data name="&gt;&gt;lStuffThreePrice.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lStuffTwoPrice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lStuffTwoPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 67</value>
+  </data>
+  <data name="lStuffTwoPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 15</value>
+  </data>
+  <data name="lStuffTwoPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lStuffTwoPrice.Text" xml:space="preserve">
+    <value>Detail2</value>
+  </data>
+  <data name="&gt;&gt;lStuffTwoPrice.Name" xml:space="preserve">
+    <value>lStuffTwoPrice</value>
+  </data>
+  <data name="&gt;&gt;lStuffTwoPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lStuffTwoPrice.Parent" xml:space="preserve">
+    <value>pDisplayInfo</value>
+  </data>
+  <data name="&gt;&gt;lStuffTwoPrice.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lStuffOnePrice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lStuffOnePrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 39</value>
+  </data>
+  <data name="lStuffOnePrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 15</value>
+  </data>
+  <data name="lStuffOnePrice.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lStuffOnePrice.Text" xml:space="preserve">
+    <value>Detail1</value>
+  </data>
+  <data name="&gt;&gt;lStuffOnePrice.Name" xml:space="preserve">
+    <value>lStuffOnePrice</value>
+  </data>
+  <data name="&gt;&gt;lStuffOnePrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lStuffOnePrice.Parent" xml:space="preserve">
+    <value>pDisplayInfo</value>
+  </data>
+  <data name="&gt;&gt;lStuffOnePrice.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lStuffThree.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lStuffThree.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 9pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lStuffThree.LinkArea" type="System.Windows.Forms.LinkArea, System.Windows.Forms">
+    <value>0, 0</value>
+  </data>
+  <data name="lStuffThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 95</value>
+  </data>
+  <data name="lStuffThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="lStuffThree.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lStuffThree.Text" xml:space="preserve">
+    <value>StuffName3</value>
+  </data>
+  <data name="&gt;&gt;lStuffThree.Name" xml:space="preserve">
+    <value>lStuffThree</value>
+  </data>
+  <data name="&gt;&gt;lStuffThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lStuffThree.Parent" xml:space="preserve">
+    <value>pDisplayInfo</value>
+  </data>
+  <data name="&gt;&gt;lStuffThree.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lStuffTwo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lStuffTwo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 9pt</value>
+  </data>
+  <data name="lStuffTwo.LinkArea" type="System.Windows.Forms.LinkArea, System.Windows.Forms">
+    <value>0, 0</value>
+  </data>
+  <data name="lStuffTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 67</value>
+  </data>
+  <data name="lStuffTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="lStuffTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lStuffTwo.Text" xml:space="preserve">
+    <value>StuffName2</value>
+  </data>
+  <data name="&gt;&gt;lStuffTwo.Name" xml:space="preserve">
+    <value>lStuffTwo</value>
+  </data>
+  <data name="&gt;&gt;lStuffTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lStuffTwo.Parent" xml:space="preserve">
+    <value>pDisplayInfo</value>
+  </data>
+  <data name="&gt;&gt;lStuffTwo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lStuffOne.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lStuffOne.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 9pt</value>
+  </data>
+  <data name="lStuffOne.LinkArea" type="System.Windows.Forms.LinkArea, System.Windows.Forms">
+    <value>0, 0</value>
+  </data>
+  <data name="lStuffOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 39</value>
+  </data>
+  <data name="lStuffOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="lStuffOne.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lStuffOne.Text" xml:space="preserve">
+    <value>StuffName1</value>
+  </data>
+  <data name="&gt;&gt;lStuffOne.Name" xml:space="preserve">
+    <value>lStuffOne</value>
+  </data>
+  <data name="&gt;&gt;lStuffOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lStuffOne.Parent" xml:space="preserve">
+    <value>pDisplayInfo</value>
+  </data>
+  <data name="&gt;&gt;lStuffOne.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lCookName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lCookName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 12pt, style=Bold</value>
+  </data>
+  <data name="lCookName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="lCookName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 21</value>
+  </data>
+  <data name="lCookName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lCookName.Text" xml:space="preserve">
+    <value>CookName</value>
+  </data>
+  <data name="&gt;&gt;lCookName.Name" xml:space="preserve">
+    <value>lCookName</value>
+  </data>
+  <data name="&gt;&gt;lCookName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lCookName.Parent" xml:space="preserve">
+    <value>pDisplayCookName</value>
+  </data>
+  <data name="&gt;&gt;lCookName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pDisplayCookName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pDisplayCookName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="pDisplayCookName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 31</value>
+  </data>
+  <data name="pDisplayCookName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pDisplayCookName.Name" xml:space="preserve">
+    <value>pDisplayCookName</value>
+  </data>
+  <data name="&gt;&gt;pDisplayCookName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pDisplayCookName.Parent" xml:space="preserve">
+    <value>pDisplayInfo</value>
+  </data>
+  <data name="&gt;&gt;pDisplayCookName.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pDisplayEffects.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lAlert.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lAlert.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 9pt, style=Bold</value>
+  </data>
+  <data name="lAlert.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 9</value>
+  </data>
+  <data name="lAlert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 15</value>
+  </data>
+  <data name="lAlert.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lAlert.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;lAlert.Name" xml:space="preserve">
+    <value>lAlert</value>
+  </data>
+  <data name="&gt;&gt;lAlert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lAlert.Parent" xml:space="preserve">
+    <value>pAlertShowing</value>
+  </data>
+  <data name="&gt;&gt;lAlert.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pAlertShowing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pAlertShowing.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="pAlertShowing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 31</value>
+  </data>
+  <data name="pAlertShowing.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pAlertShowing.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pAlertShowing.Name" xml:space="preserve">
+    <value>pAlertShowing</value>
+  </data>
+  <data name="&gt;&gt;pAlertShowing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pAlertShowing.Parent" xml:space="preserve">
+    <value>pDisplayEffects</value>
+  </data>
+  <data name="&gt;&gt;pAlertShowing.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lEffects.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lEffects.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 9</value>
+  </data>
+  <data name="lEffects.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 12, 3, 0</value>
+  </data>
+  <data name="lEffects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 15</value>
+  </data>
+  <data name="lEffects.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lEffects.Text" xml:space="preserve">
+    <value>Effects</value>
+  </data>
+  <data name="&gt;&gt;lEffects.Name" xml:space="preserve">
+    <value>lEffects</value>
+  </data>
+  <data name="&gt;&gt;lEffects.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lEffects.Parent" xml:space="preserve">
+    <value>pDisplayEffects</value>
+  </data>
+  <data name="&gt;&gt;lEffects.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pDisplayEffects.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 118</value>
+  </data>
+  <data name="pDisplayEffects.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="pDisplayEffects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 35</value>
+  </data>
+  <data name="pDisplayEffects.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pDisplayEffects.Name" xml:space="preserve">
+    <value>pDisplayEffects</value>
+  </data>
+  <data name="&gt;&gt;pDisplayEffects.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pDisplayEffects.Parent" xml:space="preserve">
+    <value>pDisplayInfo</value>
+  </data>
+  <data name="&gt;&gt;pDisplayEffects.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lRank.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lRank.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 27.75pt, style=Bold, Italic</value>
+  </data>
+  <data name="lRank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 70</value>
+  </data>
+  <data name="lRank.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lRank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 45</value>
+  </data>
+  <data name="lRank.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lRank.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="&gt;&gt;lRank.Name" xml:space="preserve">
+    <value>lRank</value>
+  </data>
+  <data name="&gt;&gt;lRank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lRank.Parent" xml:space="preserve">
+    <value>pDisplayInfo</value>
+  </data>
+  <data name="&gt;&gt;lRank.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pDisplayInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pDisplayInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="pDisplayInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 150</value>
+  </data>
+  <data name="pDisplayInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pDisplayInfo.Name" xml:space="preserve">
+    <value>pDisplayInfo</value>
+  </data>
+  <data name="&gt;&gt;pDisplayInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pDisplayInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pDisplayInfo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="bDisplayRatio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 9pt</value>
+  </data>
+  <data name="bDisplayRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 160</value>
+  </data>
+  <data name="bDisplayRatio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="bDisplayRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="bDisplayRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bDisplayRatio.Text" xml:space="preserve">
+    <value>♬</value>
+  </data>
+  <data name="&gt;&gt;bDisplayRatio.Name" xml:space="preserve">
+    <value>bDisplayRatio</value>
+  </data>
+  <data name="&gt;&gt;bDisplayRatio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bDisplayRatio.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bDisplayRatio.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="bClose.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 9pt</value>
+  </data>
+  <data name="bClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 160</value>
+  </data>
+  <data name="bClose.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="bClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 30</value>
+  </data>
+  <data name="bClose.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="bClose.Text" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="&gt;&gt;bClose.Name" xml:space="preserve">
+    <value>bClose</value>
+  </data>
+  <data name="&gt;&gt;bClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bClose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bClose.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="bModFav.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 9pt</value>
+  </data>
+  <data name="bModFav.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 160</value>
+  </data>
+  <data name="bModFav.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="bModFav.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="bModFav.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="bModFav.Text" xml:space="preserve">
+    <value>★</value>
+  </data>
+  <data name="&gt;&gt;bModFav.Name" xml:space="preserve">
+    <value>bModFav</value>
+  </data>
+  <data name="&gt;&gt;bModFav.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bModFav.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bModFav.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="tiCheckAlert.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>136, 17</value>
+  </metadata>
+  <data name="bNext.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="bNext.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 9pt</value>
+  </data>
+  <data name="bNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 160</value>
+  </data>
+  <data name="bNext.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="bNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="bNext.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="bNext.Text" xml:space="preserve">
+    <value>▷</value>
+  </data>
+  <data name="&gt;&gt;bNext.Name" xml:space="preserve">
+    <value>bNext</value>
+  </data>
+  <data name="&gt;&gt;bNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bNext.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bNext.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="toolTip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>233, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>261, 202</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 9pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>자세히 보기</value>
+  </data>
+  <data name="&gt;&gt;tiCheckAlert.Name" xml:space="preserve">
+    <value>tiCheckAlert</value>
+  </data>
+  <data name="&gt;&gt;tiCheckAlert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip2.Name" xml:space="preserve">
+    <value>toolTip2</value>
+  </data>
+  <data name="&gt;&gt;toolTip2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CookDetailView</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
