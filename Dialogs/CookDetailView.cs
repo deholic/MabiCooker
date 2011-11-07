@@ -66,7 +66,7 @@ namespace MabiCooker2
             lStuffTwo.Text = (Data.getStuff())[1];
             if ((Data.getRatio())[0] == 230)
             {
-                lCookName.Text += Resources.Strings.CannotCook;
+                lCookName.Text += Properties.Resources.StrCannotCook;
             }
             if (Data.getStuff().Length == 3)
             {
@@ -100,7 +100,7 @@ namespace MabiCooker2
 
             if ((CookInfo.cook.getRatio())[0] == 230)
             {
-                lCookName.Text += Resources.Strings.CannotCook;
+                lCookName.Text += Properties.Resources.StrCannotCook;
             }
             if (CookInfo.stuffs[2] != null)
             {
@@ -205,7 +205,7 @@ namespace MabiCooker2
                 if (MabiCooker.RatioView != null) MabiCooker.RatioView.UpdateData();
                 pAlertShowing.BackColor = Color.OrangeRed;
                 pDisplayCookName.BackColor = Color.Black;
-                lAlert.Text = Resources.Strings.FavListRemoved;
+                lAlert.Text = Properties.Resources.MsgFavoriteRemove;
                 pAlertShowing.Visible = true;
                 tiCheckAlert.Enabled = true;
             }
@@ -216,7 +216,7 @@ namespace MabiCooker2
                 if (MabiCooker.RatioView != null) MabiCooker.RatioView.UpdateData();
                 pAlertShowing.BackColor = Color.LimeGreen;
                 pDisplayCookName.BackColor = Color.LimeGreen;
-                lAlert.Text = Resources.Strings.FavListAdded;
+                lAlert.Text = Properties.Resources.MsgFavoriteAdd;
                 pAlertShowing.Visible = true;
                 tiCheckAlert.Enabled = true;
             }
@@ -285,15 +285,15 @@ namespace MabiCooker2
         }
         private void bDisplayRatio_MouseHover(object sender, EventArgs e)
         {
-            toolTip2.SetToolTip(bDisplayRatio, Resources.Strings.DisplayRatio);
+            toolTip2.SetToolTip(bDisplayRatio, Properties.Resources.StrDisplayRatio);
         }
         private void bModFav_MouseHover(object sender, EventArgs e)
         {
-            toolTip2.SetToolTip(bModFav, Resources.Strings.ModFav);
+            toolTip2.SetToolTip(bModFav, Properties.Resources.StrFavorite);
         }
         private void bNext_MouseHover(object sender, EventArgs e)
         {
-            if (bNext.Enabled == true) toolTip2.SetToolTip(bNext, Resources.Strings.Next);
+            if (bNext.Enabled == true) toolTip2.SetToolTip(bNext, Properties.Resources.StrBack);
         }
         #endregion
     }

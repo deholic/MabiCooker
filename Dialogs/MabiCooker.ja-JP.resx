@@ -112,37 +112,20 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="bDetailView.Location" type="System.Drawing.Point, System.Drawing">
     <value>91, 325</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bDetailView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
   </data>
   <data name="bDetailView.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 28</value>
   </data>
   <data name="bDetailView.Text" xml:space="preserve">
     <value>詳細</value>
-  </data>
-  <data name="tcMainCtrl.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
-    <value>Normal</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lbRankResult.ItemHeight" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="lbRankResult.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, 42</value>
-  </data>
-  <data name="lbRankResult.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
   </data>
   <data name="lbRankResult.Size" type="System.Drawing.Size, System.Drawing">
     <value>162, 244</value>
@@ -183,20 +166,8 @@
   <data name="cbRankSelector.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 10</value>
   </data>
-  <data name="cbRankSelector.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="cbRankSelector.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 23</value>
-  </data>
-  <data name="tpRank.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 24</value>
-  </data>
-  <data name="tpRank.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="tpRank.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>143, 23</value>
   </data>
   <data name="tpRank.Size" type="System.Drawing.Size, System.Drawing">
     <value>162, 287</value>
@@ -229,63 +200,31 @@
 Enterキーを
 押してください</value>
   </data>
-  <data name="rbForEffect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Standard</value>
-  </data>
   <data name="rbForEffect.Location" type="System.Drawing.Point, System.Drawing">
     <value>105, 3</value>
-  </data>
-  <data name="rbForEffect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="rbForEffect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 19</value>
   </data>
   <data name="rbForEffect.Text" xml:space="preserve">
     <value>効果</value>
   </data>
-  <data name="rbForStuff.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Standard</value>
-  </data>
   <data name="rbForStuff.Location" type="System.Drawing.Point, System.Drawing">
     <value>56, 3</value>
-  </data>
-  <data name="rbForStuff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="rbForStuff.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 19</value>
   </data>
   <data name="rbForStuff.Text" xml:space="preserve">
     <value>材料</value>
   </data>
-  <data name="rbForName.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Standard</value>
-  </data>
   <data name="rbForName.Location" type="System.Drawing.Point, System.Drawing">
     <value>2, 3</value>
-  </data>
-  <data name="rbForName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="rbForName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 19</value>
   </data>
   <data name="rbForName.Text" xml:space="preserve">
     <value>名前</value>
   </data>
-  <data name="lbSearchResult.ItemHeight" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
   <data name="lbSearchResult.Location" type="System.Drawing.Point, System.Drawing">
     <value>-1, 59</value>
-  </data>
-  <data name="lbSearchResult.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
   </data>
   <data name="lbSearchResult.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 227</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="bSearchStart.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
@@ -295,29 +234,14 @@ Enterキーを
   <data name="bSearchStart.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 26</value>
   </data>
-  <data name="bSearchStart.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="bSearchStart.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 23</value>
   </data>
   <data name="tbSearchTerm.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 26</value>
   </data>
-  <data name="tbSearchTerm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="tbSearchTerm.Size" type="System.Drawing.Size, System.Drawing">
     <value>127, 23</value>
-  </data>
-  <data name="tpSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 24</value>
-  </data>
-  <data name="tpSearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="tpSearch.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
   </data>
   <data name="tpSearch.Size" type="System.Drawing.Size, System.Drawing">
     <value>162, 287</value>
@@ -349,23 +273,11 @@ Enterキーを
 ★をクリックする
 ことで追加できます。</value>
   </data>
-  <data name="lbFavResult.ItemHeight" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
   <data name="lbFavResult.Location" type="System.Drawing.Point, System.Drawing">
     <value>-1, -1</value>
   </data>
-  <data name="lbFavResult.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="lbFavResult.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 287</value>
-  </data>
-  <data name="tpFav.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 24</value>
-  </data>
-  <data name="tpFav.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
   </data>
   <data name="tpFav.Size" type="System.Drawing.Size, System.Drawing">
     <value>162, 287</value>
@@ -379,17 +291,11 @@ Enterキーを
   <data name="tcMainCtrl.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 2</value>
   </data>
-  <data name="tcMainCtrl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="tcMainCtrl.Size" type="System.Drawing.Size, System.Drawing">
     <value>170, 315</value>
   </data>
   <data name="bPrintRatio.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 325</value>
-  </data>
-  <data name="bPrintRatio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
   </data>
   <data name="bPrintRatio.Size" type="System.Drawing.Size, System.Drawing">
     <value>72, 28</value>
@@ -403,12 +309,10 @@ Enterキーを
   <data name="lVersion.Location" type="System.Drawing.Point, System.Drawing">
     <value>91, 365</value>
   </data>
-  <data name="lVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 14</value>
-  </data>
   <data name="lCopyright.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lCopyright.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -421,8 +325,14 @@ Enterキーを
   <data name="lCopyright.Text" xml:space="preserve">
     <value>@deholic</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
+  <data name="lCopyrites.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="lCopyrites.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 365</value>
+  </data>
+  <data name="lCopyrites.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 14</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>172, 379</value>

@@ -52,7 +52,7 @@ namespace MabiCooker2
                 iBuffer = SelectedCook.getRatio();
                 if (iBuffer[0] == 230)
                 {
-                    lName.Text += Resources.Strings.CannotCook;
+                    lName.Text += Properties.Resources.StrCannotCook;
                 }
                 pbStuffOne.Width = iBuffer[0];
                 pbStuffTwo.Location = new Point(iBuffer[0], 0);
@@ -64,9 +64,9 @@ namespace MabiCooker2
                 }
                 else pbStuffThree.Width = 0;
                 if (MainWindow.FavList.Contains(DataIndex) == true)
-                    lFavCheck.Text = Resources.Strings.FavListedSymbol;
+                    lFavCheck.Text = Properties.Resources.SymbolFavorite;
                 else
-                    lFavCheck.Text = Resources.Strings.FavAddSymbol;
+                    lFavCheck.Text = Properties.Resources.SymbolAddFavorite;
                 lStuffs.Location = new Point(20, lStuffs.Location.Y);
                 if (lStuffs.Width > STUFF_FLOW_SIZE) tiRatioView.Enabled = true;
                 else tiRatioView.Enabled = false;
@@ -108,12 +108,12 @@ namespace MabiCooker2
             if (MainWindow.FavList.Contains(DataIndex) == false)
             {
                 MainWindow.AddFavList(DataIndex);
-                lFavCheck.Text = Resources.Strings.FavListedSymbol;
+                lFavCheck.Text = Properties.Resources.SymbolFavorite;
             }
             else
             {
                 MainWindow.DeleteFavList(DataIndex);
-                lFavCheck.Text = Resources.Strings.FavAddSymbol;
+                lFavCheck.Text = Properties.Resources.SymbolAddFavorite;
             }
             MainWindow.UpdateData(MainWindow.FavList, FavListView);
             if (MabiCooker.DetailView != null) MabiCooker.DetailView.UpdateData(DataIndex, SelectedCook);

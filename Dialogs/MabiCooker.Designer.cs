@@ -50,6 +50,7 @@
             this.bPrintRatio = new System.Windows.Forms.Button();
             this.lVersion = new System.Windows.Forms.Label();
             this.lCopyright = new System.Windows.Forms.LinkLabel();
+            this.lCopyrites = new System.Windows.Forms.LinkLabel();
             this.tcMainCtrl.SuspendLayout();
             this.tpRank.SuspendLayout();
             this.tpSearch.SuspendLayout();
@@ -249,12 +250,20 @@
             this.lCopyright.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.lCopyright.Name = "lCopyright";
             this.lCopyright.TabStop = true;
-            this.lCopyright.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.lCopyright.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lCopyrites_LinkClicked);
+            // 
+            // lCopyrites
+            // 
+            resources.ApplyResources(this.lCopyrites, "lCopyrites");
+            this.lCopyrites.Name = "lCopyrites";
+            this.lCopyrites.TabStop = true;
             // 
             // MabiCooker
             // 
+            this.AcceptButton = this.bDetailView;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lCopyrites);
             this.Controls.Add(this.lCopyright);
             this.Controls.Add(this.lVersion);
             this.Controls.Add(this.tcMainCtrl);
@@ -271,6 +280,7 @@
             this.tpFav.ResumeLayout(false);
             this.tpFav.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -297,6 +307,7 @@
         private System.Windows.Forms.Label lPrevSearch_1;
         private System.Windows.Forms.Label lPrevSearch_2;
         private System.Windows.Forms.RadioButton rbForEffect;
+        private System.Windows.Forms.LinkLabel lCopyrites;
     }
 }
 

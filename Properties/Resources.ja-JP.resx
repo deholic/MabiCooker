@@ -117,58 +117,58 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CannotCook" xml:space="preserve">
-    <value>（料理不可）</value>
+  <data name="FileCookData" xml:space="preserve">
+    <value>cook.dat</value>
   </data>
-  <data name="CookData" xml:space="preserve">
-    <value>ja-JP/cook.dat</value>
-  </data>
-  <data name="CookXml" xml:space="preserve">
+  <data name="FileCookDataXml" xml:space="preserve">
     <value>CookData.xml</value>
   </data>
-  <data name="DisplayRatio" xml:space="preserve">
-    <value>比率画面</value>
-  </data>
-  <data name="FavAddSymbol" xml:space="preserve">
-    <value>☆</value>
-  </data>
-  <data name="FavCookData" xml:space="preserve">
+  <data name="FileFavoriteData" xml:space="preserve">
     <value>favcook.dat</value>
   </data>
-  <data name="FavListAdded" xml:space="preserve">
+  <data name="FileStuffData" xml:space="preserve">
+    <value>stuff.dat</value>
+  </data>
+  <data name="MsgConfirm" xml:space="preserve">
+    <value>お気に入りから削除します。
+本当に削除してもよろしいですか？</value>
+  </data>
+  <data name="MsgFailure" xml:space="preserve">
+    <value>別のプログラムが、favcook.datを使用しています。
+お気に入りのリストを保存することができませんでした。</value>
+  </data>
+  <data name="MsgFavoriteAdd" xml:space="preserve">
     <value>お気に入りリストに追加しました。</value>
   </data>
-  <data name="FavListedSymbol" xml:space="preserve">
-    <value>★</value>
-  </data>
-  <data name="FavListRemoved" xml:space="preserve">
+  <data name="MsgFavoriteRemove" xml:space="preserve">
     <value>お気に入りリストから削除しました。</value>
   </data>
-  <data name="ModFav" xml:space="preserve">
-    <value>お気に入り</value>
+  <data name="MsgNoDataFile" xml:space="preserve">
+    <value>データファイルが存在しません。
+cook.dat、stuff.datとfavcook.datが存在するかを確認してください。</value>
   </data>
-  <data name="Next" xml:space="preserve">
+  <data name="StrBack" xml:space="preserve">
     <value>前の料理に戻る</value>
   </data>
-  <data name="NoDataFile" xml:space="preserve">
-    <value>データファイルが存在しません。
-cook.datと、stuff.datが、ja-JPディレクトリ内に存在するかを確認してください。</value>
+  <data name="StrCannotCook" xml:space="preserve">
+    <value>（料理不可）</value>
   </data>
-  <data name="Notice" xml:space="preserve">
-    <value>お知らせ</value>
+  <data name="StrDisplayRatio" xml:space="preserve">
+    <value>比率画面</value>
   </data>
-  <data name="SaveConfirm" xml:space="preserve">
-    <value>お気に入りが削除されます。
-本当に削除てもよろしいですか？</value>
+  <data name="StrFavorite" xml:space="preserve">
+    <value>お気に入り</value>
   </data>
-  <data name="SaveFailure" xml:space="preserve">
-    <value>別のプログラムがfavcook.datを使用しています。
-お気に入りのリストを保存することができません。</value>
+  <data name="StrNotice" xml:space="preserve">
+    <value>情報</value>
   </data>
-  <data name="StuffData" xml:space="preserve">
-    <value>ja-JP/stuff.dat</value>
-  </data>
-  <data name="Warning" xml:space="preserve">
+  <data name="StrWarning" xml:space="preserve">
     <value>警告</value>
+  </data>
+  <data name="SymbolAddFavorite" xml:space="preserve">
+    <value>☆</value>
+  </data>
+  <data name="SymbolFavorite" xml:space="preserve">
+    <value>★</value>
   </data>
 </root>

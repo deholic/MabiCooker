@@ -60,10 +60,166 @@ namespace MabiCooker2.Properties {
             }
         }
         
+        /// <summary>
+        ///   cook.dat に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string FileCookData {
+            get {
+                return ResourceManager.GetString("FileCookData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   CookData.xml に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string FileCookDataXml {
+            get {
+                return ResourceManager.GetString("FileCookDataXml", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   favcook.dat に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string FileFavoriteData {
+            get {
+                return ResourceManager.GetString("FileFavoriteData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   stuff.dat に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string FileStuffData {
+            get {
+                return ResourceManager.GetString("FileStuffData", resourceCulture);
+            }
+        }
+        
         public static System.Drawing.Icon Icon11 {
             get {
                 object obj = ResourceManager.GetObject("Icon11", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   즐겨찾기가 삭제됩니다.
+        ///정말 삭제하시겠습니까? に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MsgConfirm {
+            get {
+                return ResourceManager.GetString("MsgConfirm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   favcook.dat 파일을 다른 프로그램에서 사용하고 있습니다.
+        ///즐겨찾기 목록이 저장되지 않습니다. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MsgFailure {
+            get {
+                return ResourceManager.GetString("MsgFailure", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   즐겨찾기에 추가 되었습니다. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MsgFavoriteAdd {
+            get {
+                return ResourceManager.GetString("MsgFavoriteAdd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   즐겨찾기에서 삭제 되었습니다. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MsgFavoriteRemove {
+            get {
+                return ResourceManager.GetString("MsgFavoriteRemove", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   데이터 파일이 존재하지 않습니다.
+        ///확인 해 주세요. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MsgNoDataFile {
+            get {
+                return ResourceManager.GetString("MsgNoDataFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   이전 요리 보기 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string StrBack {
+            get {
+                return ResourceManager.GetString("StrBack", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (조리불가) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string StrCannotCook {
+            get {
+                return ResourceManager.GetString("StrCannotCook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   비율보기 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string StrDisplayRatio {
+            get {
+                return ResourceManager.GetString("StrDisplayRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   즐겨찾기 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string StrFavorite {
+            get {
+                return ResourceManager.GetString("StrFavorite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   알림 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string StrNotice {
+            get {
+                return ResourceManager.GetString("StrNotice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   경고 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string StrWarning {
+            get {
+                return ResourceManager.GetString("StrWarning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ☆ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string SymbolAddFavorite {
+            get {
+                return ResourceManager.GetString("SymbolAddFavorite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ★ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string SymbolFavorite {
+            get {
+                return ResourceManager.GetString("SymbolFavorite", resourceCulture);
             }
         }
     }

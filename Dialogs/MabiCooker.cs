@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -212,7 +211,7 @@ namespace MabiCooker2
         {
             /* Text Data Mode */
             String lineBuffer; StreamReader CookReader;
-            if (File.Exists(Resources.Strings.CookData) && File.Exists(Resources.Strings.FavCookData) && File.Exists(Resources.Strings.StuffData))
+            if (File.Exists(Properties.Resources.FileCookData) && File.Exists(Properties.Resources.FileFavoriteData) && File.Exists(Properties.Resources.FileStuffData))
             {
                 #region old code : ~v2.0
                 /* ~20100103 // Version 2.0 * //
@@ -262,14 +261,14 @@ namespace MabiCooker2
                 return true;
             }
             /* XML Data Mode */
-            else if (File.Exists(Resources.Strings.CookXml))
+            else if (File.Exists(Properties.Resources.FileCookDataXml))
             {
-                DataPool.ReadXml(Resources.Strings.CookXml);
+                DataPool.ReadXml(Properties.Resources.FileCookDataXml);
                 return false;
             }
             else
             {
-                MessageBox.Show(Resources.Strings.NoDataFile, Resources.Strings.Notice, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(Properties.Resources.MsgNoDataFile, Properties.Resources.StrNotice, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return false;
             }
         }
@@ -473,7 +472,7 @@ namespace MabiCooker2
                 }
             }
         }
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void lCopyrites_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             /*
 			if (File.Exists("supervisor.tag"))
@@ -555,12 +554,12 @@ namespace MabiCooker2
             StringBuilder buffer = new StringBuilder();
             try
             {
-                FavFileSave = new StreamWriter(Resources.Strings.FavCookData);
+                FavFileSave = new StreamWriter(Properties.Resources.FileFavoriteData);
                 //FavFileSave = new StringWriter(buffer);
             }
             catch (IOException)
             {
-                MessageBox.Show(Resources.Strings.SaveFailure, Resources.Strings.Warning);
+                MessageBox.Show(Properties.Resources.MsgFailure, Properties.Resources.StrWarning);
                 return;
             }
             for (int i = 0; i < FavList.Count; i++)
@@ -587,7 +586,7 @@ namespace MabiCooker2
         {
             if(e.KeyCode == Keys.Delete)
             {
-                DialogResult yesno = MessageBox.Show(Resources.Strings.SaveConfirm, Resources.Strings.Notice, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                DialogResult yesno = MessageBox.Show(Properties.Resources.MsgConfirm, Properties.Resources.StrNotice, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (yesno == DialogResult.Yes)
                 {
                     int IndexTemp = lbFavResult.SelectedIndex;
