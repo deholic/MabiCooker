@@ -174,8 +174,13 @@
             this.TopMost = true;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CookRatioView_FormClosed);
             this.VisibleChanged += new System.EventHandler(this.CookRatioView_VisibleChanged);
+            this.Enter += new System.EventHandler(this.CookRatioView_active);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CookRatioView_KeyDown);
+            this.Leave += new System.EventHandler(this.CookRatioView_deactive);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseDown);
+            this.MouseEnter += new System.EventHandler(this.CookRatioView_active);
+            this.MouseLeave += new System.EventHandler(this.CookRatioView_deactive);
+            this.MouseHover += new System.EventHandler(this.CookRatioView_active);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.pbStuffOne)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbStuffTwo)).EndInit();

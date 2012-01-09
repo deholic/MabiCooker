@@ -123,9 +123,9 @@ namespace MabiCooker2
 
                 if (MainWindow.FavList.Contains(CookInfo.cIndex))
                 {
-                    bModFav.Image = MabiCooker2.Properties.Resources.bookmark;
-                }else{
                     bModFav.Image = MabiCooker2.Properties.Resources.bookmark_remove;
+                }else{
+                    bModFav.Image = MabiCooker2.Properties.Resources.bookmark;
                 }
 				lEffects.Text = CookInfo.cook.getEffect();
 				var RankId = CookInfo.cook.getRank();
@@ -271,7 +271,7 @@ namespace MabiCooker2
 		}
 		private void lStuffThree_MouseHover(object sender, EventArgs e)
 		{
-            if (CookInfo.stuffs[2] != null && tiCheckAlert.Enabled == false)
+            if (CookInfo.stuffs[2] != null )
 			{
 				String buffer = "";
 				for (int i = 0; i < CookInfo.stuffs[2].sSellingPoint.Count; )
@@ -311,11 +311,11 @@ namespace MabiCooker2
             {
                 if (MainWindow.FavList.Contains(CookInfo.cIndex))
                 {
-                    lMessage.Text = Properties.Resources.StrFavorite;
+                    lMessage.Text = Properties.Resources.StrFavoriteRemove;
                 }
                 else
                 {
-                    lMessage.Text = Properties.Resources.StrFavoriteRemove;
+                    lMessage.Text = Properties.Resources.StrFavorite;
                 }
             }
 		}

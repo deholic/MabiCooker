@@ -21,6 +21,8 @@ namespace MabiCooker2
 		private Point mousePoint;
 		private ListBox FavListView;
 		private MabiCooker MainWindow;
+
+        private int initial_height;
 		
 		public CookRatioView(MabiCooker Main, ListBox FavView)
 		{
@@ -34,6 +36,7 @@ namespace MabiCooker2
 
 			this.FavListView = FavView;
 			this.MainWindow = Main;
+            initial_height = this.Size.Height;
 		}
 		public void UpdateData()
 		{
@@ -82,7 +85,8 @@ namespace MabiCooker2
 		}
 		private void MabiCooker_RatioView_MouseDown(object sender, MouseEventArgs e)
 		{
-			mousePoint = new Point(e.X, e.Y);
+            this.Opacity = 0.75;
+            mousePoint = new Point(e.X, e.Y);
 		}
 		private void MabiCooker_RatioView_MouseMove(object sender, MouseEventArgs e)
 		{
@@ -156,8 +160,26 @@ namespace MabiCooker2
 			else
 			{
 				this.NoticeInfo = true;
-				this.Height = 43;
+				this.Height = initial_height;
 			}
 		}
+        private void CookRatioView_active(object sender, EventArgs e)
+        {
+            // Fade in
+            for (int i = 50; i <= 75; i++)
+            {
+                this.Opacity = 0.01 * i;
+                System.Threading.Thread.Sleep(5);
+            }
+        }
+        private void CookRatioView_deactive(object sender, EventArgs e)
+        {
+            // Fade out
+            for (int i = 75; i >= 50; i--)
+            {
+                this.Opacity = 0.01 * i;
+                System.Threading.Thread.Sleep(5);
+            }
+        }
 	}
 }

@@ -51,6 +51,11 @@ namespace MabiCooker2
         public MabiCooker()
         {
             InitializeComponent();
+            for (int i = 0; i <= 10; i++)
+            {
+                this.Opacity = 0.1 * i;
+                System.Threading.Thread.Sleep(5);
+            }
 
             if (Properties.Settings.Default.LastSelectPoint.X != 0 && Properties.Settings.Default.LastSelectPoint.Y != 0)
             {
