@@ -117,58 +117,44 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="FileCookData" xml:space="preserve">
-    <value>cook.dat</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt, style=Bold</value>
   </data>
-  <data name="FileCookDataXml" xml:space="preserve">
-    <value>CookData.xml</value>
+  <data name="lName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 12</value>
   </data>
-  <data name="FileFavoriteData" xml:space="preserve">
-    <value>favcook.dat</value>
+  <data name="lName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 14</value>
   </data>
-  <data name="FileStuffData" xml:space="preserve">
-    <value>stuff.dat</value>
+  <data name="lStuffs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 31</value>
   </data>
-  <data name="MsgConfirm" xml:space="preserve">
-    <value>お気に入りから削除します。
-本当に削除してもよろしいですか？</value>
+  <data name="lStuffs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 14</value>
   </data>
-  <data name="MsgFailure" xml:space="preserve">
-    <value>別のプログラムが、favcook.datを使用しています。
-お気に入りのリストを保存することができませんでした。</value>
+  <data name="lRankName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt, style=Bold</value>
   </data>
-  <data name="MsgFavoriteAdd" xml:space="preserve">
-    <value>お気に入りリストに追加しました。</value>
+  <data name="lRankName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 14</value>
   </data>
-  <data name="MsgFavoriteRemove" xml:space="preserve">
-    <value>お気に入りリストから削除しました。</value>
+  <data name="lRankName.Text" xml:space="preserve">
+    <value>ランク</value>
   </data>
-  <data name="MsgNoDataFile" xml:space="preserve">
-    <value>データファイルが存在しません。
-cook.dat、stuff.datとfavcook.datが存在するかを確認してください。</value>
+  <data name="lCloseRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 14</value>
   </data>
-  <data name="StrBack" xml:space="preserve">
-    <value>前の料理に戻る</value>
+  <data name="lFavCheck.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
   </data>
-  <data name="StrCannotCook" xml:space="preserve">
-    <value>（料理不可）</value>
+  <data name="lFavCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 15</value>
   </data>
-  <data name="StrDisplayRatio" xml:space="preserve">
-    <value>比率画面</value>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8pt</value>
   </data>
-  <data name="StrFavorite" xml:space="preserve">
-    <value>お気に入り</value>
-  </data>
-  <data name="StrNotice" xml:space="preserve">
-    <value>情報</value>
-  </data>
-  <data name="StrWarning" xml:space="preserve">
-    <value>警告</value>
-  </data>
-  <data name="SymbolAddFavorite" xml:space="preserve">
-    <value>☆</value>
-  </data>
-  <data name="SymbolFavorite" xml:space="preserve">
-    <value>★</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>材料の割合</value>
   </data>
 </root>

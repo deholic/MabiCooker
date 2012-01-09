@@ -7,11 +7,11 @@ using System.Resources;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MabiCooker2")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Mabinogi cooking skill helper")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("DeHol")]
+[assembly: AssemblyCompany("DeHol / Logue")]
 [assembly: AssemblyProduct("MabiCooker2")]
-[assembly: AssemblyCopyright("Copyright © 2009")]
+[assembly: AssemblyCopyright("Copyright © 2009 DeHol / Modified by Logue 2011-2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

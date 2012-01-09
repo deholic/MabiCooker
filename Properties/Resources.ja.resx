@@ -112,134 +112,66 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lStuffThreePrice.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 9pt</value>
+  <data name="FileCookData" xml:space="preserve">
+    <value>cook.dat</value>
   </data>
-  <data name="lStuffThreePrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 95</value>
+  <data name="FileCookDataXml" xml:space="preserve">
+    <value>CookData.xml</value>
   </data>
-  <data name="lStuffThreePrice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 15</value>
+  <data name="FileFavoriteData" xml:space="preserve">
+    <value>favcook.dat</value>
   </data>
-  <data name="lStuffTwoPrice.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 9pt</value>
+  <data name="FileStuffData" xml:space="preserve">
+    <value>stuff.dat</value>
   </data>
-  <data name="lStuffTwoPrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 67</value>
+  <data name="MsgConfirm" xml:space="preserve">
+    <value>お気に入りから削除します。
+本当に削除してもよろしいですか？</value>
   </data>
-  <data name="lStuffTwoPrice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 15</value>
+  <data name="MsgFailure" xml:space="preserve">
+    <value>別のプログラムが、favcook.datを使用しています。
+お気に入りのリストを保存することができませんでした。</value>
   </data>
-  <data name="lStuffOnePrice.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 9pt</value>
+  <data name="MsgFavoriteAdd" xml:space="preserve">
+    <value>お気に入りリストに追加しました。</value>
   </data>
-  <data name="lStuffOnePrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 39</value>
+  <data name="MsgFavoriteRemove" xml:space="preserve">
+    <value>お気に入りリストから削除しました。</value>
   </data>
-  <data name="lStuffOnePrice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 15</value>
+  <data name="MsgNoDataFile" xml:space="preserve">
+    <value>データファイルが存在しません。
+cook.dat、stuff.datとfavcook.datが存在するかを確認してください。</value>
   </data>
-  <data name="lStuffThree.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 9pt</value>
+  <data name="StrBack" xml:space="preserve">
+    <value>前の料理に戻る</value>
   </data>
-  <data name="lStuffThree.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 15</value>
+  <data name="StrCannotCook" xml:space="preserve">
+    <value>（料理不可）</value>
   </data>
-  <data name="lStuffTwo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 9pt</value>
+  <data name="StrDisplayRatio" xml:space="preserve">
+    <value>比率画面</value>
   </data>
-  <data name="lStuffTwo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 67</value>
-  </data>
-  <data name="lStuffTwo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 15</value>
-  </data>
-  <data name="lStuffOne.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 9pt</value>
-  </data>
-  <data name="lStuffOne.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 39</value>
-  </data>
-  <data name="lStuffOne.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 15</value>
-  </data>
-  <data name="pDisplayCookName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 30</value>
-  </data>
-  <data name="pDisplayEffects.Size" type="System.Drawing.Size, System.Drawing">
-    <value>263, 104</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pDisplayInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="lCookName.Font" type="System.Drawing.Font, System.Drawing">
-    <value>メイリオ, 11pt, style=Bold</value>
-  </data>
-  <data name="lCookName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="lCookName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 23</value>
-  </data>
-  <data name="lAlert.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 9pt, style=Bold</value>
-  </data>
-  <data name="lAlert.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 15</value>
-  </data>
-  <data name="lEffects.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 9pt</value>
-  </data>
-  <data name="lEffects.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 15</value>
-  </data>
-  <data name="bDisplayRatio.AccessibleName" xml:space="preserve">
-    <value>材料比率</value>
-  </data>
-  <data name="bDisplayRatio.Font" type="System.Drawing.Font, System.Drawing">
-    <value>メイリオ, 9pt</value>
-  </data>
-  <data name="bDisplayRatio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 160</value>
-  </data>
-  <data name="bClose.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 9pt</value>
-  </data>
-  <data name="bClose.Text" xml:space="preserve">
-    <value>閉じる</value>
-  </data>
-  <data name="bModFav.AccessibleName" xml:space="preserve">
+  <data name="StrFavorite" xml:space="preserve">
     <value>お気に入り</value>
   </data>
-  <data name="bModFav.Font" type="System.Drawing.Font, System.Drawing">
-    <value>メイリオ, 9pt</value>
+  <data name="StrFavoriteRemove" xml:space="preserve">
+    <value>お気に入りから削除</value>
   </data>
-  <data name="bModFav.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 160</value>
+  <data name="StrNotice" xml:space="preserve">
+    <value>情報</value>
   </data>
-  <data name="bNext.AccessibleName" xml:space="preserve">
-    <value>戻る</value>
+  <data name="StrWarning" xml:space="preserve">
+    <value>警告</value>
   </data>
-  <data name="bNext.Font" type="System.Drawing.Font, System.Drawing">
-    <value>メイリオ, 9pt</value>
+  <data name="SymbolAddFavorite" xml:space="preserve">
+    <value>☆</value>
   </data>
-  <data name="bNext.Location" type="System.Drawing.Point, System.Drawing">
-    <value>80, 160</value>
-  </data>
-  <data name="bNext.Text" xml:space="preserve">
-    <value>↩</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 9pt</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>詳細</value>
+  <data name="SymbolFavorite" xml:space="preserve">
+    <value>★</value>
   </data>
 </root>

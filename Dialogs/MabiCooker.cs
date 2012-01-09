@@ -37,14 +37,14 @@ namespace MabiCooker2
         /// </summary>
 
         private DataSet DataPool = new DataSet();
-        
+
         private List<Cook> CookData = new List<Cook>();
         private List<Stuff> StuffData = new List<Stuff>();
         private List<int> SelectedRank = new List<int>();
         private List<int> SearchResult = new List<int>();
         public List<int> FavList = new List<int>();
         public static bool isLoaded = false;
-        public static int FavListLength;        
+        public static int FavListLength;
         public static CookDetailView DetailView;
         public static CookRatioView RatioView;
 
@@ -78,7 +78,7 @@ namespace MabiCooker2
              *      MessageBox.Show("즐겨찾기 갯수 허용량을 초과하였습니다.\n다른 것을 지우고 다시 시도해 보세요.", "경고");
              * else
              *      MabiCooker.FavList[MabiCooker.FavListLength++] = Data; */
-            
+
             /* Version 2.1 */
             // 리스트를 사용해서 쉽고 편하게~
             if (FavList.Contains(index)) return;
@@ -150,7 +150,7 @@ namespace MabiCooker2
                      */
                     SearchResult.Clear();
                     int i = -1;
-                    while ((i = CookData.FindIndex(i+1, CheckCookName)) != -1) SearchResult.Add(i);
+                    while ((i = CookData.FindIndex(i + 1, CheckCookName)) != -1) SearchResult.Add(i);
                 }
                 else if (rbForStuff.Checked == true)
                 {
@@ -167,7 +167,7 @@ namespace MabiCooker2
                      */
                     SearchResult.Clear();
                     int i = -1;
-                    while ((i = CookData.FindIndex(i+1, CheckCookStuff)) != -1) SearchResult.Add(i);
+                    while ((i = CookData.FindIndex(i + 1, CheckCookStuff)) != -1) SearchResult.Add(i);
                 }
                 /*
                 SearchList = new Cook[SearchBuffer.getQueueLength()];
@@ -286,7 +286,7 @@ namespace MabiCooker2
         }
         private bool CheckCookStuff(Cook c)
         {
-            foreach(string stuffs in c.Stuff) if (stuffs.Contains(tbSearchTerm.Text)) return true;
+            foreach (string stuffs in c.Stuff) if (stuffs.Contains(tbSearchTerm.Text)) return true;
             return false;
         }
         private bool CheckCookEffect(Cook c)
@@ -316,7 +316,7 @@ namespace MabiCooker2
             bPrintRatio.Enabled = false;
             bDetailView.Enabled = false;
             int i = -1;
-            while ((i = CookData.FindIndex(i+1, CheckCookRank)) != -1) SelectedRank.Add(i);
+            while ((i = CookData.FindIndex(i + 1, CheckCookRank)) != -1) SelectedRank.Add(i);
             UpdateData(SelectedRank, lbRankResult);
         }
         private void bSearchStart_Click(object sender, EventArgs e)
@@ -329,13 +329,14 @@ namespace MabiCooker2
         }
         private void lbRankResult_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(lbRankResult.SelectedIndex >= 0 && lbRankResult.SelectedIndex < SelectedRank.Count)
+            if (lbRankResult.SelectedIndex >= 0 && lbRankResult.SelectedIndex < SelectedRank.Count)
             {
                 bDetailView.Enabled = true;
                 bPrintRatio.Enabled = true;
                 CookRatioView.SelectedCook = CookData[SelectedRank[lbRankResult.SelectedIndex]];
                 CookRatioView.DataIndex = SelectedRank[lbRankResult.SelectedIndex];
-                if (DetailView != null && DetailView.Visible == true) {
+                if (DetailView != null && DetailView.Visible == true)
+                {
                     DetailView.ForTrace.Clear();
                     DetailView.UpdateData(MakeExchange());
                 }
@@ -387,7 +388,7 @@ namespace MabiCooker2
                 if (RatioView != null && RatioView.Visible == true)
                 {
                     RatioView.UpdateData();
-                    
+
                     RatioView.Activate();
                 }
                 if (DetailView != null && DetailView.Visible == true)
@@ -419,11 +420,11 @@ namespace MabiCooker2
                 else if (FavList.Count > 0) lbFavResult.BringToFront();
                 UpdateData(FavList, lbFavResult);
             }
-//          lbRankResult.Items.Clear();
+            //          lbRankResult.Items.Clear();
         }
         private void bPrintRatio_Click(object sender, EventArgs e)
         {
-            if(tcMainCtrl.SelectedIndex != -1)
+            if (tcMainCtrl.SelectedIndex != -1)
             {
                 if (RatioView == null)
                 {
@@ -543,8 +544,8 @@ namespace MabiCooker2
 			
             else
             {*/
-                System.Diagnostics.Process.Start("http://dehol.kr");
-                return;
+            System.Diagnostics.Process.Start("http://dehol.kr");
+            return;
             //}
         }
         private void MabiCooker_FormClosed(object sender, FormClosedEventArgs e)
@@ -584,7 +585,7 @@ namespace MabiCooker2
         }
         private void lbFavResult_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode == Keys.Delete)
+            if (e.KeyCode == Keys.Delete)
             {
                 DialogResult yesno = MessageBox.Show(Properties.Resources.MsgConfirm, Properties.Resources.StrNotice, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (yesno == DialogResult.Yes)
@@ -593,8 +594,8 @@ namespace MabiCooker2
                     int CookTemp = FavList[lbFavResult.SelectedIndex];
                     DeleteFavList(FavList[lbFavResult.SelectedIndex]);
                     UpdateData(FavList, lbFavResult);
-                    if(DetailView != null) DetailView.UpdateData(CookTemp, CookData[CookTemp]);
-                    if(RatioView != null) 
+                    if (DetailView != null) DetailView.UpdateData(CookTemp, CookData[CookTemp]);
+                    if (RatioView != null)
                     {
                         CookRatioView.SelectedCook = CookData[CookTemp];
                         CookRatioView.DataIndex = CookTemp;
@@ -607,8 +608,8 @@ namespace MabiCooker2
         private void MabiCooker_FormClosing(object sender, FormClosingEventArgs e)
         {
             Properties.Settings.Default.LastSelectPoint = new System.Drawing.Point(this.Location.X, this.Location.Y);
-            if(RatioView != null) Properties.Settings.Default.LastRatioPoint = new System.Drawing.Point(RatioView.Location.X, RatioView.Location.Y);
-            if(DetailView != null) Properties.Settings.Default.LastInfoPoint = new System.Drawing.Point(DetailView.Location.X, DetailView.Location.Y);
+            if (RatioView != null) Properties.Settings.Default.LastRatioPoint = new System.Drawing.Point(RatioView.Location.X, RatioView.Location.Y);
+            if (DetailView != null) Properties.Settings.Default.LastInfoPoint = new System.Drawing.Point(DetailView.Location.X, DetailView.Location.Y);
 
             Properties.Settings.Default.Save();
         }

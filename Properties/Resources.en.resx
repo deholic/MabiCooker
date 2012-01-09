@@ -159,6 +159,9 @@ Please check cook.dat, stuff.dat and favcook.dat exsists.</value>
   <data name="StrFavorite" xml:space="preserve">
     <value>Favorite</value>
   </data>
+  <data name="StrFavoriteRemove" xml:space="preserve">
+    <value>Remove Favorite</value>
+  </data>
   <data name="StrNotice" xml:space="preserve">
     <value>Notice</value>
   </data>

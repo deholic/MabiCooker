@@ -52,7 +52,7 @@
             // pbStuffOne
             // 
             resources.ApplyResources(this.pbStuffOne, "pbStuffOne");
-            this.pbStuffOne.BackColor = System.Drawing.Color.Yellow;
+            this.pbStuffOne.BackColor = System.Drawing.Color.Red;
             this.pbStuffOne.Name = "pbStuffOne";
             this.pbStuffOne.TabStop = false;
             this.pbStuffOne.Click += new System.EventHandler(this.pbStuffOne_Click);
@@ -62,7 +62,7 @@
             // pbStuffTwo
             // 
             resources.ApplyResources(this.pbStuffTwo, "pbStuffTwo");
-            this.pbStuffTwo.BackColor = System.Drawing.Color.Red;
+            this.pbStuffTwo.BackColor = System.Drawing.Color.Yellow;
             this.pbStuffTwo.Name = "pbStuffTwo";
             this.pbStuffTwo.TabStop = false;
             this.pbStuffTwo.Click += new System.EventHandler(this.pbStuffOne_Click);
@@ -72,7 +72,7 @@
             // pbStuffThree
             // 
             resources.ApplyResources(this.pbStuffThree, "pbStuffThree");
-            this.pbStuffThree.BackColor = System.Drawing.Color.Yellow;
+            this.pbStuffThree.BackColor = System.Drawing.Color.Lime;
             this.pbStuffThree.Name = "pbStuffThree";
             this.pbStuffThree.TabStop = false;
             this.pbStuffThree.Click += new System.EventHandler(this.pbStuffOne_Click);
@@ -82,7 +82,7 @@
             // lName
             // 
             resources.ApplyResources(this.lName, "lName");
-            this.lName.ForeColor = System.Drawing.Color.White;
+            this.lName.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lName.Name = "lName";
             this.lName.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseDown);
             this.lName.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseMove);
@@ -91,7 +91,7 @@
             // 
             resources.ApplyResources(this.lStuffs, "lStuffs");
             this.lStuffs.BackColor = System.Drawing.Color.Transparent;
-            this.lStuffs.ForeColor = System.Drawing.Color.Silver;
+            this.lStuffs.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.lStuffs.Name = "lStuffs";
             this.lStuffs.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseDown);
             this.lStuffs.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseMove);
@@ -100,7 +100,7 @@
             // 
             resources.ApplyResources(this.lRankName, "lRankName");
             this.lRankName.BackColor = System.Drawing.Color.Transparent;
-            this.lRankName.ForeColor = System.Drawing.Color.DimGray;
+            this.lRankName.ForeColor = System.Drawing.SystemColors.GrayText;
             this.lRankName.Name = "lRankName";
             this.lRankName.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseDown);
             this.lRankName.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseMove);
@@ -108,14 +108,14 @@
             // pictureBox1
             // 
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
             // lCloseRatio
             // 
             resources.ApplyResources(this.lCloseRatio, "lCloseRatio");
-            this.lCloseRatio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lCloseRatio.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lCloseRatio.ForeColor = System.Drawing.Color.White;
             this.lCloseRatio.Name = "lCloseRatio";
             this.lCloseRatio.Click += new System.EventHandler(this.lCloseRatio_Click);
@@ -123,7 +123,7 @@
             // lFavCheck
             // 
             resources.ApplyResources(this.lFavCheck, "lFavCheck");
-            this.lFavCheck.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lFavCheck.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lFavCheck.ForeColor = System.Drawing.Color.White;
             this.lFavCheck.Name = "lFavCheck";
             this.lFavCheck.Click += new System.EventHandler(this.lFavCheck_Click);
@@ -152,7 +152,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.SystemColors.ControlText;
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lRank);

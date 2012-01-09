@@ -60,6 +60,55 @@ namespace MabiCooker2.Properties {
             }
         }
         
+        public static System.Drawing.Bitmap back {
+            get {
+                object obj = ResourceManager.GetObject("back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap blank {
+            get {
+                object obj = ResourceManager.GetObject("blank", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap bookmark {
+            get {
+                object obj = ResourceManager.GetObject("bookmark", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap bookmark_remove {
+            get {
+                object obj = ResourceManager.GetObject("bookmark_remove", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap button_cancel {
+            get {
+                object obj = ResourceManager.GetObject("button_cancel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap chart {
+            get {
+                object obj = ResourceManager.GetObject("chart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap detail {
+            get {
+                object obj = ResourceManager.GetObject("detail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         /// <summary>
         ///   cook.dat に類似しているローカライズされた文字列を検索します。
         /// </summary>
@@ -96,10 +145,31 @@ namespace MabiCooker2.Properties {
             }
         }
         
-        public static System.Drawing.Icon Icon11 {
+        public static System.Drawing.Bitmap find {
             get {
-                object obj = ResourceManager.GetObject("Icon11", resourceCulture);
+                object obj = ResourceManager.GetObject("find", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon Icon1 {
+            get {
+                object obj = ResourceManager.GetObject("Icon1", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon Icon2 {
+            get {
+                object obj = ResourceManager.GetObject("Icon2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap list {
+            get {
+                object obj = ResourceManager.GetObject("list", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -184,6 +254,15 @@ namespace MabiCooker2.Properties {
         public static string StrFavorite {
             get {
                 return ResourceManager.GetString("StrFavorite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   즐겨찾기 삭제 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string StrFavoriteRemove {
+            get {
+                return ResourceManager.GetString("StrFavoriteRemove", resourceCulture);
             }
         }
         

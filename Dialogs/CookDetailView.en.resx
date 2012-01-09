@@ -112,172 +112,204 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lStuffThreePrice.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 15</value>
-  </data>
-  <data name="lStuffThreePrice.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lStuffThreePrice.ToolTip1" xml:space="preserve">
-    <value />
   </data>
   <data name="lStuffTwoPrice.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 15</value>
   </data>
-  <data name="lStuffTwoPrice.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lStuffTwoPrice.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
   <data name="lStuffOnePrice.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 15</value>
   </data>
-  <data name="lStuffOnePrice.ToolTip" xml:space="preserve">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lStuffThree.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
-  </data>
-  <data name="lStuffOnePrice.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lStuffThree.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
   </data>
   <data name="lStuffThree.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 15</value>
   </data>
-  <data name="lStuffThree.ToolTip" xml:space="preserve">
+  <data name="lStuffTwo.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
-  </data>
-  <data name="lStuffThree.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lStuffTwo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
   </data>
   <data name="lStuffTwo.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 15</value>
   </data>
-  <data name="lStuffTwo.ToolTip" xml:space="preserve">
+  <data name="lStuffOne.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
-  </data>
-  <data name="lStuffTwo.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lStuffOne.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
   </data>
   <data name="lStuffOne.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 15</value>
   </data>
-  <data name="lStuffOne.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lStuffOne.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lAlert.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="lAlert.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 15</value>
-  </data>
-  <data name="lAlert.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lAlert.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pAlertShowing.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pAlertShowing.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lCookName.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="lCookName.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lCookName.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pDisplayCookName.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pDisplayCookName.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lEffects.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lEffects.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pDisplayEffects.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pDisplayEffects.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lRank.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lRank.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pDisplayInfo.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pDisplayInfo.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="bDisplayRatio.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="bDisplayRatio.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="bClose.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lMessage.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="bClose.Text" xml:space="preserve">
-    <value>Close</value>
+  <data name="lMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
   </data>
-  <data name="bClose.ToolTip" xml:space="preserve">
-    <value />
+  <data name="pAlertShowing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 122</value>
   </data>
-  <data name="bClose.ToolTip1" xml:space="preserve">
-    <value />
+  <data name="pAlertShowing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 22</value>
   </data>
-  <data name="bModFav.ToolTip" xml:space="preserve">
-    <value />
+  <data name="lEffects.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8pt</value>
   </data>
-  <data name="bModFav.ToolTip1" xml:space="preserve">
-    <value />
+  <data name="bBack.Text" xml:space="preserve">
+    <value>Back</value>
   </data>
-  <data name="bNext.ToolTip" xml:space="preserve">
-    <value />
+  <data name="bDisplayRatio.Text" xml:space="preserve">
+    <value>Detail</value>
   </data>
-  <data name="bNext.ToolTip1" xml:space="preserve">
-    <value />
+  <data name="bModFav.Text" xml:space="preserve">
+    <value>Favorite</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAICAAAAEAIACoEAAANgAAABgYAAABACAAiAkAAN4QAAAQEAAAAQAgAGgEAABmGgAAKAAAACAA
+        AABAAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB6dGlhj35vj419
+        bY+NfG2PjXxtj418bY+NfGyPjXxsj417bI+Ne2yPjHtrj4x7a4+Me2uPjHprj4x6a4+MemqPjHpqj4x6
+        a4+MemuPkX5vj4x6a4+MemuPjHpqj4x6ao+MemuPjHprj5F+b4+QfW+PjXxtj418bY+OfW6PfnlvX5uL
+        fcLr5+b/4t7a/+Da1v/d1tL/29PO/9jQyv/Wzcf/1MrD/9LIwP/QxLz/zsK6/8y/tv/KvbT/yLux/8a4
+        rv/Gua//yLqx/8q9tP/Owbn/yr2z/8y/tv/Mv7f/z8G6/9XHwv/XycX/39DP/9rTz//d19L/39rX/+Lf
+        3f+nm4+9lIR1vefn6P/09PT/8fHx//Hx8f/y8vH/8vLx//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly
+        8v/z8/P/8vLy//Ly8v/y8vL/8vLy//Ly8v/z8/P/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly
+        8v/z8/P/7Ofr/6WWjLeUhHW97+/w//79/f/7+vr/+/r6//v6+v/7+vr/+/r6//v6+v/7+vr/+/r6//v6
+        +v/7+vr/////////////////////////////////////////////////////////////////////////
+        ///////////////////08/T/o5aKt5SEdb3v7vD//f39//Dw8f+xsLH/ycnJ/8fHxf+6u8b/amnf/5iV
+        6//6+vr/+vr6//r6+v//////////////////////////////////////////////////////////////
+        /////////////////////////////+zs7P+hk4i3lIR1ve/v8P/7+/r/8PDw/7+/v///////9fX0/+fo
+        7/9VUvv/bWn5//v7+v/7+/r/+/v6////////////////////////////////////////////////////
+        ////////////////////////////////////////7e3t/6GTiLeUhHW97+/w//7+/v/7+/v/v7+/////
+        ///5+ff/zMvz/3Fs/f93cvn/+/v7//v7+//7+/v/////////////////////////////////////////
+        ///////////////////////////////////////////////////t7e3/oZOIt5SEdb3w8PH///////z8
+        /P/Jycn//fz8////+/+IhvD/l5D//4aA+f/8/Pz//Pz8//z8/P/h4eH/zc3O/83Nzf/29vb/+fn5/83N
+        zf/MzM3/zMzN/83Nzf/Nzc3/zc3N/8zMzf/Nzc3/zc3N/83Nzf/g4OD//////+3t7f+hk4i3lIR1vfHx
+        8v///////f39/8zMzP/7+/v////8/4yJ8P+vp///l5H5//39/f/9/f3//f39/+jo6P/Z2dr/2dnZ//j4
+        +P/7+/v/2dnZ/9nZ2f/Z2dn/2dnZ/9nZ2f/Z2dn/2dnZ/9nZ2f/Z2dn/2dnZ/+jo6P//////7e3t/6GT
+        iLeUhHW98fHy///////9/f3/zczM//39/f//////kIvz/8C5/v+hmvn//f39//39/f/9/f3/////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///t7e3/o5aKt5SEdb3y8vP///////7+/v/r6ur/wsLC/8TExP+cmfX/nJjy/5uV9v/+/v7//v7+//7+
+        /v//////////////////////////////////////////////////////////////////////////////
+        /////////////+zs7P+hk4i3lIR1vfLy8/////////////////////////////7+/v/39/f//fz9////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////7e3t/6GTiLeUhHW98vLz////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////t7e3/oZOIt5SEdb3y8vP///////v7+//BwcL/0NDQ/9vc
+        3P/Ozcz/27qZ/+3Wv///////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////+3t7f+hk4i3lIR1vfLy8//+/v7/7u7u/7y8
+        vP//////9PX2/+bd1f/drXv/476X////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////7e3t/6GTiLeUhHW98vLz//39
+        /f//////w8PE///////19fb/49XH/+K9lP/nxaH/////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////t7e3/oZOIt5SE
+        db3y8vP////////////ExMT///////v8/f/guI7/8Na2/+rJpv//////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////+3t
+        7f+hk4i3lIR1vfLy8////////////8zMzP/6+vr/+/z9/+K9l//65sr/68yp/////////////////+Li
+        4v/Pz8//zs7O//b29v/5+fn/zs7O/87Ozv/Nzc7/zMzN/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzN/+Dg
+        4P//////7e3t/6GTiLeUhHW98vLz////////////zc3N//z8/P/9/v//5MGe///w2f/t0K//////////
+        ////////3t7f/8nJyv/Hx8j/9fX1//n5+f/Gxsf/xsbH/8XFxv/Fxcb/xcXG/8XFxv/Gxsf/x8fH/8fH
+        x//Hx8j/3Nzd///////t7e3/oZOIt5SEdb3y8vP////////////Ozs7/+vr5///////nxqP/8t3C/+vO
+        rf//////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////+3t7f+hk4i3lIR1vfLy8////////////+/v7//Q0M//zs7O/9LE
+        t//SwK3/6Mmp////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////7e3t/6GTiLeUhHW99PT1////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////u7u7/oZOIt5SFdr3o5+j/7u3s/+7t
+        7f/u7u3/7u7t/+/u7v/v7u7/7+/u//Dv7//w7+//8PDv//Hw8P/x8PD/8fHw//Hx8P/y8fH/8vHx//Ly
+        8f/z8vH/8/Ly//Pz8v/z8/P/9PPz//T08//09PP/9fT0//X09P/19fT/9vX1/+jo6P+hlIi3loZ3vdLS
+        0v/Mysr/zczL/87Nzf/Ozc3/z8/O/9HQ0P/R0dH/0tLS/9PT0v/U1NT/1tXV/9bW1v/X19f/2NjY/9nZ
+        2f/Z2dn/2tra/9va2v/c29v/29zc/9zd3f/d3d3/3t7e/93d3P/f3t7/39/f/+Dg4P/i4uH/29rb/6GU
+        iLeXiHi9xr65/7SooP+zp5//sqWe/7CknP+vo5n/rqGY/62gl/+snpX/q52U/6qckv+pmpH/qZmQ/6iZ
+        jv+ml47/ppiO/6iZj/+pmZD/qZqR/6qckv+rnZP/rJ6V/62fl/+toJf/s6eg/7Kmnv+zqKH/s6eg/7Sq
+        o//CubP/o5WJt5iIeMLl18//3MzB/9jHvP/Vwrb/0b6x/866rP/Ktqj/x7Kj/8Sunv/Bqpr/vqaW/7uj
+        kv+5oI//t52L/7SaiP+0moj/t52L/7mgjv+6opH/vKWU/7+omP/Bq5z/xK+g/8axo//i2dD/z7+y/+HW
+        zf/SwLT/3tLJ/8q3qf+klYm8enJlaol3ZpyHdWSbh3Vjm4d0Y5uGdGKbhnNim4ZzYZuFc2GbhXJgm4Vy
+        YJuFcWCbhHFfm4RxX5uEcV+bhHBem4RwXpuEcV+bhHFfm4RxX5uEcV+bhXJgm4VyYJuFcmCbhXNhm4Z0
+        Y5uGdGKbh3Rjm4d1Y5uHdWObiHZknH12amgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////ygA
+        AAAYAAAAMAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACRg3J+g3Rlu4FwYbiBcGC4gG9guH9vX7h/bl64f21euH9tXbh+bFy4fmtbuH1r
+        W7h9a1u4fmxbuIFvX7V+a1u4fWtbuH1rW7h+bFu4gW9ftYRvYrSBcGG4hHNkvJOEdXmRhHjb4uHg/+Lf
+        3v/g3dv/3tvZ/93Z1v/b19T/2tXS/9nT0P/X0s7/1tDM/93U0v/j2Nj/5NnZ/+fa3P/t3+P/6N7g/+ff
+        4//s4+j/6eLn//bk7//s4+j/6eLn/5WIftWOgXXa+Pj5//39/f/w8PD/8/T0//39/f/19fb//f7+//3+
+        /v/9/v7/////////////////////////////////////////////////////////////////+fr6/5WH
+        fNSPgXXa9/f4//v7+/++vr7/w8PD/7mxuf9vb8T/W1Xp//r6+v/6+vr/////////////////////////
+        ////////////////////////////////////////+fr6/5OHfNSPgXXa9/j5//v7+/+2trb/+Pj4//33
+        /f9jX/b/cW74//v7+//7+/v/////////////////////////////////////////////////////////
+        ////////+fr6/5OHfNSPgXXa+Pn5//39/P/Ew8T/+PP4//35/f99d/b/c273//z8+//8/Pv/4ODg/8rK
+        y//t7e7/7e3t/8fHyP/Ly8z/ysrL/8zMzP/MzM3/zs7O/87Oz//k5OT/+fr6/5OHfNSPgnXa+fr7//7+
+        /v/m3+b/1tDW//37/f+dlfn/lI35//39/f/9/f3/////////////////////////////////////////
+        ////////////////////////+fr6/5OHfNSPgnXa+vv7/////v/4+Pf/w8PD//79/v/Iwvv/n5f4//7+
+        /f/+/v3/////////////////////////////////////////////////////////////////+fr6/5WH
+        fNSPgnXa+/v8/////////v7/zs3N/6+urv/BwMD/yMvI///+/v///v7/////////////////////////
+        ////////////////////////////////////////+fr6/5OHfNSPgnXa+/z9///////9/f3/////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////+fr6/5OHfNSPgnXa+/z9//////+zs7T/w8PD/7ixuf+6nIL/w6WC////////////////////
+        ////////////////////////////////////////////////////////+fr6/5OHfNSPgnXa+/z9//7+
+        /v+4uLn/+Pj4//33/f/cuZP/4LZ/////////////////////////////////////////////////////
+        ////////////////////////+fr6/5OHfNSPgnXa+/z9//////++vL7/+PP4//35/f/hvpD/3bJ0////
+        ////////29vb/8XFxf/s7O3/7Ozs/8bGxv/Jycr/ycnK/8nJyv/Jycr/ycnK/8bGx//d3d3/+fr6/5OH
+        fNSPgnXa+/z9///////m3+b/1tDW//37/f/t0Kf/4ryC////////////////////////////////////
+        ////////////////////////////////////////+fr6/5OHfNSPgnXa+/z9///////4+Pf/w8PD//79
+        /v/14MH/5MGK////////////////////////////////////////////////////////////////////
+        ////////+fr6/5OHfNSPgnXa+/z9///////+/v7/0dHQ/8XFxP/Hx8f/yczH////////////////////
+        ////////////////////////////////////////////////////////+fr6/5OHfNSPgnXa+Pj5//z8
+        /P/7+/v//Pv7//z8+//8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//fz8//38/P/9/fz//f39//39
+        /f/9/f3//f39//39/f/+/v7/+Pj5/5OHfNSNgHTa3dXQ/9jOyP/Vy8T/0se//8/Du//NwLf/yryz/8i5
+        sP/Gtqz/w7Op/8Gwpv/Bsab/w7Op/8W2rP/HuK//yryz/8y/tv/Rxb3/2tHL/9nQyv/a0sz/3dbR/5KG
+        e9SUhHjb3dXQ/9jOyP/Vy8T/0se//8/Du//NwLf/yryz/8i5sP/Gtqz/w7Op/8Gwpv/Bsab/w7Op/8W2
+        rP/HuK//yryz/+zo5f/Rxb3/8u7s/9nQyv/y7+z/3dbR/5WHe9SrnY6gkoFy5o98beGNe2rhi3lp4Yl3
+        ZuGJdWXhh3Nj4YZxYOGGcWDhhG9d4YJuXOGCblzhhG9d4YRwX+GGcWDhhnJi4Yd0Y+GJd2bhj31u4Y58
+        beGOfW3hkoFy5q6gkpgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD///9BAAAAQQAAAEEAAABBAAAAQQAAAEEAAABBAAAAQQAAAEEAAABBAAAAQQAAAEEAAABBAAAAQQAA
+        AEEAAABBAAAAQQAAAEEAAABBAAAAQQAAAEH///9B////Qf///0EoAAAAEAAAACAAAAABACAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAKibkK2jlYvFoJKHxZ+QhMWdjYLFnIyAxZuJfsWbiX7FnoyBxZyM
+        gMWbiX7Fm4l+xZ6MgcWhkIfFqZeQxaWWiq2hlI3z+fn7//f3+P/39/f/9vb3//b29///////////////
+        //////////////////////////////////+topnqoJSM7v39/v9rasD/a2rA/6em2v/7+/v/////////
+        ////////////////////////////////////////rKGY6qCUjO7+/v7/h4Lo/4eC6P+1s/L//Pv7/8nJ
+        yv/Pz8//0dHR/9XV1v/V1db/1dXW/9XV1v/f39///////6yhmOqglIzu/////6ei7f+nou3/xsHy//39
+        /f////////////////////////////////////////////////+soZjqoZSM7v/////+/v7//v7+//7+
+        /v/+/v7/////////////////////////////////////////////////raKZ6qGUjO7/////////////
+        /////////////////////////////////////////////////////////////6yhmOqhlIzu/////9Or
+        hv/Tq4b/48ar//////////////////////////////////////////////////////+soZjqoZSM7v//
+        ///auJP/2riT/+PEp///////0dHS/87Oz//Ly8v/y8vM/8zMzP/MzM3/zc3N/9jY2P//////rKGY6qGU
+        jO7/////5ciq/+XIqv/oz7T//////////////////////////////////////////////////////6yh
+        mOqhlY3u/v7+////////////////////////////////////////////////////////////////////
+        //+soZjqm4+I7uHh4v/j4uL/5OTk/+Xl5f/m5+f/6Ofo/+np6f/q6ur/6+vr/+vs7P/s7Oz/7O3s/+3t
+        7f/w8fH/qJ6V6puLgfLSx77/zcC2/8i6r//EtKj/v6+j/7yqnf+5ppj/uaaZ/7yqnv+/rqP/w7On/83A
+        t//Sx7//183G/6WWi++hkoWYm4p+spiGerGWhHexlIJ0sZOAcrGSfnCxkHxusZB8brGRfnCxkn9ysZOB
+        c7GXhnmxmYh8sZyLgLKcjH6YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//rEEAAKxBAACsQQAArEEAAKxBAACsQQAArEEAAKxBAACsQQAA
+        rEEAAKxBAACsQQAArEEAAKxBAACsQf//rEE=
+</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Detail</value>
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="$this.ToolTip1" xml:space="preserve">
-    <value />
   </data>
 </root>

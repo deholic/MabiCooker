@@ -76,18 +76,18 @@
             // 
             // tpRank
             // 
-            resources.ApplyResources(this.tpRank, "tpRank");
             this.tpRank.BackColor = System.Drawing.SystemColors.Control;
             this.tpRank.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tpRank.Controls.Add(this.lbRankResult);
             this.tpRank.Controls.Add(this.cbRankSelector);
             this.tpRank.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.tpRank, "tpRank");
             this.tpRank.Name = "tpRank";
             // 
             // lbRankResult
             // 
-            resources.ApplyResources(this.lbRankResult, "lbRankResult");
             this.lbRankResult.FormattingEnabled = true;
+            resources.ApplyResources(this.lbRankResult, "lbRankResult");
             this.lbRankResult.Name = "lbRankResult";
             this.lbRankResult.SelectedIndexChanged += new System.EventHandler(this.lbRankResult_SelectedIndexChanged);
             this.lbRankResult.VisibleChanged += new System.EventHandler(this.lbRankResult_VisibleChanged);
@@ -118,7 +118,6 @@
             // 
             // tpSearch
             // 
-            resources.ApplyResources(this.tpSearch, "tpSearch");
             this.tpSearch.BackColor = System.Drawing.SystemColors.Control;
             this.tpSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tpSearch.Controls.Add(this.lPrevSearch_1);
@@ -130,6 +129,7 @@
             this.tpSearch.Controls.Add(this.bSearchStart);
             this.tpSearch.Controls.Add(this.tbSearchTerm);
             this.tpSearch.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.tpSearch, "tpSearch");
             this.tpSearch.Name = "tpSearch";
             // 
             // lPrevSearch_1
@@ -171,9 +171,9 @@
             // 
             // lbSearchResult
             // 
-            resources.ApplyResources(this.lbSearchResult, "lbSearchResult");
             this.lbSearchResult.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbSearchResult.FormattingEnabled = true;
+            resources.ApplyResources(this.lbSearchResult, "lbSearchResult");
             this.lbSearchResult.Name = "lbSearchResult";
             this.lbSearchResult.SelectedIndexChanged += new System.EventHandler(this.lbSearchResult_SelectedIndexChanged);
             this.lbSearchResult.VisibleChanged += new System.EventHandler(this.lbSearchResult_VisibleChanged);
@@ -181,9 +181,9 @@
             // 
             // bSearchStart
             // 
-            resources.ApplyResources(this.bSearchStart, "bSearchStart");
             this.bSearchStart.BackColor = System.Drawing.SystemColors.ControlLight;
             this.bSearchStart.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
+            resources.ApplyResources(this.bSearchStart, "bSearchStart");
             this.bSearchStart.ForeColor = System.Drawing.SystemColors.ControlText;
             this.bSearchStart.Name = "bSearchStart";
             this.bSearchStart.UseVisualStyleBackColor = false;
@@ -191,19 +191,19 @@
             // 
             // tbSearchTerm
             // 
-            resources.ApplyResources(this.tbSearchTerm, "tbSearchTerm");
             this.tbSearchTerm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.tbSearchTerm, "tbSearchTerm");
             this.tbSearchTerm.Name = "tbSearchTerm";
             this.tbSearchTerm.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbSearchTerm_KeyDown);
             // 
             // tpFav
             // 
-            resources.ApplyResources(this.tpFav, "tpFav");
             this.tpFav.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tpFav.Controls.Add(this.lNoneFav_1);
             this.tpFav.Controls.Add(this.lNoneFav_2);
             this.tpFav.Controls.Add(this.lbFavResult);
             this.tpFav.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.tpFav, "tpFav");
             this.tpFav.Name = "tpFav";
             // 
             // lNoneFav_1
@@ -222,10 +222,10 @@
             // 
             // lbFavResult
             // 
-            resources.ApplyResources(this.lbFavResult, "lbFavResult");
             this.lbFavResult.AllowDrop = true;
             this.lbFavResult.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbFavResult.FormattingEnabled = true;
+            resources.ApplyResources(this.lbFavResult, "lbFavResult");
             this.lbFavResult.Name = "lbFavResult";
             this.lbFavResult.SelectedIndexChanged += new System.EventHandler(this.lbFavResult_SelectedIndexChanged);
             this.lbFavResult.DoubleClick += new System.EventHandler(this.lbFavResult_DoubleClick);
@@ -246,8 +246,8 @@
             // 
             // lCopyright
             // 
-            resources.ApplyResources(this.lCopyright, "lCopyright");
             this.lCopyright.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            resources.ApplyResources(this.lCopyright, "lCopyright");
             this.lCopyright.Name = "lCopyright";
             this.lCopyright.TabStop = true;
             this.lCopyright.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lCopyrites_LinkClicked);
