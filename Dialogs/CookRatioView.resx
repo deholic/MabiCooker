@@ -117,340 +117,337 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;lName.Name" xml:space="preserve">
-    <value>lName</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lStuffs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 13</value>
-  </data>
-  <data name="&gt;&gt;lCloseRatio.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lStuffs.Name" xml:space="preserve">
-    <value>lStuffs</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
-    <value>pictureBox2</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pbStuffThree.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lRankName.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>CookRatioView</value>
-  </data>
-  <data name="pbStuffThree.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="lStuffs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 30</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lRank.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lRankName.Text" xml:space="preserve">
-    <value>혼합</value>
-  </data>
-  <data name="&gt;&gt;lFavCheck.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="pbStuffOne.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="lRankName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 12</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pbStuffOne.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+  <data name="pbStuffOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 8</value>
+  </data>
+  <data name="pbStuffOne.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pbStuffOne.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pbStuffOne.Name" xml:space="preserve">
+    <value>pbStuffOne</value>
+  </data>
+  <data name="&gt;&gt;pbStuffOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbStuffOne.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="lFavCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>18, 13</value>
+  <data name="&gt;&gt;pbStuffOne.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
-  <data name="&gt;&gt;lRank.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="pbStuffTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 0</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
-  </data>
-  <data name="lRank.Location" type="System.Drawing.Point, System.Drawing">
-    <value>194, 8</value>
+  <data name="pbStuffTwo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="pbStuffTwo.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 8</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="pbStuffTwo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
   </data>
-  <data name="&gt;&gt;lRank.Name" xml:space="preserve">
-    <value>lRank</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterParent</value>
-  </data>
-  <data name="lRank.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Trebuchet MS, 24pt, style=Bold, Italic</value>
-  </data>
-  <data name="lRank.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="lRankName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 13</value>
+  <data name="pbStuffTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;pbStuffTwo.Name" xml:space="preserve">
     <value>pbStuffTwo</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;pbStuffTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tiRatioView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lFavCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 30</value>
-  </data>
-  <data name="&gt;&gt;lName.Parent" xml:space="preserve">
+  <data name="&gt;&gt;pbStuffTwo.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pbStuffTwo.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="pbStuffOne.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="pbStuffThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 0</value>
+  </data>
+  <data name="pbStuffThree.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="&gt;&gt;lStuffs.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="pbStuffThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 8</value>
   </data>
-  <data name="lRankName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="lFavCheck.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 8</value>
-  </data>
-  <data name="&gt;&gt;pbStuffThree.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lRankName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lRank.Text" xml:space="preserve">
-    <value>P</value>
-  </data>
-  <data name="lName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 13</value>
-  </data>
-  <data name="pbStuffOne.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="pbStuffThree.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="lFavCheck.Text" xml:space="preserve">
-    <value>☆</value>
+  <data name="pbStuffThree.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;lStuffs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;pbStuffThree.Name" xml:space="preserve">
+    <value>pbStuffThree</value>
   </data>
-  <data name="&gt;&gt;lRankName.Name" xml:space="preserve">
-    <value>lRankName</value>
-  </data>
-  <data name="&gt;&gt;lName.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="lFavCheck.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="lName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;pbStuffOne.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 8pt</value>
-  </data>
-  <data name="lRankName.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 8.25pt, style=Bold</value>
-  </data>
-  <data name="lRankName.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lCloseRatio.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lFavCheck.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lCloseRatio.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lCloseRatio.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 40</value>
-  </data>
-  <data name="&gt;&gt;lCloseRatio.Name" xml:space="preserve">
-    <value>lCloseRatio</value>
-  </data>
-  <data name="lName.Text" xml:space="preserve">
-    <value>Cook name</value>
-  </data>
-  <data name="pbStuffOne.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 8</value>
-  </data>
-  <data name="lRank.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="&gt;&gt;pbStuffOne.Name" xml:space="preserve">
-    <value>pbStuffOne</value>
-  </data>
-  <data name="&gt;&gt;lRank.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lStuffs.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lStuffs.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;tiRatioView.Name" xml:space="preserve">
-    <value>tiRatioView</value>
-  </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 8</value>
-  </data>
-  <data name="&gt;&gt;lFavCheck.Name" xml:space="preserve">
-    <value>lFavCheck</value>
-  </data>
-  <data name="&gt;&gt;pbStuffTwo.Type" xml:space="preserve">
+  <data name="&gt;&gt;pbStuffThree.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pbStuffThree.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="lCloseRatio.Text" xml:space="preserve">
-    <value>x</value>
-  </data>
-  <data name="lStuffs.Text" xml:space="preserve">
-    <value>Stuffs</value>
-  </data>
-  <data name="pbStuffTwo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="lRankName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="pbStuffOne.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>비율 보기</value>
-  </data>
   <data name="&gt;&gt;pbStuffThree.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;lFavCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbStuffOne.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="pbStuffThree.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 8</value>
-  </data>
-  <data name="lName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>64, 12</value>
-  </data>
-  <data name="&gt;&gt;lRankName.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="pbStuffThree.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lCloseRatio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>12, 13</value>
-  </data>
-  <data name="&gt;&gt;pbStuffTwo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lRank.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 40</value>
+  <data name="lName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="lName.Font" type="System.Drawing.Font, System.Drawing">
     <value>Malgun Gothic, 8.25pt, style=Bold</value>
   </data>
+  <data name="lName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 12</value>
+  </data>
+  <data name="lName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
   <data name="lName.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="pbStuffTwo.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="lName.Text" xml:space="preserve">
+    <value>Cook name</value>
   </data>
-  <data name="lCloseRatio.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="&gt;&gt;lName.Name" xml:space="preserve">
+    <value>lName</value>
   </data>
-  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 40</value>
+  <data name="&gt;&gt;lName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="pbStuffThree.Location" type="System.Drawing.Point, System.Drawing">
-    <value>154, 0</value>
+  <data name="&gt;&gt;lName.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;pbStuffOne.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lName.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lStuffs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lStuffs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 30</value>
+  </data>
+  <data name="lStuffs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="lStuffs.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lStuffs.Text" xml:space="preserve">
+    <value>Stuffs</value>
+  </data>
+  <data name="&gt;&gt;lStuffs.Name" xml:space="preserve">
+    <value>lStuffs</value>
+  </data>
+  <data name="&gt;&gt;lStuffs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lStuffs.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lStuffs.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="lRankName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lRankName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lRankName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 12</value>
+  </data>
+  <data name="lRankName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="lRankName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lRankName.Text" xml:space="preserve">
+    <value>혼합</value>
+  </data>
+  <data name="lRankName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lRankName.Name" xml:space="preserve">
+    <value>lRankName</value>
+  </data>
+  <data name="&gt;&gt;lRankName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lRankName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lRankName.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 40</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lCloseRatio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="lCloseRatio.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 11</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>230, 48</value>
+  <data name="lCloseRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 13</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lCloseRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lCloseRatio.Text" xml:space="preserve">
+    <value>x</value>
   </data>
-  <data name="pbStuffTwo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 0</value>
+  <data name="&gt;&gt;lCloseRatio.Name" xml:space="preserve">
+    <value>lCloseRatio</value>
   </data>
-  <data name="&gt;&gt;pbStuffThree.Name" xml:space="preserve">
-    <value>pbStuffThree</value>
+  <data name="&gt;&gt;lCloseRatio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="pbStuffTwo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="&gt;&gt;lCloseRatio.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lCloseRatio.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lFavCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lFavCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="lFavCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 13</value>
+  </data>
+  <data name="lFavCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lFavCheck.Text" xml:space="preserve">
+    <value>☆</value>
+  </data>
+  <data name="&gt;&gt;lFavCheck.Name" xml:space="preserve">
+    <value>lFavCheck</value>
+  </data>
+  <data name="&gt;&gt;lFavCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lFavCheck.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lFavCheck.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="lRank.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>ja</value>
-  </metadata>
+  <data name="lRank.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24pt, style=Bold, Italic</value>
+  </data>
+  <data name="lRank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 8</value>
+  </data>
+  <data name="lRank.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lRank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 40</value>
+  </data>
+  <data name="lRank.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lRank.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="&gt;&gt;lRank.Name" xml:space="preserve">
+    <value>lRank</value>
+  </data>
+  <data name="&gt;&gt;lRank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lRank.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lRank.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 8</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 40</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="tiRatioView.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>230, 48</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 8pt</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>비율 보기</value>
+  </data>
+  <data name="&gt;&gt;tiRatioView.Name" xml:space="preserve">
+    <value>tiRatioView</value>
+  </data>
+  <data name="&gt;&gt;tiRatioView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CookRatioView</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

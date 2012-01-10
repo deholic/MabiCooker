@@ -23,6 +23,9 @@ namespace MabiCooker2
 		private MabiCooker MainWindow;
 
         private int initial_height;
+        private int default_opacity = 50;
+        private int hoverd_opacity = 75;
+        private int fade_sleep_length = 5;
 		
 		public CookRatioView(MabiCooker Main, ListBox FavView)
 		{
@@ -83,14 +86,17 @@ namespace MabiCooker2
 		{
 			this.Visible = true;
 		}
-		private void MabiCooker_RatioView_MouseDown(object sender, MouseEventArgs e)
+
+        #region Event Handler
+        private void MabiCooker_RatioView_MouseDown(object sender, MouseEventArgs e)
 		{
-            this.Opacity = 0.75;
+            this.Opacity = (double)hoverd_opacity/100;
             mousePoint = new Point(e.X, e.Y);
 		}
 		private void MabiCooker_RatioView_MouseMove(object sender, MouseEventArgs e)
 		{
-			if ((e.Button & MouseButtons.Left) == MouseButtons.Left)
+            this.Opacity = (double)hoverd_opacity / 100;
+            if ((e.Button & MouseButtons.Left) == MouseButtons.Left)
 			{
 				Location = new Point(this.Left - (mousePoint.X - e.X),
 					this.Top - (mousePoint.Y - e.Y));
@@ -163,22 +169,52 @@ namespace MabiCooker2
 				this.Height = initial_height;
 			}
 		}
+        #endregion
+        private void CookRatioView_Fade(object sender, EventArgs e)
+        {
+            if (this.Opacity >= default_opacity)
+            {
+                // Fade out
+                for (double i = this.Opacity; i <= hoverd_opacity; i++)
+                {
+                    this.Opacity = i;
+                    System.Threading.Thread.Sleep(fade_sleep_length);
+                }
+            }
+            else if (this.Opacity <= hoverd_opacity)
+            {
+                // Fade in
+                for (double i = this.Opacity; i <= hoverd_opacity; i++)
+                {
+                    this.Opacity = i;
+                    System.Threading.Thread.Sleep(fade_sleep_length);
+                }
+            }
+        }
         private void CookRatioView_active(object sender, EventArgs e)
         {
+            int initial_opacity = (int)this.Opacity * 100;
             // Fade in
-            for (int i = 50; i <= 75; i++)
+            if (initial_opacity != default_opacity)
             {
-                this.Opacity = 0.01 * i;
-                System.Threading.Thread.Sleep(5);
+                for (int i = default_opacity; i <= hoverd_opacity; i++)
+                {
+                    this.Opacity = (double)i / 100;
+                    System.Threading.Thread.Sleep(fade_sleep_length);
+                }
             }
         }
         private void CookRatioView_deactive(object sender, EventArgs e)
         {
+            int initial_opacity = (int)this.Opacity * 100;
             // Fade out
-            for (int i = 75; i >= 50; i--)
+            if (initial_opacity != hoverd_opacity)
             {
-                this.Opacity = 0.01 * i;
-                System.Threading.Thread.Sleep(5);
+                for (int i = hoverd_opacity; i >= default_opacity; i--)
+                {
+                    this.Opacity = (double)i / 100;
+                    System.Threading.Thread.Sleep(fade_sleep_length);
+                }
             }
         }
 	}

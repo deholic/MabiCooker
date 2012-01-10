@@ -51,8 +51,8 @@
             // 
             // pbStuffOne
             // 
-            resources.ApplyResources(this.pbStuffOne, "pbStuffOne");
             this.pbStuffOne.BackColor = System.Drawing.Color.Red;
+            resources.ApplyResources(this.pbStuffOne, "pbStuffOne");
             this.pbStuffOne.Name = "pbStuffOne";
             this.pbStuffOne.TabStop = false;
             this.pbStuffOne.Click += new System.EventHandler(this.pbStuffOne_Click);
@@ -61,8 +61,8 @@
             // 
             // pbStuffTwo
             // 
-            resources.ApplyResources(this.pbStuffTwo, "pbStuffTwo");
             this.pbStuffTwo.BackColor = System.Drawing.Color.Yellow;
+            resources.ApplyResources(this.pbStuffTwo, "pbStuffTwo");
             this.pbStuffTwo.Name = "pbStuffTwo";
             this.pbStuffTwo.TabStop = false;
             this.pbStuffTwo.Click += new System.EventHandler(this.pbStuffOne_Click);
@@ -71,8 +71,8 @@
             // 
             // pbStuffThree
             // 
-            resources.ApplyResources(this.pbStuffThree, "pbStuffThree");
             this.pbStuffThree.BackColor = System.Drawing.Color.Lime;
+            resources.ApplyResources(this.pbStuffThree, "pbStuffThree");
             this.pbStuffThree.Name = "pbStuffThree";
             this.pbStuffThree.TabStop = false;
             this.pbStuffThree.Click += new System.EventHandler(this.pbStuffOne_Click);
@@ -82,6 +82,7 @@
             // lName
             // 
             resources.ApplyResources(this.lName, "lName");
+            this.lName.CausesValidation = false;
             this.lName.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lName.Name = "lName";
             this.lName.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseDown);
@@ -91,6 +92,7 @@
             // 
             resources.ApplyResources(this.lStuffs, "lStuffs");
             this.lStuffs.BackColor = System.Drawing.Color.Transparent;
+            this.lStuffs.CausesValidation = false;
             this.lStuffs.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.lStuffs.Name = "lStuffs";
             this.lStuffs.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseDown);
@@ -100,6 +102,7 @@
             // 
             resources.ApplyResources(this.lRankName, "lRankName");
             this.lRankName.BackColor = System.Drawing.Color.Transparent;
+            this.lRankName.CausesValidation = false;
             this.lRankName.ForeColor = System.Drawing.SystemColors.GrayText;
             this.lRankName.Name = "lRankName";
             this.lRankName.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseDown);
@@ -107,8 +110,8 @@
             // 
             // pictureBox1
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
@@ -116,6 +119,7 @@
             // 
             resources.ApplyResources(this.lCloseRatio, "lCloseRatio");
             this.lCloseRatio.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lCloseRatio.CausesValidation = false;
             this.lCloseRatio.ForeColor = System.Drawing.Color.White;
             this.lCloseRatio.Name = "lCloseRatio";
             this.lCloseRatio.Click += new System.EventHandler(this.lCloseRatio_Click);
@@ -124,6 +128,7 @@
             // 
             resources.ApplyResources(this.lFavCheck, "lFavCheck");
             this.lFavCheck.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lFavCheck.CausesValidation = false;
             this.lFavCheck.ForeColor = System.Drawing.Color.White;
             this.lFavCheck.Name = "lFavCheck";
             this.lFavCheck.Click += new System.EventHandler(this.lFavCheck_Click);
@@ -132,7 +137,8 @@
             // 
             resources.ApplyResources(this.lRank, "lRank");
             this.lRank.BackColor = System.Drawing.Color.Transparent;
-            this.lRank.ForeColor = System.Drawing.Color.Transparent;
+            this.lRank.CausesValidation = false;
+            this.lRank.ForeColor = System.Drawing.Color.White;
             this.lRank.Name = "lRank";
             this.lRank.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseDown);
             this.lRank.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseMove);
@@ -150,9 +156,9 @@
             // 
             // CookRatioView
             // 
-            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this, "$this");
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lRank);
@@ -167,6 +173,7 @@
             this.Controls.Add(this.lRankName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "CookRatioView";
             this.Opacity = 0.5D;
             this.ShowIcon = false;
@@ -178,7 +185,6 @@
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CookRatioView_KeyDown);
             this.Leave += new System.EventHandler(this.CookRatioView_deactive);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseDown);
-            this.MouseEnter += new System.EventHandler(this.CookRatioView_active);
             this.MouseLeave += new System.EventHandler(this.CookRatioView_deactive);
             this.MouseHover += new System.EventHandler(this.CookRatioView_active);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseMove);
