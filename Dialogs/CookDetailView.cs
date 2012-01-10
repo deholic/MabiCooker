@@ -99,11 +99,21 @@ namespace MabiCooker2
                     lStuffOne.Text = CookInfo.stuffs[0].sName;
                     CheckStuff(CookInfo.stuffs[0], lStuffOne, lStuffOnePrice);
                 }
+                else
+                {
+                    lStuffOne.Text = "Unknown Error";
+                }
+
                 if (CookInfo.stuffs[1] != null)
                 {
                     CheckStuff(CookInfo.stuffs[1], lStuffTwo, lStuffTwoPrice);
                     lStuffTwo.Text = CookInfo.stuffs[1].sName;
                 }
+                else
+                {
+                    lStuffTwo.Text = "Unknown Error";
+                }
+
 				if ((CookInfo.cook.getRatio())[0] == 230)
 				{
 					this.Text += Properties.Resources.StrCannotCook;

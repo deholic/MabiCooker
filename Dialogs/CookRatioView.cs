@@ -217,5 +217,18 @@ namespace MabiCooker2
                 }
             }
         }
+
+        private void RatioView_Hover_Stuff1(object sender, EventArgs e)
+        {
+
+        }
+        private void RatioView_Hover_Stuff2(object sender, EventArgs e)
+        {
+
+        }
+        private void RatioView_Hover_Stuff3(object sender, EventArgs e)
+        {
+
+        }
 	}
 }

@@ -42,6 +42,7 @@
             this.lRank = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tiRatioView = new System.Windows.Forms.Timer(this.components);
+            this.DetailTooltip = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pbStuffOne)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbStuffTwo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbStuffThree)).BeginInit();
@@ -57,6 +58,7 @@
             this.pbStuffOne.TabStop = false;
             this.pbStuffOne.Click += new System.EventHandler(this.pbStuffOne_Click);
             this.pbStuffOne.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseDown);
+            this.pbStuffOne.MouseHover += new System.EventHandler(this.RatioView_Hover_Stuff1);
             this.pbStuffOne.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseMove);
             // 
             // pbStuffTwo
@@ -67,6 +69,7 @@
             this.pbStuffTwo.TabStop = false;
             this.pbStuffTwo.Click += new System.EventHandler(this.pbStuffOne_Click);
             this.pbStuffTwo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseDown);
+            this.pbStuffTwo.MouseHover += new System.EventHandler(this.RatioView_Hover_Stuff2);
             this.pbStuffTwo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseMove);
             // 
             // pbStuffThree
@@ -77,6 +80,7 @@
             this.pbStuffThree.TabStop = false;
             this.pbStuffThree.Click += new System.EventHandler(this.pbStuffOne_Click);
             this.pbStuffThree.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseDown);
+            this.pbStuffThree.MouseHover += new System.EventHandler(this.RatioView_Hover_Stuff3);
             this.pbStuffThree.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseMove);
             // 
             // lName
@@ -212,5 +216,6 @@
         private System.Windows.Forms.Label lRank;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Timer tiRatioView;
+        private System.Windows.Forms.ToolTip DetailTooltip;
     }
 }
