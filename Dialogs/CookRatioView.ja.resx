@@ -122,13 +122,13 @@
     <value>Meiryo UI, 8.25pt, style=Bold</value>
   </data>
   <data name="lName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>69, 12</value>
+    <value>67, 11</value>
   </data>
   <data name="lName.Size" type="System.Drawing.Size, System.Drawing">
     <value>72, 14</value>
   </data>
   <data name="lStuffs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 31</value>
+    <value>27, 31</value>
   </data>
   <data name="lStuffs.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 14</value>
@@ -142,19 +142,10 @@
   <data name="lRankName.Text" xml:space="preserve">
     <value>ランク</value>
   </data>
-  <data name="lCloseRatio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>13, 14</value>
-  </data>
-  <data name="lFavCheck.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 9pt</value>
-  </data>
-  <data name="lFavCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>19, 15</value>
-  </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 8pt</value>
+    <value>Meiryo UI, 8.25pt</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>材料の割合</value>
+    <value>比率画面</value>
   </data>
 </root>

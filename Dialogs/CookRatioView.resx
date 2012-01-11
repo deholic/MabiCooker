@@ -208,7 +208,7 @@
     <value>Malgun Gothic, 8.25pt, style=Bold</value>
   </data>
   <data name="lName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 12</value>
+    <value>62, 11</value>
   </data>
   <data name="lName.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 13</value>
@@ -265,7 +265,7 @@
     <value>Malgun Gothic, 8.25pt, style=Bold</value>
   </data>
   <data name="lRankName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 12</value>
+    <value>27, 11</value>
   </data>
   <data name="lRankName.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 13</value>
@@ -295,7 +295,7 @@
     <value>0, 8</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 40</value>
+    <value>16, 40</value>
   </data>
   <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -311,60 +311,6 @@
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="lCloseRatio.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lCloseRatio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 11</value>
-  </data>
-  <data name="lCloseRatio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>12, 13</value>
-  </data>
-  <data name="lCloseRatio.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lCloseRatio.Text" xml:space="preserve">
-    <value>x</value>
-  </data>
-  <data name="&gt;&gt;lCloseRatio.Name" xml:space="preserve">
-    <value>lCloseRatio</value>
-  </data>
-  <data name="&gt;&gt;lCloseRatio.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lCloseRatio.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lCloseRatio.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lFavCheck.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lFavCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 30</value>
-  </data>
-  <data name="lFavCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>18, 13</value>
-  </data>
-  <data name="lFavCheck.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="lFavCheck.Text" xml:space="preserve">
-    <value>☆</value>
-  </data>
-  <data name="&gt;&gt;lFavCheck.Name" xml:space="preserve">
-    <value>lFavCheck</value>
-  </data>
-  <data name="&gt;&gt;lFavCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lFavCheck.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lFavCheck.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="lRank.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -397,7 +343,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lRank.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 8</value>
@@ -418,14 +364,68 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <metadata name="tiRatioView.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="DetailTooltip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>136, 17</value>
-  </metadata>
+  <data name="lCloseRatio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lCloseRatio.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lCloseRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 11</value>
+  </data>
+  <data name="lCloseRatio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lCloseRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="lCloseRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lCloseRatio.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="&gt;&gt;lCloseRatio.Name" xml:space="preserve">
+    <value>lCloseRatio</value>
+  </data>
+  <data name="&gt;&gt;lCloseRatio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lCloseRatio.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lCloseRatio.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lFavCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <data name="lFavCheck.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lFavCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="lFavCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lFavCheck.Name" xml:space="preserve">
+    <value>lFavCheck</value>
+  </data>
+  <data name="&gt;&gt;lFavCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lFavCheck.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lFavCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -433,7 +433,7 @@
     <value>230, 48</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 8pt</value>
+    <value>Malgun Gothic, 8.25pt</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterParent</value>
@@ -446,12 +446,6 @@
   </data>
   <data name="&gt;&gt;tiRatioView.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DetailTooltip.Name" xml:space="preserve">
-    <value>DetailTooltip</value>
-  </data>
-  <data name="&gt;&gt;DetailTooltip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>CookRatioView</value>

@@ -60,30 +60,16 @@ namespace MabiCooker2.Properties {
             }
         }
         
-        public static System.Drawing.Bitmap back {
+        public static System.Drawing.Bitmap Back {
             get {
-                object obj = ResourceManager.GetObject("back", resourceCulture);
+                object obj = ResourceManager.GetObject("Back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        public static System.Drawing.Bitmap blank {
+        public static System.Drawing.Bitmap Blank {
             get {
-                object obj = ResourceManager.GetObject("blank", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        public static System.Drawing.Bitmap bookmark {
-            get {
-                object obj = ResourceManager.GetObject("bookmark", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        public static System.Drawing.Bitmap bookmark_remove {
-            get {
-                object obj = ResourceManager.GetObject("bookmark_remove", resourceCulture);
+                object obj = ResourceManager.GetObject("Blank", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -95,16 +81,51 @@ namespace MabiCooker2.Properties {
             }
         }
         
-        public static System.Drawing.Bitmap chart {
+        public static System.Drawing.Bitmap Close {
             get {
-                object obj = ResourceManager.GetObject("chart", resourceCulture);
+                object obj = ResourceManager.GetObject("Close", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        public static System.Drawing.Bitmap detail {
+        public static System.Drawing.Bitmap Close_hover {
             get {
-                object obj = ResourceManager.GetObject("detail", resourceCulture);
+                object obj = ResourceManager.GetObject("Close_hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Detail {
+            get {
+                object obj = ResourceManager.GetObject("Detail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Favorite {
+            get {
+                object obj = ResourceManager.GetObject("Favorite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Favorite_hover {
+            get {
+                object obj = ResourceManager.GetObject("Favorite_hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap FavoriteRemove {
+            get {
+                object obj = ResourceManager.GetObject("FavoriteRemove", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap FavoriteRemove_hover {
+            get {
+                object obj = ResourceManager.GetObject("FavoriteRemove_hover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -142,13 +163,6 @@ namespace MabiCooker2.Properties {
         public static string FileStuffData {
             get {
                 return ResourceManager.GetString("FileStuffData", resourceCulture);
-            }
-        }
-        
-        public static System.Drawing.Bitmap find {
-            get {
-                object obj = ResourceManager.GetObject("find", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -221,6 +235,20 @@ namespace MabiCooker2.Properties {
             }
         }
         
+        public static System.Drawing.Bitmap Ratio {
+            get {
+                object obj = ResourceManager.GetObject("Ratio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Search {
+            get {
+                object obj = ResourceManager.GetObject("Search", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         /// <summary>
         ///   이전 요리 보기 に類似しているローカライズされた文字列を検索します。
         /// </summary>
@@ -236,6 +264,15 @@ namespace MabiCooker2.Properties {
         public static string StrCannotCook {
             get {
                 return ResourceManager.GetString("StrCannotCook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   닫기 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string StrClose {
+            get {
+                return ResourceManager.GetString("StrClose", resourceCulture);
             }
         }
         
@@ -281,24 +318,6 @@ namespace MabiCooker2.Properties {
         public static string StrWarning {
             get {
                 return ResourceManager.GetString("StrWarning", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   ☆ に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        public static string SymbolAddFavorite {
-            get {
-                return ResourceManager.GetString("SymbolAddFavorite", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   ★ に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        public static string SymbolFavorite {
-            get {
-                return ResourceManager.GetString("SymbolFavorite", resourceCulture);
             }
         }
     }

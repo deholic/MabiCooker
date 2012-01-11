@@ -194,7 +194,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
-    <Folder Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
@@ -206,6 +205,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\sm_close.png" />
+    <None Include="Resources\sm_bookmark_remove.png" />
+    <None Include="Resources\sm_bookmark.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\bookmark_hover.png" />
+    <None Include="Resources\bookmark_remove_hover.png" />
+    <None Include="Resources\close_hover.png" />
     <Content Include="Resources\Icon1.ico" />
     <None Include="Resources\Icon2.ico" />
     <None Include="Resources\back.png" />

@@ -122,13 +122,10 @@
     <value>Segoe UI, 8.25pt, style=Bold</value>
   </data>
   <data name="lName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>68, 12</value>
+    <value>66, 11</value>
   </data>
   <data name="lName.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 13</value>
-  </data>
-  <data name="lStuffs.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 8.25pt</value>
   </data>
   <data name="lStuffs.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 13</value>
@@ -142,19 +139,10 @@
   <data name="lRankName.Text" xml:space="preserve">
     <value>Rank</value>
   </data>
-  <data name="lCloseRatio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>12, 15</value>
-  </data>
-  <data name="lFavCheck.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="lRank.Location" type="System.Drawing.Point, System.Drawing">
-    <value>190, 11</value>
-  </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
+    <value>Segoe UI, 8.25pt</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>View Ratio</value>
+    <value>Ratio Window</value>
   </data>
 </root>

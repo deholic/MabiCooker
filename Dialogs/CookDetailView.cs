@@ -131,12 +131,7 @@ namespace MabiCooker2
 					lStuffThreePrice.Visible = false;
 				}
 
-                if (MainWindow.FavList.Contains(CookInfo.cIndex))
-                {
-                    bModFav.Image = MabiCooker2.Properties.Resources.bookmark_remove;
-                }else{
-                    bModFav.Image = MabiCooker2.Properties.Resources.bookmark;
-                }
+                bModFav_Icon();
 				lEffects.Text = CookInfo.cook.getEffect();
 				var RankId = CookInfo.cook.getRank();
 
@@ -222,7 +217,6 @@ namespace MabiCooker2
 				if (MabiCooker.RatioView != null) MabiCooker.RatioView.UpdateData();
                 pAlertShowing.BackColor = SystemColors.InactiveCaption;
 				lMessage.Text = Properties.Resources.MsgFavoriteRemove;
-                bModFav.Image = MabiCooker2.Properties.Resources.bookmark;
 				tiCheckAlert.Enabled = true;
 			}
 			else
@@ -232,9 +226,9 @@ namespace MabiCooker2
 				if (MabiCooker.RatioView != null) MabiCooker.RatioView.UpdateData();
 				pAlertShowing.BackColor = SystemColors.ActiveCaption;
 				lMessage.Text = Properties.Resources.MsgFavoriteAdd;
-                bModFav.Image = MabiCooker2.Properties.Resources.bookmark_remove;
 				tiCheckAlert.Enabled = true;
 			}
+            bModFav_Icon();
 		}
         private void lStuffOne_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -334,6 +328,18 @@ namespace MabiCooker2
 			if (bBack.Enabled == true && tiCheckAlert.Enabled == false) lMessage.Text = Properties.Resources.StrBack;
 		}
 		#endregion
-
+        private void bModFav_Icon()
+        {
+            if (MainWindow.FavList.Contains(CookInfo.cIndex) == true)
+            {
+                bModFav.Image = Properties.Resources.FavoriteRemove;
+                bModFav.Text = Properties.Resources.StrFavoriteRemove;
+            }
+            else
+            {
+                bModFav.Image = Properties.Resources.Favorite;
+                bModFav.Text = Properties.Resources.StrFavorite;
+            }
+        }
 	}
 }

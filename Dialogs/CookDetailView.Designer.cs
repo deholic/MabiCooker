@@ -127,7 +127,7 @@
             // 
             // lPicture
             // 
-            this.lPicture.ErrorImage = global::MabiCooker2.Properties.Resources.blank;
+            this.lPicture.InitialImage = global::MabiCooker2.Properties.Resources.Blank;
             resources.ApplyResources(this.lPicture, "lPicture");
             this.lPicture.Name = "lPicture";
             this.lPicture.TabStop = false;
@@ -163,7 +163,7 @@
             // bBack
             // 
             this.bBack.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bBack.Image = global::MabiCooker2.Properties.Resources.back;
+            this.bBack.Image = global::MabiCooker2.Properties.Resources.Back;
             resources.ApplyResources(this.bBack, "bBack");
             this.bBack.Name = "bBack";
             this.bBack.Click += new System.EventHandler(this.bBack_Click);
@@ -178,7 +178,7 @@
             // bDisplayRatio
             // 
             this.bDisplayRatio.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bDisplayRatio.Image = global::MabiCooker2.Properties.Resources.chart;
+            this.bDisplayRatio.Image = global::MabiCooker2.Properties.Resources.Ratio;
             resources.ApplyResources(this.bDisplayRatio, "bDisplayRatio");
             this.bDisplayRatio.Name = "bDisplayRatio";
             this.bDisplayRatio.Click += new System.EventHandler(this.bDisplayRatio_Click);
@@ -188,7 +188,7 @@
             // bModFav
             // 
             this.bModFav.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bModFav.Image = global::MabiCooker2.Properties.Resources.bookmark;
+            this.bModFav.Image = global::MabiCooker2.Properties.Resources.Favorite;
             resources.ApplyResources(this.bModFav, "bModFav");
             this.bModFav.Name = "bModFav";
             this.bModFav.Click += new System.EventHandler(this.bModFav_Click);

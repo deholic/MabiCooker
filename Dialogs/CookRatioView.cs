@@ -26,7 +26,11 @@ namespace MabiCooker2
         private int default_opacity = 50;
         private int hoverd_opacity = 75;
         private int fade_sleep_length = 5;
-		
+
+        private int bar_width = 230;
+
+        private ToolTip tooltip = new ToolTip();
+
 		public CookRatioView(MabiCooker Main, ListBox FavView)
 		{
 			InitializeComponent();
@@ -40,6 +44,7 @@ namespace MabiCooker2
 			this.FavListView = FavView;
 			this.MainWindow = Main;
             initial_height = this.Size.Height;
+            tooltip.SetToolTip(lCloseRatio, Properties.Resources.StrClose);
 		}
 		public void UpdateData()
 		{
@@ -50,6 +55,7 @@ namespace MabiCooker2
 				int RankId = SelectedCook.getRank();
 				//Type def = typeof(Cook.RankName);
 				// lStuffs.Location = new Point(lName.Location.X + lName.Width + 5, 15);
+                
 				lStuffs.Text = SelectedCook.getStuffForString();
 				//lRankName.Text = Enum.GetName(def, Cook.checkRank(SelectedCook.getRank()));
 				lRankName.Text = Rank.getRankName(RankId);
@@ -58,23 +64,34 @@ namespace MabiCooker2
 				lName.Location = new Point(lRankName.Location.X + lRankName.Width, lName.Location.Y);
 				//lRank.Text = SelectedCook.getRank().ToString();
 				iBuffer = SelectedCook.getRatio();
-				if (iBuffer[0] == 230)
+                if (iBuffer[0] == bar_width)
 				{
 					lName.Text += Properties.Resources.StrCannotCook;
-				}
-				pbStuffOne.Width = iBuffer[0];
+                }
+
+                #region bar
+                String[] StuffName = SelectedCook.getStuff();
+
+                pbStuffOne.Width = iBuffer[0];
 				pbStuffTwo.Location = new Point(iBuffer[0], 0);
 				pbStuffTwo.Width = iBuffer[1];
+
+                float P1 = iBuffer[0] / bar_width;
+                float P2 = iBuffer[1] / bar_width;
+
+                tooltip.SetToolTip(pbStuffOne, StuffName[0] + ' ' + P1.ToString("0.00%"));
+                tooltip.SetToolTip(pbStuffTwo, StuffName[1] + ' ' + P2.ToString("0.00%"));
 				if (iBuffer.Length == 3)
 				{
 					pbStuffThree.Location = new Point(iBuffer[0] + iBuffer[1], 0);
 					pbStuffThree.Width = iBuffer[2];
+                    float P3 = iBuffer[2] / bar_width;
+                    tooltip.SetToolTip(pbStuffThree, StuffName[2] + ' ' + P3.ToString("0.00%"));
 				}
 				else pbStuffThree.Width = 0;
-				if (MainWindow.FavList.Contains(DataIndex) == true)
-					lFavCheck.Text = Properties.Resources.SymbolFavorite;
-				else
-					lFavCheck.Text = Properties.Resources.SymbolAddFavorite;
+                #endregion
+
+                lFavCheck_Icon(false);
 				lStuffs.Location = new Point(20, lStuffs.Location.Y);
 				if (lStuffs.Width > STUFF_FLOW_SIZE) tiRatioView.Enabled = true;
 				else tiRatioView.Enabled = false;
@@ -90,12 +107,10 @@ namespace MabiCooker2
         #region Event Handler
         private void MabiCooker_RatioView_MouseDown(object sender, MouseEventArgs e)
 		{
-            this.Opacity = (double)hoverd_opacity/100;
             mousePoint = new Point(e.X, e.Y);
 		}
 		private void MabiCooker_RatioView_MouseMove(object sender, MouseEventArgs e)
 		{
-            this.Opacity = (double)hoverd_opacity / 100;
             if ((e.Button & MouseButtons.Left) == MouseButtons.Left)
 			{
 				Location = new Point(this.Left - (mousePoint.X - e.X),
@@ -120,13 +135,12 @@ namespace MabiCooker2
 			if (MainWindow.FavList.Contains(DataIndex) == false)
 			{
 				MainWindow.AddFavList(DataIndex);
-				lFavCheck.Text = Properties.Resources.SymbolFavorite;
 			}
 			else
 			{
 				MainWindow.DeleteFavList(DataIndex);
-				lFavCheck.Text = Properties.Resources.SymbolAddFavorite;
 			}
+            lFavCheck_Icon(true);
 			MainWindow.UpdateData(MainWindow.FavList, FavListView);
 			if (MabiCooker.DetailView != null) MabiCooker.DetailView.UpdateData(DataIndex, SelectedCook);
 			if (MainWindow.FavList.Count != 0) FavListView.BringToFront();
@@ -170,27 +184,6 @@ namespace MabiCooker2
 			}
 		}
         #endregion
-        private void CookRatioView_Fade(object sender, EventArgs e)
-        {
-            if (this.Opacity >= default_opacity)
-            {
-                // Fade out
-                for (double i = this.Opacity; i <= hoverd_opacity; i++)
-                {
-                    this.Opacity = i;
-                    System.Threading.Thread.Sleep(fade_sleep_length);
-                }
-            }
-            else if (this.Opacity <= hoverd_opacity)
-            {
-                // Fade in
-                for (double i = this.Opacity; i <= hoverd_opacity; i++)
-                {
-                    this.Opacity = i;
-                    System.Threading.Thread.Sleep(fade_sleep_length);
-                }
-            }
-        }
         private void CookRatioView_active(object sender, EventArgs e)
         {
             int initial_opacity = (int)this.Opacity * 100;
@@ -218,17 +211,45 @@ namespace MabiCooker2
             }
         }
 
-        private void RatioView_Hover_Stuff1(object sender, EventArgs e)
+        private void lCloseRatio_MouseHover(object sender, EventArgs e)
         {
-
+            CookRatioView_active(sender, e);
+            lCloseRatio.Image = Properties.Resources.Close_hover;
         }
-        private void RatioView_Hover_Stuff2(object sender, EventArgs e)
-        {
 
+        private void lCloseRatio_MouseLeave(object sender, EventArgs e)
+        {
+            lCloseRatio.Image = Properties.Resources.Close;
         }
-        private void RatioView_Hover_Stuff3(object sender, EventArgs e)
-        {
 
+        private void lFavCheck_MouseHover(object sender, EventArgs e)
+        {
+            CookRatioView_active(sender, e);
+            lFavCheck_Icon(true);
+        }
+
+        private void lFavCheck_MouseLeave(object sender, EventArgs e)
+        {
+            lFavCheck_Icon(false);
+        }
+        private void lFavCheck_Icon(bool hover)
+        {
+            if (MainWindow.FavList.Contains(DataIndex) == true)
+            {
+                if (hover)
+                    lFavCheck.Image = Properties.Resources.FavoriteRemove_hover;
+                else
+                    lFavCheck.Image = Properties.Resources.FavoriteRemove;
+                tooltip.SetToolTip(lFavCheck, Properties.Resources.StrFavoriteRemove);
+            }
+            else
+            {
+                if (hover)
+                    lFavCheck.Image = Properties.Resources.Favorite_hover;
+                else
+                    lFavCheck.Image = Properties.Resources.Favorite;
+                tooltip.SetToolTip(lFavCheck, Properties.Resources.StrFavorite);
+            }
         }
 	}
 }

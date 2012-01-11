@@ -153,6 +153,9 @@ Please check cook.dat, stuff.dat and favcook.dat exsists.</value>
   <data name="StrCannotCook" xml:space="preserve">
     <value>(Not cookable)</value>
   </data>
+  <data name="StrClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
   <data name="StrDisplayRatio" xml:space="preserve">
     <value>Display Ratio</value>
   </data>
@@ -167,11 +170,5 @@ Please check cook.dat, stuff.dat and favcook.dat exsists.</value>
   </data>
   <data name="StrWarning" xml:space="preserve">
     <value>Warning</value>
-  </data>
-  <data name="SymbolAddFavorite" xml:space="preserve">
-    <value>☆</value>
-  </data>
-  <data name="SymbolFavorite" xml:space="preserve">
-    <value>★</value>
   </data>
 </root>

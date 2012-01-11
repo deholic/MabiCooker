@@ -153,6 +153,9 @@ cook.dat、stuff.datとfavcook.datが存在するかを確認してください�
   <data name="StrCannotCook" xml:space="preserve">
     <value>（料理不可）</value>
   </data>
+  <data name="StrClose" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
   <data name="StrDisplayRatio" xml:space="preserve">
     <value>比率画面</value>
   </data>
@@ -167,11 +170,5 @@ cook.dat、stuff.datとfavcook.datが存在するかを確認してください�
   </data>
   <data name="StrWarning" xml:space="preserve">
     <value>警告</value>
-  </data>
-  <data name="SymbolAddFavorite" xml:space="preserve">
-    <value>☆</value>
-  </data>
-  <data name="SymbolFavorite" xml:space="preserve">
-    <value>★</value>
   </data>
 </root>
