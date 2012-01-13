@@ -184,7 +184,7 @@
             this.bSearchStart.BackColor = System.Drawing.SystemColors.ControlLight;
             this.bSearchStart.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
             resources.ApplyResources(this.bSearchStart, "bSearchStart");
-            this.bSearchStart.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.bSearchStart.Image = global::MabiCooker2.Properties.Resources.Search;
             this.bSearchStart.Name = "bSearchStart";
             this.bSearchStart.UseVisualStyleBackColor = false;
             this.bSearchStart.Click += new System.EventHandler(this.bSearchStart_Click);

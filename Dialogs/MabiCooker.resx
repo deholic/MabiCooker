@@ -348,7 +348,7 @@
     <value>3, 4, 3, 4</value>
   </data>
   <data name="rbForEffect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 16</value>
+    <value>49, 19</value>
   </data>
   <data name="rbForEffect.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -378,7 +378,7 @@
     <value>3, 4, 3, 4</value>
   </data>
   <data name="rbForStuff.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 16</value>
+    <value>49, 19</value>
   </data>
   <data name="rbForStuff.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -408,7 +408,7 @@
     <value>3, 4, 3, 4</value>
   </data>
   <data name="rbForName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 16</value>
+    <value>49, 19</value>
   </data>
   <data name="rbForName.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -458,23 +458,17 @@
   <data name="bSearchStart.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="bSearchStart.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 6.75pt</value>
-  </data>
   <data name="bSearchStart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 29</value>
+    <value>126, 29</value>
   </data>
   <data name="bSearchStart.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
   <data name="bSearchStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 23</value>
+    <value>25, 23</value>
   </data>
   <data name="bSearchStart.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
-  </data>
-  <data name="bSearchStart.Text" xml:space="preserve">
-    <value>▼</value>
   </data>
   <data name="&gt;&gt;bSearchStart.Name" xml:space="preserve">
     <value>bSearchStart</value>
@@ -495,7 +489,7 @@
     <value>3, 4, 3, 4</value>
   </data>
   <data name="tbSearchTerm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 23</value>
+    <value>114, 23</value>
   </data>
   <data name="tbSearchTerm.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
