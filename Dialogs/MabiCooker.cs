@@ -65,7 +65,7 @@ namespace MabiCooker2
 
             isLoaded = InitBase();
             cbRankSelector.SelectedIndex = 0;
-            this.lVersion.Text = "v" + this.ProductVersion;
+            this.lVersion.Text = "v" + this.ProductVersion + " Beta";
         }
         public void UpdateData(List<int> Data, ListBox Target)
         {

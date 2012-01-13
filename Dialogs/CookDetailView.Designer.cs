@@ -56,6 +56,7 @@
             // 
             // pDisplayInfo
             // 
+            resources.ApplyResources(this.pDisplayInfo, "pDisplayInfo");
             this.pDisplayInfo.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.pDisplayInfo.Controls.Add(this.lStuffThreePrice);
             this.pDisplayInfo.Controls.Add(this.lStuffTwoPrice);
@@ -64,7 +65,6 @@
             this.pDisplayInfo.Controls.Add(this.lStuffTwo);
             this.pDisplayInfo.Controls.Add(this.lStuffOne);
             this.pDisplayInfo.Controls.Add(this.lRank);
-            resources.ApplyResources(this.pDisplayInfo, "pDisplayInfo");
             this.pDisplayInfo.Name = "pDisplayInfo";
             // 
             // lStuffThreePrice
@@ -94,7 +94,7 @@
             // lStuffThree
             // 
             resources.ApplyResources(this.lStuffThree, "lStuffThree");
-            this.lStuffThree.LinkColor = System.Drawing.Color.Firebrick;
+            this.lStuffThree.LinkColor = System.Drawing.Color.Blue;
             this.lStuffThree.Name = "lStuffThree";
             this.lStuffThree.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lStuffThree_LinkClicked);
             this.lStuffThree.MouseLeave += new System.EventHandler(this.reset_message_bar);
@@ -103,7 +103,7 @@
             // lStuffTwo
             // 
             resources.ApplyResources(this.lStuffTwo, "lStuffTwo");
-            this.lStuffTwo.LinkColor = System.Drawing.Color.Firebrick;
+            this.lStuffTwo.LinkColor = System.Drawing.Color.Blue;
             this.lStuffTwo.Name = "lStuffTwo";
             this.lStuffTwo.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lStuffTwo_LinkClicked);
             this.lStuffTwo.MouseLeave += new System.EventHandler(this.reset_message_bar);
@@ -113,7 +113,7 @@
             // 
             resources.ApplyResources(this.lStuffOne, "lStuffOne");
             this.lStuffOne.DisabledLinkColor = System.Drawing.SystemColors.ControlText;
-            this.lStuffOne.LinkColor = System.Drawing.Color.Firebrick;
+            this.lStuffOne.LinkColor = System.Drawing.Color.Blue;
             this.lStuffOne.Name = "lStuffOne";
             this.lStuffOne.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lStuffOne_LinkClicked);
             this.lStuffOne.MouseLeave += new System.EventHandler(this.reset_message_bar);
@@ -122,13 +122,14 @@
             // lRank
             // 
             resources.ApplyResources(this.lRank, "lRank");
+            this.lRank.BackColor = System.Drawing.Color.Transparent;
             this.lRank.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lRank.Name = "lRank";
             // 
             // lPicture
             // 
-            this.lPicture.InitialImage = global::MabiCooker2.Properties.Resources.Blank;
             resources.ApplyResources(this.lPicture, "lPicture");
+            this.lPicture.InitialImage = global::MabiCooker2.Properties.Resources.Blank;
             this.lPicture.Name = "lPicture";
             this.lPicture.TabStop = false;
             // 
@@ -139,22 +140,22 @@
             // 
             // pAlertShowing
             // 
+            resources.ApplyResources(this.pAlertShowing, "pAlertShowing");
             this.pAlertShowing.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lMessage});
-            resources.ApplyResources(this.pAlertShowing, "pAlertShowing");
             this.pAlertShowing.Name = "pAlertShowing";
             // 
             // lMessage
             // 
-            this.lMessage.Name = "lMessage";
             resources.ApplyResources(this.lMessage, "lMessage");
+            this.lMessage.Name = "lMessage";
             // 
             // lEffects
             // 
+            resources.ApplyResources(this.lEffects, "lEffects");
             this.lEffects.BackColor = System.Drawing.SystemColors.Info;
             this.lEffects.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lEffects.DetectUrls = false;
-            resources.ApplyResources(this.lEffects, "lEffects");
             this.lEffects.ForeColor = System.Drawing.SystemColors.InfoText;
             this.lEffects.Name = "lEffects";
             this.lEffects.ReadOnly = true;
@@ -162,9 +163,9 @@
             // 
             // bBack
             // 
+            resources.ApplyResources(this.bBack, "bBack");
             this.bBack.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.bBack.Image = global::MabiCooker2.Properties.Resources.Back;
-            resources.ApplyResources(this.bBack, "bBack");
             this.bBack.Name = "bBack";
             this.bBack.Click += new System.EventHandler(this.bBack_Click);
             this.bBack.MouseLeave += new System.EventHandler(this.reset_message_bar);
@@ -172,14 +173,14 @@
             // 
             // toolStripSeparator2
             // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
             resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
             // 
             // bDisplayRatio
             // 
+            resources.ApplyResources(this.bDisplayRatio, "bDisplayRatio");
             this.bDisplayRatio.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.bDisplayRatio.Image = global::MabiCooker2.Properties.Resources.Ratio;
-            resources.ApplyResources(this.bDisplayRatio, "bDisplayRatio");
             this.bDisplayRatio.Name = "bDisplayRatio";
             this.bDisplayRatio.Click += new System.EventHandler(this.bDisplayRatio_Click);
             this.bDisplayRatio.MouseLeave += new System.EventHandler(this.reset_message_bar);
@@ -187,9 +188,9 @@
             // 
             // bModFav
             // 
+            resources.ApplyResources(this.bModFav, "bModFav");
             this.bModFav.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.bModFav.Image = global::MabiCooker2.Properties.Resources.Favorite;
-            resources.ApplyResources(this.bModFav, "bModFav");
             this.bModFav.Name = "bModFav";
             this.bModFav.Click += new System.EventHandler(this.bModFav_Click);
             this.bModFav.MouseLeave += new System.EventHandler(this.reset_message_bar);
@@ -197,12 +198,12 @@
             // 
             // toolStrip1
             // 
+            resources.ApplyResources(this.toolStrip1, "toolStrip1");
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bBack,
             this.toolStripSeparator2,
             this.bDisplayRatio,
             this.bModFav});
-            resources.ApplyResources(this.toolStrip1, "toolStrip1");
             this.toolStrip1.Name = "toolStrip1";
             // 
             // CookDetailView

@@ -79,16 +79,19 @@ namespace MabiCooker2
 			lRank.Text = Data.getRank().ToString();
 			this.message = Data.getRankName();
             lMessage.Text = this.message;
-			/*
-			if (MainWindow.FavList.Contains(DataIndex))
-				pDisplayCookName.BackColor = Color.LimeGreen;
-			else
-				pDisplayCookName.BackColor = Color.Black;
-			*/
 		}
 		public void UpdateData(CookData Exchange)
 		{
-			try
+            // Initialize Text
+            lStuffOne.Text = "";
+            lStuffOnePrice.Text = "";
+            lStuffTwo.Text = "";
+            lStuffTwoPrice.Text = "";
+            lStuffThree.Text = "";
+            lStuffThreePrice.Text = "";
+            lStuffThree.Visible = false;
+
+            try
 			{
 				this.CookInfo = Exchange;
 				bBack.Enabled = (this.ForTrace.Count == 0) ? false : true; // 이전 요리 스택에 뭔가 있으면 버튼 활성화
@@ -106,8 +109,8 @@ namespace MabiCooker2
 
                 if (CookInfo.stuffs[1] != null)
                 {
-                    CheckStuff(CookInfo.stuffs[1], lStuffTwo, lStuffTwoPrice);
                     lStuffTwo.Text = CookInfo.stuffs[1].sName;
+                    CheckStuff(CookInfo.stuffs[1], lStuffTwo, lStuffTwoPrice);
                 }
                 else
                 {
@@ -120,15 +123,14 @@ namespace MabiCooker2
 				}
 				if (CookInfo.stuffs[2] != null)
 				{
-					lStuffThree.Text = CookInfo.stuffs[2].sName;
-					CheckStuff(CookInfo.stuffs[2], lStuffThree, lStuffThreePrice);
+                    lStuffThree.Text = CookInfo.stuffs[2].sName;
+                    CheckStuff(CookInfo.stuffs[2], lStuffThree, lStuffThreePrice);
 					lStuffThree.Visible = true;
+
 				}
 				else
 				{
-					lStuffThree.Text = "";
-					lStuffThree.Visible = false;
-					lStuffThreePrice.Visible = false;
+                    lStuffThree.Text = "Unknown Error";
 				}
 
                 bModFav_Icon();
@@ -154,17 +156,18 @@ namespace MabiCooker2
 		/// <param name="DetailLabel">Stuff Price Label</param>
 		private void CheckStuff(Stuff s, LinkLabel StuffLabel, Label DetailLabel)
 		{
-			//if (s.sSellingPoint.Contains(Stuff.SellerName.요리))
+            DetailLabel.Text = "";
+            DetailLabel.Visible = false;
+
+            StuffLabel.LinkArea = new LinkArea(0, 0);
+
+            //if (s.sSellingPoint.Contains(Stuff.SellerName.요리))
 			if (s.sSellingPoint.Contains(Seller.toString(14)))
 			{
 				StuffLabel.LinkArea = new LinkArea(0, StuffLabel.Text.Length);
 			}
-			else
-			{
-				StuffLabel.LinkArea = new LinkArea(0, 0);
-			}
 			int i;
-			if ((i = s.sPrice) != 0)
+            if ((i = s.sPrice) != 0)
 			{
 				DetailLabel.Visible = true;
                 DetailLabel.Text = "(" + i.ToString() + " G)";
@@ -172,7 +175,6 @@ namespace MabiCooker2
 			}
 			else
 			{
-				DetailLabel.Visible = false;
 				DetailLabel.Location = new Point(StuffLabel.Location.X + StuffLabel.Width, DetailLabel.Location.Y);
 			}
 		}
