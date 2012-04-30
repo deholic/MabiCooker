@@ -117,105 +117,83 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bDetailView.Text" xml:space="preserve">
+    <value>詳細</value>
   </data>
-  <data name="Favorite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bookmark.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cbRankSelector.Items" xml:space="preserve">
+    <value>練習 (混ぜる)</value>
   </data>
-  <data name="Ratio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chart.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cbRankSelector.Items1" xml:space="preserve">
+    <value>Rank F (燃く)</value>
   </data>
-  <data name="Detail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\detail.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cbRankSelector.Items2" xml:space="preserve">
+    <value>Rank E (茹でる・煮る)</value>
   </data>
-  <data name="FileCookData" xml:space="preserve">
-    <value>cook.dat</value>
+  <data name="cbRankSelector.Items3" xml:space="preserve">
+    <value>Rank D (生地)</value>
   </data>
-  <data name="FileCookDataXml" xml:space="preserve">
-    <value>CookData.xml</value>
+  <data name="cbRankSelector.Items4" xml:space="preserve">
+    <value>Rank C (煮込む)</value>
   </data>
-  <data name="FileFavoriteData" xml:space="preserve">
-    <value>favcook.dat</value>
+  <data name="cbRankSelector.Items5" xml:space="preserve">
+    <value>Rank B (麺)</value>
   </data>
-  <data name="FileStuffData" xml:space="preserve">
-    <value>stuff.dat</value>
+  <data name="cbRankSelector.Items6" xml:space="preserve">
+    <value>Rank A (揚げる)</value>
   </data>
-  <data name="list" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\list.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cbRankSelector.Items7" xml:space="preserve">
+    <value>Rank 9 (炒める)</value>
   </data>
-  <data name="MsgConfirm" xml:space="preserve">
-    <value>즐겨찾기가 삭제됩니다.
-정말 삭제하시겠습니까?</value>
+  <data name="cbRankSelector.Items8" xml:space="preserve">
+    <value>Rank 8 (パスタ)</value>
   </data>
-  <data name="MsgFailure" xml:space="preserve">
-    <value>favcook.dat 파일을 다른 프로그램에서 사용하고 있습니다.
-즐겨찾기 목록이 저장되지 않습니다.</value>
+  <data name="cbRankSelector.Items9" xml:space="preserve">
+    <value>Rank 7 (ジャム)</value>
   </data>
-  <data name="MsgFavoriteAdd" xml:space="preserve">
-    <value>즐겨찾기에 추가 되었습니다.</value>
+  <data name="cbRankSelector.Items10" xml:space="preserve">
+    <value>Rank 6 (パイ)</value>
   </data>
-  <data name="MsgFavoriteRemove" xml:space="preserve">
-    <value>즐겨찾기에서 삭제 되었습니다.</value>
+  <data name="tpRank.Text" xml:space="preserve">
+    <value>ランク</value>
   </data>
-  <data name="MsgNoDataFile" xml:space="preserve">
-    <value>데이터 파일이 존재하지 않습니다.
-확인 해 주세요.</value>
+  <data name="lPrevSearch_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt, style=Bold</value>
   </data>
-  <data name="StrBack" xml:space="preserve">
-    <value>이전 요리 보기</value>
+  <data name="lPrevSearch_1.Text" xml:space="preserve">
+    <value>検索語句を入力してください</value>
   </data>
-  <data name="StrCannotCook" xml:space="preserve">
-    <value>(조리불가)</value>
+  <data name="lPrevSearch_2.Text" xml:space="preserve">
+    <value>料理の名前や材料名を入力して、Enterキーを押してください</value>
   </data>
-  <data name="StrDisplayRatio" xml:space="preserve">
-    <value>비율보기</value>
+  <data name="rbForEffect.Text" xml:space="preserve">
+    <value>効果</value>
   </data>
-  <data name="StrFavorite" xml:space="preserve">
-    <value>즐겨찾기</value>
+  <data name="rbForStuff.Text" xml:space="preserve">
+    <value>材料</value>
   </data>
-  <data name="StrNotice" xml:space="preserve">
-    <value>알림</value>
+  <data name="rbForName.Text" xml:space="preserve">
+    <value>名前</value>
   </data>
-  <data name="StrWarning" xml:space="preserve">
-    <value>경고</value>
+  <data name="tpSearch.Text" xml:space="preserve">
+    <value>検索</value>
   </data>
-  <data name="button_cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_cancel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lNoneFav_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt, style=Bold</value>
   </data>
-  <data name="Blank" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blank.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lNoneFav_1.Text" xml:space="preserve">
+    <value>お気に入りがありません。</value>
   </data>
-  <data name="FavoriteRemove" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bookmark_remove.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lNoneFav_2.Text" xml:space="preserve">
+    <value>[詳細]をクリックしたり、比率画面の★をクリックすることで追加できます。</value>
   </data>
-  <data name="StrFavoriteRemove" xml:space="preserve">
-    <value>즐겨찾기 삭제</value>
+  <data name="tpFav.Text" xml:space="preserve">
+    <value>お気に入り</value>
   </data>
-  <data name="Icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon2.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bPrintRatio.Text" xml:space="preserve">
+    <value>比率画面</value>
   </data>
-  <data name="Icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon1.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Favorite_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bookmark_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FavoriteRemove_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bookmark_remove_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Close_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StrClose" xml:space="preserve">
-    <value>닫기</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Search" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
   </data>
 </root>

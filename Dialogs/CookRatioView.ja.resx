@@ -117,105 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt, style=Bold</value>
   </data>
-  <data name="Favorite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bookmark.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lRankName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt, style=Bold</value>
   </data>
-  <data name="Ratio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chart.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lRankName.Text" xml:space="preserve">
+    <value>ランク</value>
   </data>
-  <data name="Detail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\detail.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
   </data>
-  <data name="FileCookData" xml:space="preserve">
-    <value>cook.dat</value>
-  </data>
-  <data name="FileCookDataXml" xml:space="preserve">
-    <value>CookData.xml</value>
-  </data>
-  <data name="FileFavoriteData" xml:space="preserve">
-    <value>favcook.dat</value>
-  </data>
-  <data name="FileStuffData" xml:space="preserve">
-    <value>stuff.dat</value>
-  </data>
-  <data name="list" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\list.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MsgConfirm" xml:space="preserve">
-    <value>즐겨찾기가 삭제됩니다.
-정말 삭제하시겠습니까?</value>
-  </data>
-  <data name="MsgFailure" xml:space="preserve">
-    <value>favcook.dat 파일을 다른 프로그램에서 사용하고 있습니다.
-즐겨찾기 목록이 저장되지 않습니다.</value>
-  </data>
-  <data name="MsgFavoriteAdd" xml:space="preserve">
-    <value>즐겨찾기에 추가 되었습니다.</value>
-  </data>
-  <data name="MsgFavoriteRemove" xml:space="preserve">
-    <value>즐겨찾기에서 삭제 되었습니다.</value>
-  </data>
-  <data name="MsgNoDataFile" xml:space="preserve">
-    <value>데이터 파일이 존재하지 않습니다.
-확인 해 주세요.</value>
-  </data>
-  <data name="StrBack" xml:space="preserve">
-    <value>이전 요리 보기</value>
-  </data>
-  <data name="StrCannotCook" xml:space="preserve">
-    <value>(조리불가)</value>
-  </data>
-  <data name="StrDisplayRatio" xml:space="preserve">
-    <value>비율보기</value>
-  </data>
-  <data name="StrFavorite" xml:space="preserve">
-    <value>즐겨찾기</value>
-  </data>
-  <data name="StrNotice" xml:space="preserve">
-    <value>알림</value>
-  </data>
-  <data name="StrWarning" xml:space="preserve">
-    <value>경고</value>
-  </data>
-  <data name="button_cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_cancel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Blank" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blank.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FavoriteRemove" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bookmark_remove.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StrFavoriteRemove" xml:space="preserve">
-    <value>즐겨찾기 삭제</value>
-  </data>
-  <data name="Icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon2.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon1.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Favorite_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bookmark_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FavoriteRemove_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bookmark_remove_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Close_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StrClose" xml:space="preserve">
-    <value>닫기</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Search" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>比率画面</value>
   </data>
 </root>

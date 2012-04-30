@@ -10,16 +10,16 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MabiCooker2</RootNamespace>
     <AssemblyName>MabiCooker2</AssemblyName>
-    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <ApplicationIcon>Resources\Icon11.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\Icon1.ico</ApplicationIcon>
     <ManifestCertificateThumbprint>91A5AE59C5E2241BAEA3AD31BEF630CB30BD55DE</ManifestCertificateThumbprint>
     <ManifestKeyFile>MabiCooker2_TemporaryKey.pfx</ManifestKeyFile>
     <GenerateManifests>false</GenerateManifests>
     <SignManifests>false</SignManifests>
     <TargetZone>LocalIntranet</TargetZone>
-    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -49,15 +49,23 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <PlatformTarget>x86</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MabiCooker2.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -68,44 +76,56 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CookDetailView.cs">
+    <Compile Include="Dialogs\CookDetailView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CookDetailView.Designer.cs">
+    <Compile Include="Dialogs\CookDetailView.Designer.cs">
       <DependentUpon>CookDetailView.cs</DependentUpon>
     </Compile>
-    <Compile Include="CookRatioView.cs">
+    <Compile Include="Dialogs\CookRatioView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CookRatioView.Designer.cs">
+    <Compile Include="Dialogs\CookRatioView.Designer.cs">
       <DependentUpon>CookRatioView.cs</DependentUpon>
     </Compile>
-    <Compile Include="MabiCooker.cs">
+    <Compile Include="Dialogs\MabiCooker.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MabiCooker.Designer.cs">
+    <Compile Include="Dialogs\MabiCooker.Designer.cs">
       <DependentUpon>MabiCooker.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CookDetailView.resx">
+    <Compile Include="Settings.cs" />
+    <EmbeddedResource Include="Dialogs\CookDetailView.en.resx">
       <DependentUpon>CookDetailView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CookRatioView.resx">
+    <EmbeddedResource Include="Dialogs\CookDetailView.ja.resx">
+      <DependentUpon>CookDetailView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\CookDetailView.resx">
+      <DependentUpon>CookDetailView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\CookRatioView.en.resx">
       <DependentUpon>CookRatioView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MabiCooker.en.resx">
+    <EmbeddedResource Include="Dialogs\CookRatioView.ja.resx">
+      <DependentUpon>CookRatioView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\CookRatioView.resx">
+      <DependentUpon>CookRatioView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\MabiCooker.en.resx">
       <DependentUpon>MabiCooker.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MabiCooker.ja-JP.resx">
+    <EmbeddedResource Include="Dialogs\MabiCooker.ja.resx">
       <DependentUpon>MabiCooker.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MabiCooker.ko-KR.resx">
+    <EmbeddedResource Include="Dialogs\MabiCooker.resx">
       <DependentUpon>MabiCooker.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MabiCooker.resx">
-      <DependentUpon>MabiCooker.cs</DependentUpon>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.en.resx" />
+    <EmbeddedResource Include="Properties\Resources.ja.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -114,6 +134,9 @@
     <None Include="app.config" />
     <None Include="datas\cook.dat" />
     <None Include="datas\favcook.dat" />
+    <None Include="datas\ja\cook.dat" />
+    <None Include="datas\ja\favcook.dat" />
+    <None Include="datas\ja\stuff.dat" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -132,9 +155,11 @@
     <None Include="datas\stuff.dat" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Icon11.ico" />
-  </ItemGroup>
-  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 および x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
@@ -158,23 +183,45 @@
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>true</Install>
+      <Install>false</Install>
     </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
       <Visible>False</Visible>
-      <ProductName>Windows Installer 3.1</ProductName>
+      <ProductName>Windows インストーラー 4.5
+</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\CookImplement\CookImplement\CookImplement.csproj">
+    <Folder Include="bin\Release\" />
+    <Folder Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CookImplement\CookImplement.csproj">
       <Project>{D054C6EC-DA06-4040-B2D1-86F663D68DAC}</Project>
       <Name>CookImplement</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bin\Debug\" />
-    <Folder Include="Properties\DataSources\" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\bookmark_hover.png" />
+    <None Include="Resources\bookmark_remove_hover.png" />
+    <None Include="Resources\close_hover.png" />
+    <Content Include="Resources\Icon1.ico" />
+    <None Include="Resources\Icon2.ico" />
+    <None Include="Resources\back.png" />
+    <Content Include="Resources\blank.png" />
+    <Content Include="Resources\bookmark.png" />
+    <None Include="Resources\list.png" />
+    <None Include="Resources\detail.png" />
+    <None Include="Resources\chart.png" />
+    <None Include="Resources\button_cancel.png" />
+    <None Include="Resources\bookmark_remove.png" />
+    <Content Include="Resources\find.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
