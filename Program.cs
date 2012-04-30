@@ -14,7 +14,7 @@ namespace MabiCooker2
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            Application.SetCompatibleTextRenderingDefault(true);
             Form RunningApp = new MabiCooker();
             if (!MabiCooker.isLoaded) Application.Exit();
             else Application.Run(RunningApp);
