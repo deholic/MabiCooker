@@ -35,15 +35,18 @@
             this.lbRankResult = new System.Windows.Forms.ListBox();
             this.cbRankSelector = new System.Windows.Forms.ComboBox();
             this.tpSearch = new System.Windows.Forms.TabPage();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.rbForName = new System.Windows.Forms.RadioButton();
+            this.rbForStuff = new System.Windows.Forms.RadioButton();
+            this.rbForEffect = new System.Windows.Forms.RadioButton();
+            this.tlPrevSearch = new System.Windows.Forms.TableLayoutPanel();
             this.lPrevSearch_1 = new System.Windows.Forms.Label();
             this.lPrevSearch_2 = new System.Windows.Forms.Label();
-            this.rbForEffect = new System.Windows.Forms.RadioButton();
-            this.rbForStuff = new System.Windows.Forms.RadioButton();
-            this.rbForName = new System.Windows.Forms.RadioButton();
             this.lbSearchResult = new System.Windows.Forms.ListBox();
             this.bSearchStart = new System.Windows.Forms.Button();
             this.tbSearchTerm = new System.Windows.Forms.TextBox();
             this.tpFav = new System.Windows.Forms.TabPage();
+            this.tlNoneFav = new System.Windows.Forms.TableLayoutPanel();
             this.lNoneFav_1 = new System.Windows.Forms.Label();
             this.lNoneFav_2 = new System.Windows.Forms.Label();
             this.lbFavResult = new System.Windows.Forms.ListBox();
@@ -54,7 +57,10 @@
             this.tcMainCtrl.SuspendLayout();
             this.tpRank.SuspendLayout();
             this.tpSearch.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
+            this.tlPrevSearch.SuspendLayout();
             this.tpFav.SuspendLayout();
+            this.tlNoneFav.SuspendLayout();
             this.SuspendLayout();
             // 
             // bDetailView
@@ -66,10 +72,10 @@
             // 
             // tcMainCtrl
             // 
-            resources.ApplyResources(this.tcMainCtrl, "tcMainCtrl");
             this.tcMainCtrl.Controls.Add(this.tpRank);
             this.tcMainCtrl.Controls.Add(this.tpSearch);
             this.tcMainCtrl.Controls.Add(this.tpFav);
+            resources.ApplyResources(this.tcMainCtrl, "tcMainCtrl");
             this.tcMainCtrl.Name = "tcMainCtrl";
             this.tcMainCtrl.SelectedIndex = 0;
             this.tcMainCtrl.SelectedIndexChanged += new System.EventHandler(this.tcMainCtrl_SelectedIndexChanged);
@@ -86,8 +92,9 @@
             // 
             // lbRankResult
             // 
-            this.lbRankResult.FormattingEnabled = true;
             resources.ApplyResources(this.lbRankResult, "lbRankResult");
+            this.lbRankResult.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbRankResult.FormattingEnabled = true;
             this.lbRankResult.Name = "lbRankResult";
             this.lbRankResult.SelectedIndexChanged += new System.EventHandler(this.lbRankResult_SelectedIndexChanged);
             this.lbRankResult.VisibleChanged += new System.EventHandler(this.lbRankResult_VisibleChanged);
@@ -120,11 +127,8 @@
             // 
             this.tpSearch.BackColor = System.Drawing.SystemColors.Control;
             this.tpSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tpSearch.Controls.Add(this.lPrevSearch_1);
-            this.tpSearch.Controls.Add(this.lPrevSearch_2);
-            this.tpSearch.Controls.Add(this.rbForEffect);
-            this.tpSearch.Controls.Add(this.rbForStuff);
-            this.tpSearch.Controls.Add(this.rbForName);
+            this.tpSearch.Controls.Add(this.flowLayoutPanel1);
+            this.tpSearch.Controls.Add(this.tlPrevSearch);
             this.tpSearch.Controls.Add(this.lbSearchResult);
             this.tpSearch.Controls.Add(this.bSearchStart);
             this.tpSearch.Controls.Add(this.tbSearchTerm);
@@ -132,33 +136,13 @@
             resources.ApplyResources(this.tpSearch, "tpSearch");
             this.tpSearch.Name = "tpSearch";
             // 
-            // lPrevSearch_1
+            // flowLayoutPanel1
             // 
-            resources.ApplyResources(this.lPrevSearch_1, "lPrevSearch_1");
-            this.lPrevSearch_1.BackColor = System.Drawing.Color.White;
-            this.lPrevSearch_1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lPrevSearch_1.Name = "lPrevSearch_1";
-            // 
-            // lPrevSearch_2
-            // 
-            resources.ApplyResources(this.lPrevSearch_2, "lPrevSearch_2");
-            this.lPrevSearch_2.BackColor = System.Drawing.Color.White;
-            this.lPrevSearch_2.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.lPrevSearch_2.Name = "lPrevSearch_2";
-            // 
-            // rbForEffect
-            // 
-            resources.ApplyResources(this.rbForEffect, "rbForEffect");
-            this.rbForEffect.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.rbForEffect.Name = "rbForEffect";
-            this.rbForEffect.UseVisualStyleBackColor = false;
-            // 
-            // rbForStuff
-            // 
-            resources.ApplyResources(this.rbForStuff, "rbForStuff");
-            this.rbForStuff.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.rbForStuff.Name = "rbForStuff";
-            this.rbForStuff.UseVisualStyleBackColor = true;
+            this.flowLayoutPanel1.Controls.Add(this.rbForName);
+            this.flowLayoutPanel1.Controls.Add(this.rbForStuff);
+            this.flowLayoutPanel1.Controls.Add(this.rbForEffect);
+            resources.ApplyResources(this.flowLayoutPanel1, "flowLayoutPanel1");
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             // 
             // rbForName
             // 
@@ -168,6 +152,42 @@
             this.rbForName.Name = "rbForName";
             this.rbForName.TabStop = true;
             this.rbForName.UseVisualStyleBackColor = true;
+            // 
+            // rbForStuff
+            // 
+            resources.ApplyResources(this.rbForStuff, "rbForStuff");
+            this.rbForStuff.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.rbForStuff.Name = "rbForStuff";
+            this.rbForStuff.UseVisualStyleBackColor = true;
+            // 
+            // rbForEffect
+            // 
+            resources.ApplyResources(this.rbForEffect, "rbForEffect");
+            this.rbForEffect.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.rbForEffect.Name = "rbForEffect";
+            this.rbForEffect.UseVisualStyleBackColor = false;
+            // 
+            // tlPrevSearch
+            // 
+            this.tlPrevSearch.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.tlPrevSearch, "tlPrevSearch");
+            this.tlPrevSearch.Controls.Add(this.lPrevSearch_1, 0, 0);
+            this.tlPrevSearch.Controls.Add(this.lPrevSearch_2, 0, 1);
+            this.tlPrevSearch.Name = "tlPrevSearch";
+            // 
+            // lPrevSearch_1
+            // 
+            this.lPrevSearch_1.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.lPrevSearch_1, "lPrevSearch_1");
+            this.lPrevSearch_1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lPrevSearch_1.Name = "lPrevSearch_1";
+            // 
+            // lPrevSearch_2
+            // 
+            this.lPrevSearch_2.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.lPrevSearch_2, "lPrevSearch_2");
+            this.lPrevSearch_2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lPrevSearch_2.Name = "lPrevSearch_2";
             // 
             // lbSearchResult
             // 
@@ -199,33 +219,40 @@
             // tpFav
             // 
             this.tpFav.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tpFav.Controls.Add(this.lNoneFav_1);
-            this.tpFav.Controls.Add(this.lNoneFav_2);
+            this.tpFav.Controls.Add(this.tlNoneFav);
             this.tpFav.Controls.Add(this.lbFavResult);
             this.tpFav.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.tpFav, "tpFav");
             this.tpFav.Name = "tpFav";
             // 
+            // tlNoneFav
+            // 
+            resources.ApplyResources(this.tlNoneFav, "tlNoneFav");
+            this.tlNoneFav.BackColor = System.Drawing.Color.White;
+            this.tlNoneFav.Controls.Add(this.lNoneFav_1, 0, 0);
+            this.tlNoneFav.Controls.Add(this.lNoneFav_2, 0, 1);
+            this.tlNoneFav.Name = "tlNoneFav";
+            // 
             // lNoneFav_1
             // 
-            resources.ApplyResources(this.lNoneFav_1, "lNoneFav_1");
             this.lNoneFav_1.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.lNoneFav_1, "lNoneFav_1");
             this.lNoneFav_1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.lNoneFav_1.Name = "lNoneFav_1";
             // 
             // lNoneFav_2
             // 
-            resources.ApplyResources(this.lNoneFav_2, "lNoneFav_2");
             this.lNoneFav_2.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.lNoneFav_2, "lNoneFav_2");
             this.lNoneFav_2.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.lNoneFav_2.Name = "lNoneFav_2";
             // 
             // lbFavResult
             // 
             this.lbFavResult.AllowDrop = true;
-            this.lbFavResult.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbFavResult.FormattingEnabled = true;
             resources.ApplyResources(this.lbFavResult, "lbFavResult");
+            this.lbFavResult.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lbFavResult.FormattingEnabled = true;
             this.lbFavResult.Name = "lbFavResult";
             this.lbFavResult.SelectedIndexChanged += new System.EventHandler(this.lbFavResult_SelectedIndexChanged);
             this.lbFavResult.DoubleClick += new System.EventHandler(this.lbFavResult_DoubleClick);
@@ -260,7 +287,7 @@
             // 
             // MabiCooker
             // 
-            this.AcceptButton = this.bDetailView;
+            this.AcceptButton = this.bSearchStart;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.lCopyrites);
@@ -277,8 +304,11 @@
             this.tpRank.ResumeLayout(false);
             this.tpSearch.ResumeLayout(false);
             this.tpSearch.PerformLayout();
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
+            this.tlPrevSearch.ResumeLayout(false);
             this.tpFav.ResumeLayout(false);
-            this.tpFav.PerformLayout();
+            this.tlNoneFav.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -308,6 +338,9 @@
         private System.Windows.Forms.Label lPrevSearch_2;
         private System.Windows.Forms.RadioButton rbForEffect;
         private System.Windows.Forms.LinkLabel lCopyrites;
+        private System.Windows.Forms.TableLayoutPanel tlPrevSearch;
+        private System.Windows.Forms.TableLayoutPanel tlNoneFav;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
 

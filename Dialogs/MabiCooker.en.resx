@@ -153,76 +153,20 @@
   <data name="cbRankSelector.Items10" xml:space="preserve">
     <value>Rank 6 (Make Pie) </value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="cbRankSelector.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 23</value>
-  </data>
   <data name="tpRank.Text" xml:space="preserve">
     <value>Rank</value>
-  </data>
-  <data name="lPrevSearch_1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 101</value>
-  </data>
-  <data name="lPrevSearch_1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 15</value>
   </data>
   <data name="lPrevSearch_1.Text" xml:space="preserve">
     <value>Enter search term..</value>
   </data>
-  <data name="lPrevSearch_2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 121</value>
-  </data>
-  <data name="lPrevSearch_2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 60</value>
-  </data>
   <data name="lPrevSearch_2.Text" xml:space="preserve">
-    <value>Enter name or 
-food ingredients 
-and then click on
-the Enter key.</value>
-  </data>
-  <data name="rbForEffect.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 8pt</value>
-  </data>
-  <data name="rbForEffect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>104, 4</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="rbForEffect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rbForEffect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 17</value>
+    <value>Enter name or food ingredients and then click on the Enter key.</value>
   </data>
   <data name="rbForEffect.Text" xml:space="preserve">
     <value>Effect</value>
   </data>
-  <data name="rbForStuff.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 8pt</value>
-  </data>
-  <data name="rbForStuff.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 4</value>
-  </data>
-  <data name="rbForStuff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rbForStuff.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 17</value>
-  </data>
   <data name="rbForStuff.Text" xml:space="preserve">
     <value>Stuff</value>
-  </data>
-  <data name="rbForName.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 8pt</value>
-  </data>
-  <data name="rbForName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 4</value>
-  </data>
-  <data name="rbForName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rbForName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 17</value>
   </data>
   <data name="rbForName.Text" xml:space="preserve">
     <value>Name</value>
@@ -230,98 +174,19 @@ the Enter key.</value>
   <data name="tpSearch.Text" xml:space="preserve">
     <value>Search</value>
   </data>
-  <data name="lNoneFav_1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 85</value>
-  </data>
-  <data name="lNoneFav_1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 15</value>
-  </data>
   <data name="lNoneFav_1.Text" xml:space="preserve">
     <value>No Favorites</value>
   </data>
-  <data name="lNoneFav_2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 105</value>
-  </data>
-  <data name="lNoneFav_2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 45</value>
-  </data>
   <data name="lNoneFav_2.Text" xml:space="preserve">
-    <value>Favorite cook will be
-added on 'Detail View'
-Click the '★' button.</value>
+    <value>Favorite cook will be added on 'Detail View' Click the '★' button.</value>
   </data>
   <data name="tpFav.Text" xml:space="preserve">
     <value>Favorite</value>
-  </data>
-  <data name="bPrintRatio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 311</value>
-  </data>
-  <data name="bPrintRatio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 30</value>
   </data>
   <data name="bPrintRatio.Text" xml:space="preserve">
     <value>View Ratio</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAABAAEAICAAAAAAGACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAA
-        AAAAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgA
-        YIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAYIgAaKAAaLAAaLAAaLAAaLAAaLAAaLAA
-        aLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAAaLAA
-        aLAAaLAAaLAAaLAAaKAAaMBYsOhYsOhYsOhIsOhIsOhIsOhIsOhIsOiAmKiAmKiAmKiAmKiAmKiAmKiA
-        mKiAmKiImLCImLCImLCImLBwuOhwuOhwuOhwuOhwuOg4sOg4sOg4sOg4sOhIoOAAaMAAaMCI0PiI0PiI
-        0PiY0PiY0PiY0PiY0PiY0PjA4PjA4PjA4PjA4PjA4PjA4PjA4PjA4PjI6PjI6PjI6PjI6PhwuOhwuOhw
-        uOhwuOhwuOiw0PCw0PCw0PCw0PCQ2PgAaMAAaMCI0PhYsOhYsOhIsOhIsOhIsOgAiNAAiNAACAgACAgA
-        CAgACAgAABAAABAAABAAABAAABgAABgAABgAABgAAAgAAAhIeKBIeKBwuOg4sOg4sOg4sOgAmOiQ2PgA
-        aMAAaMCI0PgwiNBYsOhIsOhIsOhIsOgAiNAAiNAACAiAmKiAmKiAmKiAmKjA4PjA4PjA4PjI6PjI6PjI
-        6PjI6PhwuOgAAAhIeKBIeKBwuOg4sOg4sOg4sOgAmOiQ2PgAaMAAaMAAsPgAkOAAsPgAsPgAsPgAsPgQ
-        gLAQgLAAAACQmKCQmKCQmKCwsLDY2NjY2Njo6Oj4+Pj4+Pjo6Ojo6Og4uOgYCAAweJgweJg4uOgAsPgA
-        sPgAsPgAkOAAsPgAaMAAaMAAsPgAkOAAsPgAsPgAsPgAsPgQgLAQgLAAAACQmKCQmKCQmKCwsLDY2NjY
-        2Njo6Oj4+Pj4+Pjo6Ojo6Og4uOgYCAAweJgweJg4uOgAsPgAsPgAsPgAkOAAsPgAaMAAaMAAsPgAkOAA
-        sPgAsPgAsPgAsPgQgLAQgLAAAACQmKCQmKCQmKCwsLDY2NjY2Njo6Oj4+Pj4+Pjo6Ojo6Og4uOgYCAAw
-        eJgweJg4uOgAsPgAsPgAsPgAkOAAsPgAaMAAaMAAsPgAkOAAsPgAsPgAsPgAsPgAsPgAsPiQmKBIUFCQ
-        mKCQmKCwsLDY2NjY2Njo6Oj4+Pj4+Pjo6Ojo6OggQFAweJg4uOg4uOg4uOgAsPgAsPgAsPgAkOAAsPgA
-        aMAAaMAAsPgAkOAAsPgAsPgAsPgAsPgAsPgAsPiQmKBIUFCQmKCQmKCwsLDY2NjY2Njo6Oj4+Pj4+Pjo
-        6OjY2NggQFAweJg4uOg4uOg4uOgAsPgAsPgAsPgAkOAAsPgAaMAAaLgAsPgAmOAAsPgwwPgwwPgwwPgo
-        gKgogKiQmKAAAACQmKCQmKCoqKioqKjY2NjY2Njo8Ojo8Ojo8OigoKAQAABgkKBgkKBgkKCI0PAAsPgA
-        sPgAsPgYkMAAsPgAaMAAaLgAsPgAmOAAsPgwwPgogKgogKgYCAAYCAAAAAAAAACQmKCQmKCoqKioqKio
-        qKioqKigoKCgoKCgoKCgoKAQAAAQAAA4SFA4SFBgkKAAsPgAsPgAsPgYkMAAsPgAaMAAaLgAsPgAmOAA
-        sPgogKgYCAAYCAAogKgogKiQmKCQmKAAAAAAAABQUFBQUFCAgIBQUFBYUFhYUFgQCBAQCBBgkKBgkKBg
-        kKBgkKAQAABISFAYkMAAsPgYkMAAsPgAaMAAaLgAsPgAmOAAgNAYCAAogKgogKgogKgogKiQmKCQmKCQ
-        mKCQmKBQUFCoqKiAgIBQUFCgoKBYUFigoKCgoKBgkKBgkKBgkKBgkKBgkKAYkMBISFAYkMAYkMAAsPgA
-        aMAgaJgAsPgQkMgwSGigoKCgoKCgoKC4uLi4uLjAwMDAwMCIiIhYWFjw8PCYmJiYmJiYmJiIiIjw+PBY
-        WFjAwMC4uLi4uLi4uLi4uLi4uLhwkKhwkKg4SFhwkKgAsPgAaMAgaJgAsPgQkMgwSGigoKCgoKC4uLjY
-        0NjY0Njw+PDAwMCIiIjw+PC4sLi4sLi4sLiYmJjAwMDAwMDw+PCIiIjg4ODg4ODg4ODg4OC4uLiIuNBw
-        kKg4SFhwkKgAsPgAaMAgaJgAsPgQkMgwSGigoKC4uLjY0Njw8PDw8PDw+PDAwMDw+PDw+PDw8PDw8PDw
-        8PC4sLjw+PDw+PDw+PDw+PC4uLj4+Pj4+Pj4+Pjg4OCIuNBwkKg4SFhwkKgAsPgAaMAgaJgAsPgQkMgw
-        SGigoKC4uLjY0Njw8PDw8PDw+PDw+PDw+PDw+PDw8PDw8PDw8PDw8PDw+PDw+PDw+PDw+PD4+Pjg4OD4
-        +Pj4+Pjg4OCIuNCIuNA4SFhwkKgAsPgAaMAQcLAAsPgIkNAYSIigyNigyNigyNigyNigyNjw8PDw8PDw
-        8PDw8PD4+Pj4+Pj4+Pjo6Oj4+Pj4+Pj4+Pj4+Pjo8PDo8PDo8PDo8PDo8PA4sOg4sOggQFgwkLgAsPgA
-        aMAQcLAAsPgIkNAQcLA4QFCgyNigyNigyNigyNjw8PDw8PDw8PDw8PD4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4
-        +Pj4+Pjo8PDo8PDo8PDo8PCYoKA4sOggQFgwkLgwkLgAsPgAaMAQcLAAsPgIkNAAsPhogJA4QFAAAAig
-        yNigyNjw8PCgoKDw8PDw8PDo6Ojw8PD4+Pj4+Pjw8PDo6Ojw8PDo6OiYoKDo8PCYoKCYoKBQUFAgQFgw
-        kLg4sOgwkLgAsPgAaMAQcLAAsPgIkNAAsPigyNhogJBogJAAAAgAAAgAAACgoKDw8PDw8PD4+Pj4+Pj4
-        +Pj4+Pj4+Pj4+Pj4+Pjo6OiYoKAAAAAAAAAAAACYoKAwkLg4sOg4sOgwkLgAsPgAaMAAaMAAsPgAkOAA
-        sPgAsPgAsPgAsPgQgLAQgLAoeKAAAAA4uPA4uPDo+Pjo+Pjo+Pjo+PjI+PjI+PjI+PiIqKgAAAAAeKgA
-        eKgAeKgAsPgAsPgAsPgAsPgAkOAAsPgAaMAAaMAAsPgAkOAAsPgAsPgAsPgAsPgQgLAQgLAoeKAAAAA4
-        uPA4uPDo+Pjo+Pjo+Pjo+PjI+PjI+PjI+PiIqKgAAAAAeKgAeKgAeKgAsPgAsPgAsPgAsPgAkOAAsPgA
-        aMAAaMAAsPgAkOAAsPgAsPgAsPgAsPgAsPgAsPg4uPAoeKAAAAA4uPDo+Pjo+Pjo+Pjo+PjI+PjI+PiI
-        qKgAABAAeKgAsPgAsPgAsPgAsPgAsPgAsPgAsPgAkOAAsPgAaMAAaMAAsPgAkOAAsPgAsPgAsPgAsPgA
-        sPgAsPg4uPA4uPAoeKAAAAAAAACYoKjo+Pjo+PiIqKgAABAAABCIqKgAsPgAsPgAsPgAsPgAsPgAsPgA
-        sPgAsPgAkOAAsPgAaMAAaMAAsPgAkOAAsPgAsPgAsPgAsPgAsPgAsPg4uPA4uPA4uPA4uPCYoKgAAAAA
-        AAAAAAAAABCIqKiIqKiIqKgAsPgAsPgAsPgAsPgAsPgAsPgAsPgAsPgAkOAAsPgAaMAAaMA4sOggkNAg
-        kNAgkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNggkNgg
-        kNggkNggkNggkNggkNggkNggkNgwqOAAaMAAaMA4sOg4sOg4sOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhA
-        sOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOhAsOgwqOAA
-        aMAAaMBY2PhY2PhY2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg
-        2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg2Phg4PgAaMAAaMAAaMAAaMAAaMAAaMgAaMgAaMgA
-        aMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgAaMgA
-        aMgAaMgAaMgAaMAAaMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-</value>
   </data>
 </root>

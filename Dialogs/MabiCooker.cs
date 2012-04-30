@@ -1,9 +1,9 @@
 ﻿using System;
+using System.Text;
 using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Text;
 using System.Xml;
 using System.Windows.Forms;
 using CookImplement;
@@ -90,7 +90,7 @@ namespace MabiCooker2
             else
             {
                 FavList.Add(index);
-                lNoneFav_1.Visible = false; lNoneFav_2.Visible = false;
+                tlNoneFav.Visible = false;
             }
         }
         public void DeleteFavList(int index)
@@ -112,7 +112,7 @@ namespace MabiCooker2
                 FavList.Remove(index);
                 if (FavList.Count == 0)
                 {
-                    lNoneFav_1.Visible = true; lNoneFav_2.Visible = true;
+                    tlNoneFav.Visible = true;
                 }
             }
             else return;
