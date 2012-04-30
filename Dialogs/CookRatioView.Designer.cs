@@ -36,19 +36,17 @@
             this.lName = new System.Windows.Forms.Label();
             this.lStuffs = new System.Windows.Forms.Label();
             this.lRankName = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lRank = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tiRatioView = new System.Windows.Forms.Timer(this.components);
             this.lCloseRatio = new System.Windows.Forms.PictureBox();
             this.lFavCheck = new System.Windows.Forms.PictureBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.pbStuffOne)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbStuffTwo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbStuffThree)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lCloseRatio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lFavCheck)).BeginInit();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pbStuffOne
@@ -119,13 +117,6 @@
             this.lRankName.MouseHover += new System.EventHandler(this.CookRatioView_active);
             this.lRankName.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseMove);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
-            // 
             // lRank
             // 
             resources.ApplyResources(this.lRank, "lRank");
@@ -138,13 +129,6 @@
             this.lRank.MouseHover += new System.EventHandler(this.CookRatioView_active);
             this.lRank.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MabiCooker_RatioView_MouseMove);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.SystemColors.ControlText;
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.TabStop = false;
-            // 
             // tiRatioView
             // 
             this.tiRatioView.Interval = 75;
@@ -152,9 +136,9 @@
             // 
             // lCloseRatio
             // 
-            this.lCloseRatio.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lCloseRatio.Image = global::MabiCooker2.Properties.Resources.Close;
             resources.ApplyResources(this.lCloseRatio, "lCloseRatio");
+            this.lCloseRatio.BackColor = System.Drawing.Color.Transparent;
+            this.lCloseRatio.Image = global::MabiCooker2.Properties.Resources.Close;
             this.lCloseRatio.Name = "lCloseRatio";
             this.lCloseRatio.TabStop = false;
             this.lCloseRatio.Click += new System.EventHandler(this.lCloseRatio_Click);
@@ -163,14 +147,22 @@
             // 
             // lFavCheck
             // 
-            this.lFavCheck.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lFavCheck.BackgroundImage = global::MabiCooker2.Properties.Resources.Favorite;
             resources.ApplyResources(this.lFavCheck, "lFavCheck");
+            this.lFavCheck.BackColor = System.Drawing.Color.Transparent;
+            this.lFavCheck.BackgroundImage = global::MabiCooker2.Properties.Resources.Favorite;
             this.lFavCheck.Name = "lFavCheck";
             this.lFavCheck.TabStop = false;
             this.lFavCheck.Click += new System.EventHandler(this.lFavCheck_Click);
             this.lFavCheck.MouseLeave += new System.EventHandler(this.lFavCheck_MouseLeave);
             this.lFavCheck.MouseHover += new System.EventHandler(this.lFavCheck_MouseHover);
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
+            this.tableLayoutPanel1.Controls.Add(this.lCloseRatio, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.lFavCheck, 0, 1);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             // 
             // CookRatioView
             // 
@@ -179,11 +171,8 @@
             this.CausesValidation = false;
             resources.ApplyResources(this, "$this");
             this.ControlBox = false;
-            this.Controls.Add(this.lFavCheck);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.lRank);
-            this.Controls.Add(this.lCloseRatio);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lStuffs);
             this.Controls.Add(this.lName);
             this.Controls.Add(this.pbStuffThree);
@@ -208,10 +197,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbStuffOne)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbStuffTwo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbStuffThree)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lCloseRatio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lFavCheck)).EndInit();
+            this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -225,11 +213,10 @@
         private System.Windows.Forms.Label lName;
         private System.Windows.Forms.Label lStuffs;
         private System.Windows.Forms.Label lRankName;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lRank;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Timer tiRatioView;
         private System.Windows.Forms.PictureBox lCloseRatio;
         private System.Windows.Forms.PictureBox lFavCheck;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }
