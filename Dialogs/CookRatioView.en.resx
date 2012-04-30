@@ -121,20 +121,8 @@
   <data name="lName.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 8.25pt, style=Bold</value>
   </data>
-  <data name="lName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 11</value>
-  </data>
-  <data name="lName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 13</value>
-  </data>
-  <data name="lStuffs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 13</value>
-  </data>
   <data name="lRankName.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 8.25pt, style=Bold</value>
-  </data>
-  <data name="lRankName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 13</value>
   </data>
   <data name="lRankName.Text" xml:space="preserve">
     <value>Rank</value>

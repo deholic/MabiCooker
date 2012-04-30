@@ -49,62 +49,111 @@ namespace MabiCooker2
 		public void UpdateData()
 		{
 			// 요리 재료 라벨 사이즈 165
-			if (SelectedCook != null)
+			if (SelectedCook == null)
 			{
-				int[] iBuffer;
-				int RankId = SelectedCook.getRank();
-				//Type def = typeof(Cook.RankName);
-				// lStuffs.Location = new Point(lName.Location.X + lName.Width + 5, 15);
-                
-				lStuffs.Text = SelectedCook.getStuffForString();
-				//lRankName.Text = Enum.GetName(def, Cook.checkRank(SelectedCook.getRank()));
-				lRankName.Text = Rank.getRankName(RankId);
-                lRank.Text = Rank.getRankChar(RankId).ToString();
-				lName.Text = SelectedCook.getName();
-				lName.Location = new Point(lRankName.Location.X + lRankName.Width, lName.Location.Y);
-				//lRank.Text = SelectedCook.getRank().ToString();
-				iBuffer = SelectedCook.getRatio();
-                if (iBuffer[0] == bar_width)
-				{
-					lName.Text += Properties.Resources.StrCannotCook;
-                }
-
-                #region bar
-                String[] StuffName = SelectedCook.getStuff();
-
-                pbStuffOne.Width = iBuffer[0];
-				pbStuffTwo.Location = new Point(iBuffer[0], 0);
-				pbStuffTwo.Width = iBuffer[1];
-
-                float P1 = iBuffer[0] / bar_width;
-                float P2 = iBuffer[1] / bar_width;
-
-                tooltip.SetToolTip(pbStuffOne, StuffName[0] + ' ' + P1.ToString("0.00%"));
-                tooltip.SetToolTip(pbStuffTwo, StuffName[1] + ' ' + P2.ToString("0.00%"));
-				if (iBuffer.Length == 3)
-				{
-					pbStuffThree.Location = new Point(iBuffer[0] + iBuffer[1], 0);
-					pbStuffThree.Width = iBuffer[2];
-                    float P3 = iBuffer[2] / bar_width;
-                    tooltip.SetToolTip(pbStuffThree, StuffName[2] + ' ' + P3.ToString("0.00%"));
-				}
-				else pbStuffThree.Width = 0;
-                #endregion
-
-                lFavCheck_Icon(false);
-				lStuffs.Location = new Point(20, lStuffs.Location.Y);
-				if (lStuffs.Width > STUFF_FLOW_SIZE) tiRatioView.Enabled = true;
-				else tiRatioView.Enabled = false;
-				this.PrintRatio();
+				return;
 			}
-			else return;
+			int[] iBuffer;
+			int RankId = Cook.checkRank(SelectedCook.getRank());
+			//Type def = typeof(Cook.RankName);
+			// lStuffs.Location = new Point(lName.Location.X + lName.Width + 5, 15);
+                
+			lStuffs.Text = SelectedCook.getStuffForString();
+			//lRankName.Text = Enum.GetName(def, Cook.checkRank(SelectedCook.getRank()));
+			lRankName.Text = Rank.getRankName(RankId);
+            lRank.Text = Rank.getRankChar(RankId).ToString();
+			lName.Text = SelectedCook.getName();
+			lName.Location = new Point(lRankName.Location.X + lRankName.Width, lName.Location.Y);
+			//lRank.Text = SelectedCook.getRank().ToString();
+			iBuffer = SelectedCook.getRatio();
+            if (iBuffer[0] == bar_width)
+			{
+				lName.Text += Properties.Resources.StrCannotCook;
+            }
+                
+
+            #region bar
+            String[] StuffName = SelectedCook.getStuff();
+
+            pbStuffOne.Width = iBuffer[0];
+			tooltip.SetToolTip(pbStuffOne, String.Format("{0} ({1})", StuffName[0] ,percentage(iBuffer[0], bar_width)) );
+			pbStuffTwo.Location = new Point(iBuffer[0], 0);
+			pbStuffTwo.Width = iBuffer[1];
+			tooltip.SetToolTip(pbStuffTwo, String.Format("{0} ({1})", StuffName[1] ,percentage(iBuffer[1], bar_width)) );
+			pbStuffThree.Location = new Point(iBuffer[0] + iBuffer[1], 0);
+
+			try{
+				pbStuffThree.Width = iBuffer[2];
+                tooltip.SetToolTip(pbStuffThree, String.Format("{0} ({1})", StuffName[2] ,percentage(iBuffer[2], bar_width)) );
+			}catch (Exception e){
+				Console.WriteLine(e);
+				pbStuffThree.Width = 0;
+                tooltip.SetToolTip(pbStuffThree,"");
+			}
+            #endregion
+
+            lFavCheck_Icon(false);
+			lStuffs.Location = new Point(20, lStuffs.Location.Y);
+			if (lStuffs.Width > STUFF_FLOW_SIZE) tiRatioView.Enabled = true;
+			else tiRatioView.Enabled = false;
+			this.PrintRatio();
+		}
+        private string percentage(int numerator, int denominator)
+        {
+            return ((double)numerator / (double)denominator).ToString("0.00%");
+        }
+		private void cleanup(){
+
 		}
 		private void PrintRatio()
 		{
 			this.Visible = true;
 		}
+        private void lFavCheck_Icon(bool hover)
+        {
+            fader(false);
+			if (MainWindow.FavList.Contains(DataIndex) == true)
+            {
+                if (hover)
+                    lFavCheck.Image = Properties.Resources.FavoriteRemove_hover;
+                else
+                    lFavCheck.Image = Properties.Resources.FavoriteRemove;
+                tooltip.SetToolTip(lFavCheck, Properties.Resources.StrFavoriteRemove);
+            }
+            else
+            {
+                if (hover)
+                    lFavCheck.Image = Properties.Resources.Favorite_hover;
+                else
+                    lFavCheck.Image = Properties.Resources.Favorite;
+                tooltip.SetToolTip(lFavCheck, Properties.Resources.StrFavorite);
+            }
+        }
+        private void fader(bool isFaded)
+        {
+            int initial_opacity = (int)this.Opacity * 100;
+            
+            if (!isFaded)
+            {
+                // Fade in
+                for (int i = default_opacity; i <= hoverd_opacity; i++)
+                {
+                    this.Opacity = (double)i / 100;
+                    System.Threading.Thread.Sleep(fade_sleep_length);
+                }
+            }
+            else
+            {
+                // Fade out
+                for (int i = hoverd_opacity; i >= default_opacity; i--)
+                {
+                    this.Opacity = (double)i / 100;
+                    System.Threading.Thread.Sleep(fade_sleep_length);
+                }
+            }
+        }
 
-        #region Event Handler
+#region Event Handler
         private void MabiCooker_RatioView_MouseDown(object sender, MouseEventArgs e)
 		{
             mousePoint = new Point(e.X, e.Y);
@@ -183,18 +232,14 @@ namespace MabiCooker2
 				this.Height = initial_height;
 			}
 		}
-        #endregion
+
         private void CookRatioView_active(object sender, EventArgs e)
         {
             int initial_opacity = (int)this.Opacity * 100;
             // Fade in
             if (initial_opacity != default_opacity)
             {
-                for (int i = default_opacity; i <= hoverd_opacity; i++)
-                {
-                    this.Opacity = (double)i / 100;
-                    System.Threading.Thread.Sleep(fade_sleep_length);
-                }
+                fader(false);
             }
         }
         private void CookRatioView_deactive(object sender, EventArgs e)
@@ -203,17 +248,12 @@ namespace MabiCooker2
             // Fade out
             if (initial_opacity != hoverd_opacity)
             {
-                for (int i = hoverd_opacity; i >= default_opacity; i--)
-                {
-                    this.Opacity = (double)i / 100;
-                    System.Threading.Thread.Sleep(fade_sleep_length);
-                }
+                fader(true);
             }
         }
 
         private void lCloseRatio_MouseHover(object sender, EventArgs e)
         {
-            CookRatioView_active(sender, e);
             lCloseRatio.Image = Properties.Resources.Close_hover;
         }
 
@@ -224,7 +264,6 @@ namespace MabiCooker2
 
         private void lFavCheck_MouseHover(object sender, EventArgs e)
         {
-            CookRatioView_active(sender, e);
             lFavCheck_Icon(true);
         }
 
@@ -232,24 +271,6 @@ namespace MabiCooker2
         {
             lFavCheck_Icon(false);
         }
-        private void lFavCheck_Icon(bool hover)
-        {
-            if (MainWindow.FavList.Contains(DataIndex) == true)
-            {
-                if (hover)
-                    lFavCheck.Image = Properties.Resources.FavoriteRemove_hover;
-                else
-                    lFavCheck.Image = Properties.Resources.FavoriteRemove;
-                tooltip.SetToolTip(lFavCheck, Properties.Resources.StrFavoriteRemove);
-            }
-            else
-            {
-                if (hover)
-                    lFavCheck.Image = Properties.Resources.Favorite_hover;
-                else
-                    lFavCheck.Image = Properties.Resources.Favorite;
-                tooltip.SetToolTip(lFavCheck, Properties.Resources.StrFavorite);
-            }
-        }
-	}
+#endregion
+    }
 }
